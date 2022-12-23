@@ -1,0 +1,17 @@
+#contacts {
+  .block-map {
+    width: 596px;
+    height: 451px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 680px) {
+  #contacts {
+    .block-map {
+      display: none;
+    }
+    .position {
+      flex-direction: column;
+    }
+  }
+}
