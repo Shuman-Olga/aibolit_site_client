@@ -1,0 +1,34 @@
+#modalcalling {
+  .btn-showmodal {
+    background: rgb(241, 55, 55);
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    &:hover {
+      background: green;
+      -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.53);
+      -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.53);
+      box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.53);
+    }
+  }
+}
+#modalcallback {
+  .btn-showmodal {
+    background: rgb(13, 146, 84);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    &:hover {
+      background: rgb(255, 240, 107);
+      color: red;
+      border-color: red;
+    }
+  }
+}
+.img {
+  width: 40px;
+  margin-right: 8px;
+}

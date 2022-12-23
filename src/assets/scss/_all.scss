@@ -1,0 +1,24 @@
+//pages
+@import './page/home';
+@import './page/_about';
+@import './page/_controlling';
+@import './page/licenses';
+@import './page/_contacts';
+@import './page/programs';
+@import './page/programone';
+@import './page/doctor';
+@import './page/services';
+//components
+@import './components/header';
+@import './components/modal';
+@import './components/navigation';
+@import './components/footer';
+@import './components/navmini';
+@import './components/blockreklama';
+
+//components - homepages
+@import './components/home/blockadvantages';
+@import './components/home/blockdoctors';
+@import './components/home/blockcontacts';
+@import './components/home/blockimg';
+@import './components/home/blockinfo';
