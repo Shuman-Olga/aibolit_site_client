@@ -58,10 +58,10 @@ const ModalCalling = () => {
     // }
     emailjs
       .sendForm(
-        "service_0lb2x7w",
-        "template_97m7ynm",
+        "service_3v0hnkn",
+        "template_ooahi3b",
         form.current,
-        "WPzV1jZB5CfTQ-Zv2"
+        "PhUOVu-NXcTpMJR7t"
       )
       .then((response) => {
         console.log(

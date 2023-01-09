@@ -1,12 +1,14 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
-import MessageDataService from "../../services/messegeService";
+// import MessageDataService from "../../services/messegeService";
 import img from "../../assets/img/phone.png";
+import emailjs from "@emailjs/browser";
 
 const ModalCallback = () => {
+  const form = useRef();
   const initalModalCallback = {
     name: "",
     phone: "",
@@ -18,12 +20,12 @@ const ModalCallback = () => {
   const [data, setData] = useState(initalModalCallback);
   const [message, setMessage] = useState("");
   const [successful, setSuccessful] = useState(false);
-  const [validated, setValidated] = useState(false);
+  // const [validated, setValidated] = useState(false);
 
   const handleClose = () => {
     setData(initalModalCallback);
     setShow(false);
-    setValidated(false);
+    // setValidated(false);
   };
 
   const handleShow = () => {
@@ -38,34 +40,66 @@ const ModalCallback = () => {
     const name = target.name;
     setData({ ...data, [name]: value });
   };
-
-  const handleSubmit = (e) => {
-    const form = e.currentTarget;
+  const sendEmail = (e) => {
+    // const form = e.currentTarget;
     e.preventDefault();
     setMessage("");
     setSuccessful(false);
-    if (form.checkValidity() === false) {
-      e.stopPropagation();
-    }
-    MessageDataService.create(data)
+    // if (form.checkValidity() === false) {
+    //   e.stopPropagation();
+    // }
+    emailjs
+      .sendForm(
+        "service_3v0hnkn",
+        "template_9mfgw27",
+        form.current,
+        "PhUOVu-NXcTpMJR7t"
+      )
       .then((response) => {
-        console.log(response.data);
-        setMessage(response.data.message);
+        console.log(
+          "Сообщение отправлено!",
+          response.status,
+          response.text,
+          response
+        );
+        setMessage("Сообщение отправлено!");
         setSuccessful(true);
+        setTimeout(() => {
+          setMessage("");
+          setSuccessful(false);
+          setShow(false);
+        }, 3000);
       })
-      .catch((e) => {
-        const resMessage =
-          (e.response && e.response.data && e.response.data.message) ||
-          e.message ||
-          e.toString();
-        setSuccessful(false);
-        // setMessage(resMessage);
+      .catch((err) => {
+        console.log("Упс! Ошибочка...", err);
       });
-
-    setSuccessful(false);
-    setValidated(true);
-    handleClose();
+    // const handleSubmit = (e) => {
+    // const form = e.currentTarget;
+    // e.preventDefault();
+    // setMessage("");
+    // setSuccessful(false);
+    // if (form.checkValidity() === false) {
+    //   e.stopPropagation();
   };
+  //   MessageDataService.create(data)
+  //     .then((response) => {
+  //       console.log(response.data);
+  //       setMessage(response.data.message);
+  //       setSuccessful(true);
+  //     })
+  //     .catch((e) => {
+  //       const resMessage =
+  //         (e.response && e.response.data && e.response.data.message) ||
+  //         e.message ||
+  //         e.toString();
+  //       setSuccessful(false);
+  //       // setMessage(resMessage);
+  //     });
+
+  //   setSuccessful(false);
+  //   setValidated(true);
+  //   handleClose();
+  // };
   return (
     <div id="modalcallback">
       <Button className="btn-showmodal " onClick={handleShow}>
@@ -78,7 +112,12 @@ const ModalCallback = () => {
           <Modal.Title>Обратный звонок</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form noValidate validated={validated} onSubmit={handleSubmit}>
+          <Form
+            // noValidate
+            ref={form}
+            // validated={validated}
+            onSubmit={sendEmail}
+          >
             {!successful && (
               <>
                 <Form.Group className="mb-3">
@@ -87,9 +126,9 @@ const ModalCallback = () => {
                     id="name"
                     type="text"
                     placeholder="Имя*"
-                    name="name"
-                    value={data.name}
-                    onChange={onChange}
+                    name="user_name"
+                    // value={data.name}
+                    // onChange={onChange}
                   />
                   <Form.Control.Feedback type="invalid">
                     Введите имя!
@@ -102,9 +141,9 @@ const ModalCallback = () => {
                     id="phone"
                     type="tel"
                     placeholder="Телефон*"
-                    name="phone"
-                    value={data.phone}
-                    onChange={onChange}
+                    name="user_phone"
+                    // value={data.phone}
+                    // onChange={onChange}
                   />
                   <Form.Control.Feedback type="invalid">
                     Введите ваш телефон!
@@ -116,10 +155,10 @@ const ModalCallback = () => {
                     as="textarea"
                     placeholder="Leave a comment here"
                     style={{ height: "100px" }}
-                    id="description"
-                    value={data.description}
-                    onChange={onChange}
-                    name="description"
+                    id="message"
+                    // value={data.description}
+                    // onChange={onChange}
+                    name="message"
                   />
                 </FloatingLabel>
                 <Form.Group className="mb-3" id="consent">
