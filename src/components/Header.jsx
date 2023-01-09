@@ -1,8 +1,8 @@
-import { Container } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
-import logo from '../assets/img/aibolit_logo.png';
-import Navigation from './Navigation';
-import ModalCalling from './ModalCalling';
+import { Container } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
+import logo from "../assets/img/aibolit_logo.png";
+import Navigation from "./navigations/Navigation";
+import ModalCalling from "./modalWindows/ModalCalling";
 
 const Header = () => {
   return (

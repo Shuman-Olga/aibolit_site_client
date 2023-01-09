@@ -1,7 +1,7 @@
-import BCimg1 from '../../assets/img/map.png';
-import BCimg2 from '../../assets/img/time.png';
-import BCimg3 from '../../assets/img/phone-tel.png';
-import ModalCalling from '../ModalCalling';
+import BCimg1 from "../../assets/img/map.png";
+import BCimg2 from "../../assets/img/time.png";
+import BCimg3 from "../../assets/img/phone-tel.png";
+import ModalCalling from "../modalWindows/ModalCalling";
 
 const BlockContacts = () => {
   return (

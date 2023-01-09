@@ -178,22 +178,25 @@ body {
     display: none;
   }
 }
-#programone .block-table {
+#programone .block-table, #programthree .block-table, #programtwo .block-table {
   max-width: 70vw;
   margin: 0 auto;
 }
-#programone .font-size-min {
+#programone .font-size-min, #programthree .font-size-min, #programtwo .font-size-min {
+  font-size: 10px;
+}
+#programone .font-text, #programthree .font-text, #programtwo .font-text {
   font-size: 12px;
 }
 
 @media (max-width: 800px) {
-  #programone .block-table {
+  #programone .block-table, #programthree .block-table, #programtwo .block-table {
     margin: 0;
   }
-  #programone .px-3 {
+  #programone .px-3, #programthree .px-3, #programtwo .px-3 {
     padding-right: 0 !important;
   }
-  #programone .progone-img {
+  #programone .progone-img, #programthree .progone-img, #programtwo .progone-img {
     width: 80vw;
   }
 }
@@ -210,14 +213,55 @@ body {
   margin: 15px auto;
 }
 
-#services .w-75 {
+#services .w-75, #medical-certificates .w-75 {
   margin: 0 auto;
 }
-#services .w-75:hover {
+#services .w-75:hover, #medical-certificates .w-75:hover {
   cursor: pointer;
   box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.4);
 }
 
+@media (max-width: 800px) {
+  #servicesd .block-foto {
+    flex-direction: column;
+    align-items: center;
+  }
+  #servicesd .w-75 {
+    width: 100% !important;
+  }
+}
+#santornokurortnyakarta .size-img {
+  width: 35vw;
+}
+
+@media (max-width: 1200px) {
+  #medical-certificates {
+    margin-top: 0;
+  }
+}
+@media (max-width: 1000px) {
+  #medical-certificates .block-foto, #spravkavdetskiisad .block-foto {
+    flex-direction: column;
+    align-items: center;
+  }
+  #medical-certificates .w-75, #spravkavdetskiisad .w-75 {
+    width: 100% !important;
+  }
+}
+@media (max-width: 800px) {
+  #spravkavshkolu .block-foto, #spravkavdetskiisad .block-foto, #spravkavbassein .block-foto {
+    flex-direction: column;
+    align-items: center;
+  }
+  #spravkavshkolu .w-75, #spravkavdetskiisad .w-75, #spravkavbassein .w-75 {
+    width: 100% !important;
+  }
+}
+@media (max-width: 660px) {
+  #medical-certificates {
+    margin-top: 0;
+  }
+}
 #header {
   font-size: 18px;
 }
@@ -395,11 +439,13 @@ body {
   }
 }
 #blockreklamaone .block-reklama,
-#blockreklamatwo .block-reklama {
+#blockreklamatwo .block-reklama,
+#blockreklamafour .block-reklama {
   border: 2px solid #3e5352;
 }
 #blockreklamaone .blockback,
-#blockreklamatwo .blockback {
+#blockreklamatwo .blockback,
+#blockreklamafour .blockback {
   background: #3e5352;
   color: white;
   display: grid;
@@ -411,12 +457,13 @@ body {
 @media (max-width: 800px) {
   #blockreklamaone .block-reklama,
 #blockreklamatwo .block-reklama,
-#blockreklamathree .block-reklama {
+#blockreklamathree .block-reklama, #blockreklamafour .block-reklama {
     flex-direction: column;
   }
 }
 #blockreklamathree {
   background: #3e5352;
+  max-width: 1000px;
 }
 #blockreklamathree .block-reklama {
   border: 2px solid #3e5352;

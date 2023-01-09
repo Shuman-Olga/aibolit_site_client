@@ -1,9 +1,9 @@
-import { NavLink } from 'react-router-dom';
-import background from '../../assets/img/img-home.jpg';
-import ModalCallback from '../../components/ModalCallback';
-import BIimg1 from '../../assets/img/home.png';
-import BIimg2 from '../../assets/img/calling.png';
-import BIimg3 from '../../assets/img/analyzes.png';
+import { NavLink } from "react-router-dom";
+import background from "../../assets/img/img-home.jpg";
+import ModalCallback from "../../components/modalWindows/ModalCallback";
+import BIimg1 from "../../assets/img/home.png";
+import BIimg2 from "../../assets/img/calling.png";
+import BIimg3 from "../../assets/img/analyzes.png";
 
 const BlockImg = () => {
   return (
@@ -18,7 +18,7 @@ const BlockImg = () => {
         </div>
       </div>
       <div className=" wrapper-block-btn">
-        <NavLink to="/uslugi" className="nav-link">
+        <NavLink to="/vyzov-pediatra-na-dom" className="nav-link">
           <div className="block-btn color1">
             <div className="block-btn-border">
               <img src={BIimg1} alt="img-home" className="block-btn-img" />
@@ -26,7 +26,7 @@ const BlockImg = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/uslugi" className="nav-link">
+        <NavLink to="/programmy-nablyudeniya-za-zdorovem" className="nav-link">
           <div className="block-btn color2">
             <div className="block-btn-border">
               <img src={BIimg2} alt="img-programm" className="block-btn-img2" />
@@ -34,7 +34,7 @@ const BlockImg = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/uslugi" className="nav-link">
+        <NavLink to="/prices" className="nav-link">
           <div className="block-btn color3">
             <div className="block-btn-border">
               <img src={BIimg3} alt="img-analyz" className="block-btn-img" />

@@ -1,8 +1,8 @@
-import { Container, Nav } from 'react-bootstrap';
-import logo from '../assets/img/aibolit_logo.png';
-import { NavLink } from 'react-router-dom';
-import ModalCallback from './ModalCallback';
-import vkimg from '../assets/img/vk-img.png';
+import { Container, Nav } from "react-bootstrap";
+import logo from "../assets/img/aibolit_logo.png";
+import { NavLink } from "react-router-dom";
+import ModalCallback from "./modalWindows/ModalCallback";
+import vkimg from "../assets/img/vk-img.png";
 
 const Footer = () => {
   return (
@@ -13,19 +13,22 @@ const Footer = () => {
           <NavLink to="/" className="nav-link">
             Главная
           </NavLink>
-          <NavLink to="/about" className="nav-link">
+          <NavLink to="/o-nas" className="nav-link">
             О нас
           </NavLink>
           <NavLink to="/prices" className="nav-link">
             Цены
           </NavLink>
-          <NavLink to="/programs" className="nav-link">
+          <NavLink
+            to="/programmy-nablyudeniya-za-zdorovem"
+            className="nav-link"
+          >
             Программы
           </NavLink>
-          <NavLink to="/uslugi" className="nav-link">
+          <NavLink to="/uslugi-i-ceny" className="nav-link">
             Услуги
           </NavLink>
-          <NavLink to="/contacts" className="nav-link">
+          <NavLink to="/kontakty" className="nav-link">
             Контакты
           </NavLink>
         </Nav>
