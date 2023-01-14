@@ -21,13 +21,22 @@ const BlockReklama3 = () => {
             Комплексные программы для детей
           </NavLink>
           <Nav>
-            <NavLink to="/malysh-houm-standart" className="nav-link">
+            <NavLink
+              to="/malysh-houm-standart-ot-0-do-2-h-le"
+              className="nav-link"
+            >
               "Малыш Хоум. Стандарт" от 0 до 2-х лет
             </NavLink>
-            <NavLink to="/zdorovyj-rebenok-houm-standart" className="nav-link">
+            <NavLink
+              to="/zdorovyj-rebenok-houm-standart-ot-2"
+              className="nav-link"
+            >
               "Здоровый ребенок Хоум. Стандарт" от 2-х лет
             </NavLink>
-            <NavLink to="/zdorovyj-rebenok-houm-midi" className="nav-link">
+            <NavLink
+              to="/zdorovyj-rebenok-houm-midi-ot-2-h-l"
+              className="nav-link"
+            >
               "Здоровый ребенок Хоум. Педиатр рядом" от 2-х лет
             </NavLink>
           </Nav>

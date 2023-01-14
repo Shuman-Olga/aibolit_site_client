@@ -1,10 +1,33 @@
 import { Container } from "react-bootstrap";
 import PTimg1 from "../../assets/img/progrmtwo.jpg";
 import BlockReklama1 from "../../components/reklama/BlockReklama1";
+import { Helmet } from "react-helmet";
 
 const ProgramTwo = () => {
   return (
     <Container fluid id="programtwo">
+      <Helmet>
+        <title>
+          Программа Здоровый ребенок.Стандарт | Айболит детская медицинская
+          служба
+        </title>
+        <meta
+          name="description"
+          content="Программа наблюдения 'Здоровый ребенок Хоум. Стандарт' от 2-х лет
+          Вашему ребёнку 2 года. Это – особенная эпоха в его жизни, когда малыш начинает осознавать свои желания, учится управлять ими, думать и говорить. А это значит, что здоровье малыша нуждается в профессиональной медицинской защите."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          name="keywords"
+          content="вызов педиатра на дом Томск, программа здоровье ребенка, педиатр на дом, детский врач на дом Томск, анализы на дому, программы наблюдения за ребенком, вызов платного педиатра на дом, патронаж на дому новорожденных, патронаж новорожденного ребенка, невролог на дом, патронаж детей на дому, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
+        />
+        <base href="https://aibolit.tom.ru/zdorovyj-rebenok-houm-standart-ot-2" />
+        <link
+          rel="canonical"
+          href="https://aibolit.tom.ru/zdorovyj-rebenok-houm-standart-ot-2"
+        />
+      </Helmet>
       <div className="page-h1">
         <h1>Здоровый ребенок Хоум Стандарт ( c 2-х лет)</h1>
       </div>
@@ -29,7 +52,7 @@ const ProgramTwo = () => {
         </div>
         <div className="block-table">
           <h2 className="py-5">Состав программы</h2>
-          <table class="table table-light table-striped text-start ">
+          <table className="table table-light table-striped text-start ">
             <tbody>
               <tr>
                 <td className="px-3">
@@ -134,7 +157,7 @@ const ProgramTwo = () => {
                 </td>
               </tr>
               <tr className="table-group-divider font-text">
-                <td colspan="2" className="px-3">
+                <td colSpan="2" className="px-3">
                   <p>
                     * стоимость вакцины не входит в программу и оплачивается
                     отдельно

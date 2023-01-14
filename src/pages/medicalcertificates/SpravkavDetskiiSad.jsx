@@ -2,10 +2,29 @@ import { Container } from "react-bootstrap";
 import SVDSimg1 from "../../assets/img/deti_sad.jpg";
 import BlockReklama3 from "../../components/reklama/BlockReklama3";
 import BlockReklama4 from "../../components/reklama/BlockReklama4";
+import { Helmet } from "react-helmet";
 
 const SpravkavDetskiiSad = () => {
   return (
     <Container fluid id="spravkavdetskiisad">
+      <Helmet>
+        <title>Справка в детский сад | Айболит</title>
+        <meta
+          name="description"
+          content="Оформление справки в детский сад | Айболит"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          name="keywords"
+          content="вызов педиатра на дом Томск, педиатр на дом, справка в бассейн ребенку, детский врач на дом Томск, анализы на дому, справка ребенку в школу, вызов платного педиатра на дом, лор, невролог на дом, справка ребенку в сад, санаторно-куротная карта ребенку, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
+        />
+        <base href="https://aibolit.tom.ru/spravka-v-detskii-sad" />
+        <link
+          rel="canonical"
+          href="https://aibolit.tom.ru/spravka-v-detskii-sad"
+        />
+      </Helmet>
       <div className="page-h1">
         <h1>Справка в детский сад</h1>
       </div>
@@ -59,7 +78,7 @@ const SpravkavDetskiiSad = () => {
           </p>
         </div>
         <div className="block-table my-4">
-          <table class="table table-light table-striped text-start ">
+          <table className="table table-light table-striped text-start ">
             <thead className="table-success px-3">
               <tr>
                 <th scope="col">Наименование услуги (прайс не полный)</th>
@@ -150,7 +169,7 @@ const SpravkavDetskiiSad = () => {
           </p>
         </div>
         <div className="block-table my-4">
-          <table class="table table-light table-striped text-start ">
+          <table className="table table-light table-striped text-start ">
             <thead className="table-success px-3">
               <tr>
                 <th scope="col">Наименование услуги (прайс не полный)</th>

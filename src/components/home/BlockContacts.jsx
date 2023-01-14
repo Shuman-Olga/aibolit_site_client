@@ -38,7 +38,7 @@ const BlockContacts = () => {
         </div>
         <div className="block-map ">
           <iframe
-            class="_3Xz9Z"
+            className="_3Xz9Z"
             title="Embedded Content"
             name="htmlComp-iframe"
             width="100%"

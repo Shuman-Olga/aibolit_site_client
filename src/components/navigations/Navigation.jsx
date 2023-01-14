@@ -13,14 +13,14 @@ const Navigation = () => {
             <NavLink to="/" className="nav-link">
               Главная
             </NavLink>
-            <NavLink to="/o-nas" className="nav-link">
+            <NavLink to="/o-nas/" className="nav-link">
               О нас
             </NavLink>
-            <NavLink to="/prices" className="nav-link">
+            <NavLink to="/prices/" className="nav-link">
               Цены
             </NavLink>
             <NavLink
-              to="/programmy-nablyudeniya-za-zdorovem"
+              to="/programmy-nablyudeniya-za-zdorovem/"
               className="nav-link"
             >
               Программы

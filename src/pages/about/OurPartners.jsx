@@ -1,10 +1,27 @@
 import { Container } from "react-bootstrap";
 import NavMini from "../../components/navigations/NavMini";
 import opimg1 from "../../assets/img/tomoko.png";
+import { Helmet } from "react-helmet";
 
 const OurPartners = () => {
   return (
     <Container id="partners" fluid>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Наши партнеры | Айболит</title>
+        <meta
+          name="description"
+          content="Наши партнеры, страховые компании, ДМС | Айболит-детская медицинская служба"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          name="keywords"
+          content="педиатр на дом, узкие специалисты на дом, айболит детская медицинская служба, герцина 68 стр 2, педиатр на дом томск, детский врач на дом, анализы на дому, вакцинация, патронаж новорожденных, программы наблюдения за ребенком"
+        />
+        <base href="https://aibolit.tom.ru/nashi-partnery" />
+        <link rel="canonical" href="https://aibolit.tom.ru/nashi-partnery" />
+      </Helmet>
       <div className="page-h1">
         <h1>Наши партнеры</h1>
       </div>

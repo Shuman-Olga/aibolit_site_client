@@ -8,10 +8,29 @@ import MCimg4 from "../../assets/img/rebenok_bassein.jpg";
 import MCimg5 from "../../assets/img/detskii_vrach_rebenok_min.jpg";
 import MCimg6 from "../../assets/img/rebenok_lechenie_lor.jpg";
 import MCimg7 from "../../assets/img/summer-1.jpg";
+import { Helmet } from "react-helmet";
 
 const MedicalCertificates = () => {
   return (
     <Container fluid id="medical-certificates">
+      <Helmet>
+        <title>Медицинские справки ребенку Томск | Айболит</title>
+        <meta
+          name="description"
+          content="Справка ребенку в Томске, Анализы на дому, Врач на дом, Анализы"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          name="keywords"
+          content="вызов педиатра на дом Томск, педиатр на дом, детский врач на дом Томск, анализы на дому, справка ребенку в школу, вызов платного педиатра на дом, лор, невролог на дом, справка ребенку в сад, санаторно-куротная карта ребенку, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
+        />
+        <base href="https://aibolit.tom.ru/medicinskie-spravki-rebenku" />
+        <link
+          rel="canonical"
+          href="https://aibolit.tom.ru/medicinskie-spravki-rebenku"
+        />
+      </Helmet>
       <div className="page-h1">
         <h1>Медицинские справки ребенку</h1>
       </div>

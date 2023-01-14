@@ -2,10 +2,29 @@ import { Container } from "react-bootstrap";
 import SKimg1 from "../../assets/img/helmets-for-special-needsSMOLL.jpg";
 import BlockReklama1 from "../../components/reklama/BlockReklama1";
 import BlockReklama2 from "../../components/reklama/BlockReklama2";
+import { Helmet } from "react-helmet";
 
 const SanatornoKurortnayaKarta = () => {
   return (
     <Container fluid id="santornokurortnyakarta">
+      <Helmet>
+        <title>Санаторно-курортная карта для детей | Айболит</title>
+        <meta
+          name="description"
+          content="Оформление санаторно-курортной карты для детей | Айболит-детская медицинская служба "
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          name="keywords"
+          content="вызов педиатра на дом Томск, педиатр на дом, детский врач на дом Томск, анализы на дому, справка ребенку в школу, вызов платного педиатра на дом, лор, невролог на дом, справка ребенку в сад, санаторно-куротная карта ребенку, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
+        />
+        <base href="https://aibolit.tom.ru/sanatorno-kurortnaya-karta-dlya-det" />
+        <link
+          rel="canonical"
+          href="https://aibolit.tom.ru/sanatorno-kurortnaya-karta-dlya-det"
+        />
+      </Helmet>
       <div className="page-h1">
         <h1>Санаторно-курортная карта для детей</h1>
       </div>
@@ -116,7 +135,7 @@ const SanatornoKurortnayaKarta = () => {
           </ul>
         </div>
         <div className="block-table my-4">
-          <table class="table table-light table-striped text-start ">
+          <table className="table table-light table-striped text-start ">
             <thead className="table-success px-3">
               <tr>
                 <th scope="col">Наименование услуги (прайс не полный)</th>

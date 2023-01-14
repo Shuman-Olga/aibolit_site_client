@@ -14,7 +14,7 @@ const BlockReklama1 = () => {
           <p>Медицинские документы</p>
           <p>Для школы, детского сада, ВУЗа</p>
           <NavLink to="/medicinskie-spravki-rebenku" className="nav-link">
-            <button type="button" class="btn btn-outline-secondary">
+            <button type="button" className="btn btn-outline-secondary">
               Подробнее
             </button>
           </NavLink>

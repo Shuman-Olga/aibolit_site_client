@@ -1,5 +1,5 @@
-import { NavLink } from 'react-router-dom';
-import BInimg1 from '../../assets/img/foto.jpeg';
+import { NavLink } from "react-router-dom";
+import BInimg1 from "../../assets/img/foto.jpeg";
 
 const BlockInfo = () => {
   return (
@@ -28,14 +28,15 @@ const BlockInfo = () => {
             </svg>
           </div>
           <p>
-            «Здоровье малыша закладывается с первых дней жизни. Контроль за ростом детского
-            организма, всестороннее наблюдение врачей, вакцинация – необходимые меры для его
-            правильного развития. Доверяя нам здоровье ребенка, Вы можете быть уверены, что он будет
-            окружен заботой и вниманием опытных врачей».
+            «Здоровье малыша закладывается с первых дней жизни. Контроль за
+            ростом детского организма, всестороннее наблюдение врачей,
+            вакцинация – необходимые меры для его правильного развития. Доверяя
+            нам здоровье ребенка, Вы можете быть уверены, что он будет окружен
+            заботой и вниманием опытных врачей».
           </p>
           <NavLink to="/about" className="nav-link">
             <div className="btn-detailed">
-              Подробнее <span class="material-icons">trending_flat</span>
+              Подробнее <span className="material-icons">trending_flat</span>
             </div>
           </NavLink>
         </div>

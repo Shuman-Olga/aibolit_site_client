@@ -1,14 +1,30 @@
 import { Container } from "react-bootstrap";
+import { Helmet } from "react-helmet";
 
 const Prices = () => {
   return (
     <Container fluid id="prices">
+      <Helmet>
+        <title>Стоимость услуг</title>
+        <meta
+          name="description"
+          content="Стоимость услуг. Вызов педиатра на дом, детского врача (ЛОР, невролог, окулист, хирург). Анализы на дому. Программы наблюдения детей на дому. Патронаж новорожденных."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          name="keywords"
+          content="вызов педиатра на дом Томск, педиатр на дом, детский врач на дом Томск, анализы на дому, программы наблюдения за ребенком, вызов платного педиатра на дом томск, лор, невролог на дом, консультация хирурга, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
+        />
+        <base href="https://aibolit.tom.ru/prices" />
+        <link rel="canonical" href="https://aibolit.tom.ru/prices" />
+      </Helmet>
       <div className="page-h1">
         <h1>Стоимость услуг</h1>
       </div>
       <Container>
         <div className="block-table my-4">
-          <table class="table table-light table-striped text-start ">
+          <table className="table table-light table-striped text-start ">
             <thead className="table-success px-3">
               <tr>
                 <th scope="col">Наименование услуги</th>
@@ -17,7 +33,7 @@ const Prices = () => {
             </thead>
             <tbody>
               <tr>
-                <td colspan="2">
+                <td colSpan="2">
                   <p className="fw-bold">Вызов педиатра на дом</p>
                 </td>
               </tr>
@@ -50,7 +66,7 @@ const Prices = () => {
                 </td>
               </tr>
               <tr>
-                <td colspan="2">
+                <td colSpan="2">
                   <p className="fw-bold">
                     Вызов детского врача на дом (хирург, невролог,
                     ЛОР(оториноларинголог), окулист, аллерголог,
@@ -89,7 +105,7 @@ const Prices = () => {
                 </td>
               </tr>
               <tr>
-                <td colspan="2">
+                <td colSpan="2">
                   <p className="fw-bold">Консультация педиатра по телефону</p>
                 </td>
               </tr>
@@ -104,7 +120,7 @@ const Prices = () => {
                 </td>
               </tr>
               <tr>
-                <td colspan="2">
+                <td colSpan="2">
                   <p className="fw-bold">Анализы **</p>
                 </td>
               </tr>
@@ -141,7 +157,7 @@ const Prices = () => {
                 </td>
               </tr>
               <tr>
-                <td colspan="2">
+                <td colSpan="2">
                   <p className="fw-bold">
                     Программы наблюдения за здоровьем ребенка на дому
                   </p>

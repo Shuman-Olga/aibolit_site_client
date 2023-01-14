@@ -32,13 +32,13 @@ const publicRoutes = [
   { path: "/o-nas/", Component: About },
   { path: "/kontroliruyushie-organizacii/", Component: ControllingOrgan },
   { path: "/licenzii/", Component: Licenses },
-  { path: "/pravovaya-informaciya", Component: Documents },
-  { path: "/nashi-partnery", Component: OurPartners },
+  { path: "/pravovaya-informaciya/", Component: Documents },
+  { path: "/nashi-partnery/", Component: OurPartners },
   // страница прграммы и ее подстраницы
   { path: "/programmy-nablyudeniya-za-zdorovem/", Component: Programs },
-  { path: "/malysh-houm-standart/", Component: ProgramOne },
-  { path: "/zdorovyj-rebenok-houm-standart/", Component: ProgramTwo },
-  { path: "/zdorovyj-rebenok-houm-midi/", Component: ProgramThree },
+  { path: "/malysh-houm-standart-ot-0-do-2-h-le/", Component: ProgramOne },
+  { path: "/zdorovyj-rebenok-houm-standart-ot-2/", Component: ProgramTwo },
+  { path: "/zdorovyj-rebenok-houm-midi-ot-2-h-l/", Component: ProgramThree },
   // страницы врачей
   { path: "/sadovnikova-elena-gennadevna/", Component: DoctorSadovnikova },
   { path: "/petuhova-olga-viktorovna/", Component: DoctorPetuhova },

@@ -1,9 +1,25 @@
 import { Container } from "react-bootstrap";
 import BlockReklama3 from "../../components/reklama/BlockReklama3";
 import BlockReklama1 from "../../components/reklama/BlockReklama1";
+import { Helmet } from "react-helmet";
 
 const Pediatr = () => (
   <Container fluid id="doctornadom">
+    <Helmet>
+      <title>Педиатр на дом в Томске | Айболит</title>
+      <meta
+        name="description"
+        content="ВЫЗОВ ПЕДИАТРА. К вам приедет один из наших квалифицированных врачей педиатров.  ЗАБОР АНАЛИЗОВ НА ДОМУ."
+      />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Айболит" />
+      <meta
+        name="keywords"
+        content="вызов педиатра на дом Томск, педиатр на дом, детский врач на дом Томск, анализы на дому, программы наблюдения за ребенком, вызов платного педиатра на дом, лор, невролог на дом, консультация хирурга, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
+      />
+      <base href="https://aibolit.tom.ru/pediatr" />
+      <link rel="canonical" href="https://aibolit.tom.ru/pediatr" />
+    </Helmet>
     <div className="page-h1">
       <h1>Педиатр</h1>
     </div>
@@ -20,7 +36,7 @@ const Pediatr = () => (
         </p>
         <div className="block-table">
           <h2 className="py-5">Цены: ​</h2>
-          <table class="table table-light table-striped text-start ">
+          <table className="table table-light table-striped text-start ">
             <tbody>
               <tr className="fs-5 table-group-divider table-info">
                 <td className="px-3">

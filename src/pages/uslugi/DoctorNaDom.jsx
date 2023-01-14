@@ -1,9 +1,28 @@
 import { Container } from "react-bootstrap";
 import BlockReklama3 from "../../components/reklama/BlockReklama3";
 import ModalCalling from "../../components/modalWindows/ModalCalling";
+import { Helmet } from "react-helmet";
 
 const DoctorNaDom = () => (
   <Container fluid id="doctornadom">
+    <Helmet>
+      <title>Вызов педиатра на дом | Айболит</title>
+      <meta
+        name="description"
+        content="ВЫЗОВ ПЕДИАТРА. К вам приедет один из наших квалифицированных врачей педиатров. ВЫЗОВ УЗКОГО СПЕЦИАЛИСТА. Хирург, Невролог, Лор и другие. ЗАБОР АНАЛИЗОВ НА ДОМУ."
+      />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Айболит" />
+      <meta
+        name="keywords"
+        content="вызов педиатра на дом Томск, педиатр на дом, детский врач на дом Томск, анализы на дому, программы наблюдения за ребенком, вызов платного педиатра на дом, лор, невролог на дом, консультация хирурга, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
+      />
+      <base href="https://aibolit.tom.ru/vyzov-pediatra-na-dom" />
+      <link
+        rel="canonical"
+        href="https://aibolit.tom.ru/vyzov-pediatra-na-dom"
+      />
+    </Helmet>
     <div className="page-h1">
       <h1>Вызов педиатра на дом</h1>
     </div>
@@ -38,7 +57,7 @@ const DoctorNaDom = () => (
       </div>
       <div className="block-table">
         <h2 className="py-5">Вызов врача на дом: ​</h2>
-        <table class="table table-light table-striped text-start ">
+        <table className="table table-light table-striped text-start ">
           <tbody>
             <tr className="fs-5 table-group-divider table-info">
               <td className="px-3">

@@ -3,9 +3,27 @@ import NavMini from "../../components/navigations/NavMini";
 import Limg1 from "../../assets/img/Лицензия1.jpg";
 import Limg2 from "../../assets/img/Лицензия2.jpg";
 import Limg3 from "../../assets/img/Лицензия3.jpg";
+import { Helmet } from "react-helmet";
+
 const Licenses = () => {
   return (
     <Container fluid id="licenses">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Лицензии | Айболит</title>
+        <meta
+          name="description"
+          content="Информация для пациентов. Лицензии | Айболит"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          name="keywords"
+          content="педиатр на дом, узкие специалисты на дом, айболит детская медицинская служба, герцина 68 стр 2, педиатр на дом томск, детский врач на дом, анализы на дому, вакцинация, патронаж новорожденных, программы наблюдения за ребенком"
+        />
+        <base href="https://aibolit.tom.ru/licenzii" />
+        <link rel="canonical" href="https://aibolit.tom.ru/licenzii" />
+      </Helmet>
       <div className="page-h1">
         <h1>Лицензии</h1>
       </div>

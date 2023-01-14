@@ -1,14 +1,35 @@
-import { Container } from 'react-bootstrap';
-import DOimg1 from '../../assets/img/Ostrouhova_Natalya_Petrovna_vrach.jpeg';
-import DOimg2 from '../../assets/img/img029.jpg';
-import DOimg3 from '../../assets/img/img030.jpg';
-import DOimg4 from '../../assets/img/Без имени-1.jpg';
-import DOimg5 from '../../assets/img/Сертификат1.jpg';
-import DOimg6 from '../../assets/img/Удостоверение Остроухова Н.П. 2017.jpg';
+import { Container } from "react-bootstrap";
+import DOimg1 from "../../assets/img/Ostrouhova_Natalya_Petrovna_vrach.jpeg";
+import DOimg2 from "../../assets/img/img029.jpg";
+import DOimg3 from "../../assets/img/img030.jpg";
+import DOimg4 from "../../assets/img/Без имени-1.jpg";
+import DOimg5 from "../../assets/img/Сертификат1.jpg";
+import DOimg6 from "../../assets/img/Удостоверение Остроухова Н.П. 2017.jpg";
+import { Helmet } from "react-helmet";
 
 const DoctorOstrouhova = () => {
   return (
     <Container fluid id="doctor4">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Остроухова Наталья Петровна | педиатр.</title>
+        <meta
+          name="description"
+          content="Остроухова Наталья Петровна - педиатр. Педиатр на дом. Наблюдение за ребенком на дому. Патронаж новорожденного"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          name="keywords"
+          content="педиатр на дом, узкие специалисты на дом, педиатр на дом томск, детский врач на дом, анализы на дому, вызов платного педиатра, патронаж новорожденных, программы наблюдения за ребенком"
+        />
+
+        <base href="https://aibolit.tom.ru/ostrouhova-natalya-petrovna" />
+        <link
+          rel="canonical"
+          href="https://aibolit.tom.ru/ostrouhova-natalya-petrovna"
+        />
+      </Helmet>
       <div className="page-h1">
         <h1>Остроухова Наталья Петровна</h1>
       </div>
@@ -20,17 +41,22 @@ const DoctorOstrouhova = () => {
           <div className="px-4 ">
             <h4 className="mb-4">Врач - педиатр</h4>
             <p className="fw-bold">Высшее медицинское образование:</p>
-            <p>Сибирский государственный медицинский университет ( 1993 ) "Педиатрия"</p>
             <p>
-              Сибирский государственный медицинский университет ( 2012 ) Повышение квалификации
+              Сибирский государственный медицинский университет ( 1993 )
               "Педиатрия"
+            </p>
+            <p>
+              Сибирский государственный медицинский университет ( 2012 )
+              Повышение квалификации "Педиатрия"
             </p>
             <p className="fw-bold">Сертификаты:</p>
             <p>«Педиатрия» ( 2003 )</p>
             <p>«Педиатрия» (2017)</p>
             <p className="fw-bold">Стаж работы в области медицины:</p>
             <p>с 1993 г.</p>
-            <p className="fw-bold">Врач осуществляет обслуживание детей на дому.</p>
+            <p className="fw-bold">
+              Врач осуществляет обслуживание детей на дому.
+            </p>
             <p className="fw-bold">Дополнительная информация: </p>
             <p>Проводит консультации по иммунопрофилактике (вакцинации)</p>​
           </div>

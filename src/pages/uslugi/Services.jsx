@@ -6,10 +6,26 @@ import Simg2 from "../../assets/img/uslugi2.jpg";
 import Simg3 from "../../assets/img/uslugi3.jpg";
 import Simg4 from "../../assets/img/uslugi4.jpeg";
 import Simg5 from "../../assets/img/uslugi5.jpg";
+import { Helmet } from "react-helmet";
 
 const Services = () => {
   return (
     <Container fluid id="services">
+      <Helmet>
+        <title>Вызов педиатра на дом в Томске | Врач на дом | Айболит</title>
+        <meta
+          name="description"
+          content="Услуги педиатра и врачей на дому. Анализы. Программы наблюдения за ребенком. Онлайн консультация педиатра. ВЫЗОВ ПЕДИАТРА. К вам приедет один из наших квалифицированных врачей педиатров. ВЫЗОВ УЗКОГО СПЕЦИАЛИСТА. Хирург, Невролог, Лор и другие. ЗАБОР АНАЛИЗОВ НА ДОМУ."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          name="keywords"
+          content="вызов педиатра на дом Томск, педиатр на дом, детский врач на дом Томск, анализы на дому, программы наблюдения за ребенком, вызов платного педиатра на дом, лор, невролог на дом, консультация хирурга, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
+        />
+        <base href="https://aibolit.tom.ru/uslugi-i-ceny" />
+        <link rel="canonical" href="https://aibolit.tom.ru/uslugi-i-ceny" />
+      </Helmet>
       <div className="page-h1">
         <h1>Услуги</h1>
       </div>
