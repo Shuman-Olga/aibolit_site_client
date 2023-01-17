@@ -73,13 +73,6 @@ const ModalCallback = () => {
       .catch((err) => {
         console.log("Упс! Ошибочка...", err);
       });
-    // const handleSubmit = (e) => {
-    // const form = e.currentTarget;
-    // e.preventDefault();
-    // setMessage("");
-    // setSuccessful(false);
-    // if (form.checkValidity() === false) {
-    //   e.stopPropagation();
   };
   //   MessageDataService.create(data)
   //     .then((response) => {
