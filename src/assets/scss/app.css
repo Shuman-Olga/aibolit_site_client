@@ -126,9 +126,14 @@ body {
   }
 }
 #contacts .block-map {
-  width: 596px;
-  height: 451px;
+  width: -moz-max-content;
+  width: max-content;
   margin: 0 auto;
+  border: 4px solid #496f6e;
+}
+#contacts .door-img, #contacts .clock-png, #contacts .auto-png {
+  width: 40px;
+  margin-right: 15px;
 }
 
 @media (max-width: 680px) {
@@ -173,6 +178,10 @@ body {
 @media (max-width: 800px) {
   #programs .block-foto {
     flex-direction: column;
+    align-items: center;
+  }
+  #programs .foto {
+    width: 100%;
   }
   #programs .card-prog img {
     display: none;
@@ -212,6 +221,12 @@ body {
 #doctor4 .margin {
   margin: 15px auto;
 }
+#doctor1 ul li,
+#doctor2 ul li,
+#doctor3 ul li,
+#doctor4 ul li {
+  margin: 1rem 0;
+}
 
 #services .w-75, #medical-certificates .w-75 {
   margin: 0 auto;
@@ -222,11 +237,11 @@ body {
 }
 
 @media (max-width: 800px) {
-  #servicesd .block-foto {
+  #services .block-foto {
     flex-direction: column;
     align-items: center;
   }
-  #servicesd .w-75 {
+  #services .w-75 {
     width: 100% !important;
   }
 }
@@ -260,6 +275,34 @@ body {
 @media (max-width: 660px) {
   #medical-certificates {
     margin-top: 0;
+  }
+}
+#post {
+  font-size: 18px;
+}
+#post ul li {
+  padding: 5px 0;
+}
+#post .size-img {
+  width: 450px;
+  float: left;
+  margin: 10px 20px 2px 0px;
+}
+#post .size-cont {
+  width: 900px;
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  #post h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  #post .size-cont {
+    width: 100%;
+  }
+  #post .size-img {
+    width: 100% !important;
   }
 }
 #header {
@@ -456,8 +499,8 @@ body {
 
 @media (max-width: 800px) {
   #blockreklamaone .block-reklama,
-#blockreklamatwo .block-reklama,
-#blockreklamathree .block-reklama, #blockreklamafour .block-reklama {
+  #blockreklamatwo .block-reklama,
+  #blockreklamathree .block-reklama, #blockreklamafour .block-reklama {
     flex-direction: column;
   }
 }
@@ -488,6 +531,17 @@ body {
 #blockreklamathree img {
   padding: 25px;
   left: 50px;
+}
+
+#workonholidays .block-message {
+  background-color: rgb(235, 243, 240);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+#workonholidays .block-message img {
+  width: 50px;
+}
+#workonholidays p {
+  margin: 0;
 }
 
 #blockadvantages hr {
@@ -649,7 +703,7 @@ body {
 
 @media (max-width: 660px) {
   #blockimg .img-background,
-#blockimg .h4-text {
+  #blockimg .h4-text {
     display: none;
   }
   #blockimg .wrapper-block-btn {

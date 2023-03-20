@@ -14,11 +14,21 @@ const BlockContacts = () => {
           <h3>Айболит детская медицинская служба</h3>
 
           <div className="d-flex align-items-center py-2">
-            <img src={BCimg1} alt="img-map" className="img me-3" />
+            <img
+              src={BCimg1}
+              alt="img-map"
+              className="img me-3"
+              title="address"
+            />
             <p>г. Томск, ул. Герцена 68, строение 2</p>
           </div>
           <div className="d-flex align-items-center py-2">
-            <img src={BCimg2} alt="img-time" className="img me-3" />
+            <img
+              src={BCimg2}
+              alt="img-time"
+              className="img me-3"
+              title="time"
+            />
             <p>
               Мы работаем: <br />
               Пн-пт: 8:00-20:00
@@ -27,7 +37,12 @@ const BlockContacts = () => {
             </p>
           </div>
           <div className="d-flex align-items-center py-2">
-            <img src={BCimg3} alt="img-phone" className="img me-3" />
+            <img
+              src={BCimg3}
+              alt="img-phone"
+              className="img me-3"
+              title="phone"
+            />
             <a href="tel:+7 (3822) 60-92-43">
               <p className="phone">+7 (3822) 60-92-43</p>
             </a>
@@ -38,13 +53,11 @@ const BlockContacts = () => {
         </div>
         <div className="block-map ">
           <iframe
-            className="_3Xz9Z"
             title="Embedded Content"
-            name="htmlComp-iframe"
-            width="100%"
-            height="100%"
-            data-src=""
-            src="https://www-aibolit-tom-ru.filesusr.com/html/8dcff3_b0327e9bf52a52736c5dfdbd52e35f6e.html"
+            src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=1788754562"
+            width="560"
+            height="400"
+            frameborder="0"
           ></iframe>
         </div>
       </div>

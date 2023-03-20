@@ -9,7 +9,12 @@ const BlockImg = () => {
   return (
     <div id="blockimg" className="">
       <div className="position-relative position-img">
-        <img src={background} alt="" className=" img-background" />
+        <img
+          src={background}
+          alt="img-background"
+          className=" img-background"
+          title="img-background"
+        />
         <h4 className="position-absolute top-0 end-0 mt-5 me-3 h4-text">
           Заботимся о здоровье ваших детей с 2001 года
         </h4>
@@ -18,26 +23,41 @@ const BlockImg = () => {
         </div>
       </div>
       <div className=" wrapper-block-btn">
-        <NavLink to="/vyzov-pediatra-na-dom" className="nav-link">
+        <NavLink to="/vyzov-pediatra-na-dom/" className="nav-link">
           <div className="block-btn color1">
             <div className="block-btn-border">
-              <img src={BIimg1} alt="img-home" className="block-btn-img" />
+              <img
+                src={BIimg1}
+                alt="img-home"
+                className="block-btn-img"
+                title="img-home"
+              />
               <p>Вызов врача на дом</p>
             </div>
           </div>
         </NavLink>
-        <NavLink to="/programmy-nablyudeniya-za-zdorovem" className="nav-link">
+        <NavLink to="/programmy-nablyudeniya-za-zdorovem/" className="nav-link">
           <div className="block-btn color2">
             <div className="block-btn-border">
-              <img src={BIimg2} alt="img-programm" className="block-btn-img2" />
+              <img
+                src={BIimg2}
+                alt="img-programm"
+                className="block-btn-img2"
+                title="img-programm"
+              />
               <p>Программы</p>
             </div>
           </div>
         </NavLink>
-        <NavLink to="/prices" className="nav-link">
+        <NavLink to="/prices/" className="nav-link">
           <div className="block-btn color3">
             <div className="block-btn-border">
-              <img src={BIimg3} alt="img-analyz" className="block-btn-img" />
+              <img
+                src={BIimg3}
+                alt="img-analyz"
+                className="block-btn-img"
+                title="img-analyz"
+              />
               <p>Анализы</p>
             </div>
           </div>

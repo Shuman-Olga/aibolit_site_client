@@ -5,29 +5,41 @@ import DOimg3 from "../../assets/img/img030.jpg";
 import DOimg4 from "../../assets/img/Без имени-1.jpg";
 import DOimg5 from "../../assets/img/Сертификат1.jpg";
 import DOimg6 from "../../assets/img/Удостоверение Остроухова Н.П. 2017.jpg";
+import DOimg7 from "../../assets/img/Сертификат_2020.png";
+
 import { Helmet } from "react-helmet";
 
 const DoctorOstrouhova = () => {
   return (
     <Container fluid id="doctor4">
       <Helmet>
-        <meta charSet="utf-8" />
-        <title>Остроухова Наталья Петровна | педиатр.</title>
+        <title>Остроухова Наталья Петровна | педиатр</title>
         <meta
           name="description"
           content="Остроухова Наталья Петровна - педиатр. Педиатр на дом. Наблюдение за ребенком на дому. Патронаж новорожденного"
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
         <meta
           name="keywords"
           content="педиатр на дом, узкие специалисты на дом, педиатр на дом томск, детский врач на дом, анализы на дому, вызов платного педиатра, патронаж новорожденных, программы наблюдения за ребенком"
         />
 
-        <base href="https://aibolit.tom.ru/ostrouhova-natalya-petrovna" />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/ostrouhova-natalya-petrovna"
+          href="https://aibolit.tom.ru/ostrouhova-natalya-petrovna/"
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          property="og:title"
+          content="Остроухова Наталья Петровна | педиатр"
+        />
+        <meta
+          property="og:description"
+          content="Остроухова Наталья Петровна - педиатр. Педиатр на дом. Наблюдение за ребенком на дому. Патронаж новорожденного"
+        />
+        <meta
+          property="og:url"
+          content="https://aibolit.tom.ru/ostrouhova-natalya-petrovna/"
         />
       </Helmet>
       <div className="page-h1">
@@ -36,11 +48,42 @@ const DoctorOstrouhova = () => {
       <Container>
         <Container className="d-flex align-items-start my-4">
           <div className="p-2 border-block">
-            <img src={DOimg1} alt="img-ostrouhova " />
+            <img
+              src={DOimg1}
+              alt="img-ostrouhova "
+              title="Остроухова Наталья Петровна"
+            />
           </div>
           <div className="px-4 ">
             <h4 className="mb-4">Врач - педиатр</h4>
-            <p className="fw-bold">Высшее медицинское образование:</p>
+            <h5>Педиатрия:</h5>
+            <ul>
+              <li>
+                Диагностика и лечение острых заболевай: ринит, конъюнктивит,
+                фарингит, тонзиллит, ларингит, трахеит, бронхит, пневмония,
+                цистит, пиелонефрит, кишечные инфекции)
+              </li>
+              <li>
+                Оценка состояния здоровья перед вакцинацией, составление
+                индивидуального графика прививок
+              </li>
+              <li>Осмотр и ведение пациентов с 0 лет</li>
+              <li>
+                Консультация по грудному вскармливанию, искусственному
+                вскармливанию
+              </li>
+              <li>Выезд врача на дом, консультация на дому</li>
+            </ul>
+            <p className="fw-bold">
+              Врач осуществляет обслуживание детей на дому.
+            </p>
+            <h5>Диагностика и лечение заболеваний</h5>
+            <ul>
+              <li>Острые и хронические заболевания детского возраста.</li>
+              <li>Вся педиатрия с 0 до 18 лет. </li>
+            </ul>
+            <hr />
+            <h6>Высшее медицинское образование:</h6>
             <p>
               Сибирский государственный медицинский университет ( 1993 )
               "Педиатрия"
@@ -49,43 +92,74 @@ const DoctorOstrouhova = () => {
               Сибирский государственный медицинский университет ( 2012 )
               Повышение квалификации "Педиатрия"
             </p>
-            <p className="fw-bold">Сертификаты:</p>
+            <h6>Сертификаты:</h6>
             <p>«Педиатрия» ( 2003 )</p>
             <p>«Педиатрия» (2017)</p>
-            <p className="fw-bold">Стаж работы в области медицины:</p>
+            <p>«Педиатрия» (2020)</p>
+            <h6>Стаж работы в области медицины:</h6>
             <p>с 1993 г.</p>
-            <p className="fw-bold">
-              Врач осуществляет обслуживание детей на дому.
-            </p>
-            <p className="fw-bold">Дополнительная информация: </p>
-            <p>Проводит консультации по иммунопрофилактике (вакцинации)</p>​
           </div>
         </Container>
         <div class="row row-cols-1 row-cols-md-3 g-4 w-75 margin ">
           <div class="col">
             <div class="card">
-              <img src={DOimg2} class="card-img-top" alt="foto" />
+              <img
+                src={DOimg2}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src={DOimg3} class="card-img-top" alt="foto" />
+              <img
+                src={DOimg3}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src={DOimg4} class="card-img-top" alt="foto" />
+              <img
+                src={DOimg4}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src={DOimg5} class="card-img-top" alt="foto" />
+              <img
+                src={DOimg5}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
 
           <div class="col">
             <div class="card">
-              <img src={DOimg6} class="card-img-top" alt="foto" />
+              <img
+                src={DOimg6}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src={DOimg7}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
         </div>

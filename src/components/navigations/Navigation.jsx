@@ -5,10 +5,13 @@ const Navigation = () => {
   // const isAuth = true
   //   const isAdmin = true
   return (
-    <Navbar expand="lg" id="navbar">
+    <Navbar collapseOnSelect expand="lg" id="navbar">
       <Container fluid>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll" className="justify-content-center">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse
+          id="responsive-navbar-nav"
+          className="justify-content-center"
+        >
           <Nav className="mr-auto ">
             <NavLink to="/" className="nav-link">
               Главная
@@ -25,10 +28,13 @@ const Navigation = () => {
             >
               Программы
             </NavLink>
-            <NavLink to="/uslugi-i-ceny" className="nav-link">
+            <NavLink to="/uslugi-i-ceny/" className="nav-link">
               Услуги
             </NavLink>
-            <NavLink to="/kontakty" className="nav-link">
+            <NavLink to="/blog/" className="nav-link">
+              Блог
+            </NavLink>
+            <NavLink to="/kontakty/" className="nav-link">
               Контакты
             </NavLink>
           </Nav>

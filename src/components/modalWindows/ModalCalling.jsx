@@ -102,7 +102,7 @@ const ModalCalling = () => {
   return (
     <div id="modalcalling">
       <Button className="btn-showmodal" onClick={handleShow}>
-        <img src={imgHome} alt="home" className="img home" />
+        <img src={imgHome} alt="home" className="img home" title="home" />
         Вызов врача на дом
       </Button>
 

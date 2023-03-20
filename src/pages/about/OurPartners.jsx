@@ -7,20 +7,27 @@ const OurPartners = () => {
   return (
     <Container id="partners" fluid>
       <Helmet>
-        <meta charSet="utf-8" />
         <title>Наши партнеры | Айболит</title>
         <meta
           name="description"
           content="Наши партнеры, страховые компании, ДМС | Айболит-детская медицинская служба"
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
         <meta
           name="keywords"
           content="педиатр на дом, узкие специалисты на дом, айболит детская медицинская служба, герцина 68 стр 2, педиатр на дом томск, детский врач на дом, анализы на дому, вакцинация, патронаж новорожденных, программы наблюдения за ребенком"
         />
-        <base href="https://aibolit.tom.ru/nashi-partnery" />
-        <link rel="canonical" href="https://aibolit.tom.ru/nashi-partnery" />
+        <link rel="canonical" href="https://aibolit.tom.ru/nashi-partnery/" />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta property="og:title" content="Наши партнеры | Айболит" />
+        <meta
+          property="og:description"
+          content="Наши партнеры, страховые компании, ДМС | Айболит-детская медицинская служба"
+        />
+        <meta
+          property="og:url"
+          content="https://aibolit.tom.ru/nashi-partnery/"
+        />
       </Helmet>
       <div className="page-h1">
         <h1>Наши партнеры</h1>
@@ -28,7 +35,12 @@ const OurPartners = () => {
       <Container className="d-flex justify-content-between my-4 position-block">
         <div>
           <a href="https://tomoko.ru/" target="_blank" rel="noreferrer">
-            <img src={opimg1} alt="logo-tomoko" className="w-25 mb-3" />
+            <img
+              src={opimg1}
+              alt="logo-tomoko"
+              className="w-25 mb-3"
+              title="tomoko"
+            />
           </a>
           <div className="w-75">
             <p className="text-sm-start lh-base fs-5">
@@ -55,7 +67,7 @@ const OurPartners = () => {
             </p>
             <p className="fw-bold">Телефон: +7 (3822) 52-08-40</p>
             <a
-              href="https://tomoko.ru"
+              href="https://tomoko.ru/"
               target="_blank"
               rel="noreferrer"
               className=" fs-4 fw-bold"

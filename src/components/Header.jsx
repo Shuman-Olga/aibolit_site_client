@@ -10,7 +10,12 @@ const Header = () => {
       <div className="container my-3 d-flex align-items-center justify-content-around">
         <div className="block-logo">
           <NavLink to="/" className="navbar-brand">
-            <img src={logo} alt="logo-aibolit" className="img-fluid img-logo" />
+            <img
+              src={logo}
+              alt="logo-aibolit"
+              className="img-fluid img-logo"
+              title="logo-aibolit"
+            />
           </NavLink>
           <p>г. Томск, ул. Герцена 68, строение 2</p>
         </div>

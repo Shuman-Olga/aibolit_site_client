@@ -16,16 +16,25 @@ const Programs = () => {
           name="description"
           content="ДЕТСКАЯ МЕДИЦИНСКАЯ СЛУЖБА 'АЙБОЛИТ' предлагает программы наблюдения за здоровьем ребенка. Квалифицированные специалисты постараются решить все проблемы со здоровьем, сопутствующие периоду роста ребёнка. Патронаж новорожденных"
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
         <meta
           name="keywords"
-          content="вызов педиатра на дом Томск, педиатр на дом, детский врач на дом Томск, анализы на дому, программы наблюдения за ребенком, вызов платного педиатра на дом, патронаж на дому новорожденных, патронаж новорожденного ребенка, невролог на дом, патронаж детей на дому, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
+          content="программы наблюдения, патронаж новорожденного, ребенка, здоровьем, на дом, Томск, платно, вызов, педиатра, врача"
         />
-        <base href="https://aibolit.tom.ru/programmy-nablyudeniya-za-zdorovem" />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/programmy-nablyudeniya-za-zdorovem"
+          href="https://aibolit.tom.ru/programmy-nablyudeniya-za-zdorovem/"
+        />
+        <meta
+          property="og:title"
+          content="Программы наблюдения за здоровьем ребенка | Айболит"
+        />
+        <meta
+          property="og:description"
+          content="ДЕТСКАЯ МЕДИЦИНСКАЯ СЛУЖБА 'АЙБОЛИТ' предлагает программы наблюдения за здоровьем ребенка. Квалифицированные специалисты постараются решить все проблемы со здоровьем, сопутствующие периоду роста ребёнка. Патронаж новорожденных"
+        />
+        <meta
+          property="og:url"
+          content="https://aibolit.tom.ru/programmy-nablyudeniya-za-zdorovem/"
         />
       </Helmet>
       <div className="page-h1">
@@ -33,13 +42,18 @@ const Programs = () => {
       </div>
       <Container className="my-4">
         <div className="d-flex block-foto">
-          <img src={Pimg1} alt="foto-aibolit" className="img-thumbnail foto" />
+          <img
+            src={Pimg1}
+            alt="foto-aibolit"
+            className="img-thumbnail foto"
+            title="Программы наблюдения за здоровьем ребенка"
+          />
           <div className="px-3 text ">
-            <p>
+            <p align="justify">
               <span className="fw-bold">
                 ДЕТСКАЯ МЕДИЦИНСКАЯ СЛУЖБА "АЙБОЛИТ"
-              </span>{" "}
-              предлагает
+              </span>
+              предлагает &nbsp;
               <span className="fw-bold">
                 программы наблюдения за здоровьем детей
               </span>
@@ -49,7 +63,7 @@ const Programs = () => {
           </div>
         </div>
         <div className="text pt-2 ">
-          <p>
+          <p align="justify">
             Самый надежный способ обезопасить своего ребёнка – поручить
             наблюдение за его здоровьем квалифицированному, опытному врачу. Для
             того чтобы упростить Вам решение этой задачи. Программа включает в
@@ -60,120 +74,86 @@ const Programs = () => {
             родительской заботы, насколько это возможно. Вашего ребёнка будет
             вести&nbsp;персональный педиатр,&nbsp;который в течение года будет
             следить за здоровьем Вашего ребёнка.
-          </p>
-
-          <p>
+            <br />
             Оформляя договор на годовое медицинское обслуживание ребенка, Вы
             получаете:
           </p>
-
-          <ul>
-            <li>
-              <p>
+          <div>
+            <ul>
+              <li>
                 За ребёнком закрепляется личный педиатр, который знает все о
                 здоровье ребенка
-              </p>
-            </li>
-            <li>
-              <p>
+              </li>
+              <li>
                 Ведение ребенка личным врачом – педиатром в каждом виде
                 программы, включает возможность связи по телефону, WhatsApp в
                 рабочее время с 08.00 - 20.00
-              </p>
-            </li>
-            <li>
-              <p>
+              </li>
+              <li>
                 Выезды педиатра и узких специалистов осуществляются в любое
                 удобное для Вас и врача время с 08.00 до 20.00, суббота с 09.00
                 до 15.00, кроме воскресенья и праздничных дней
-              </p>
-            </li>
-            <li>
-              <p>
+              </li>
+              <li>
                 Возможность
-                <span className="text-decoration-underline">
-                  {" "}
-                  забора анализов{" "}
-                </span>
+                <span className="fst-italic">забора анализов</span>
                 ребенку на дому
-              </p>
-            </li>
-            <li>
-              <p>
-                Для детей первого года жизни в программы включены все
+              </li>
+              <li>
+                Для ребенка первого года жизни в программы включены все
                 необходимые осмотры, обследования, необходимые ребенку до года
-                по приказу о профилактических осмотрах детей МЗ РФ №1346Н.
-              </p>
-            </li>
-            <li>
-              <p>
+                по приказу о профилактических осмотрах малышей МЗ РФ №1346Н.
+              </li>
+              <li>
                 В рамках программы заполняется вся необходимая медицинская
                 документация, осуществляется выдача справок, оформление
                 медицинских карт.
-              </p>
-            </li>
-            <li>
-              <p>
-                <span className="text-decoration-underline">
-                  <a
-                    href="https://www.aibolit.tom.ru/blog/categories/вакцинация"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Вакцинация
-                  </a>
-                </span>{" "}
-                проводится согласно Приказу Министерства здравоохранения и
-                социального развития РФ от 31.01.2011 «Об утверждении
-                национального календаря профилактических прививок и календаря
-                профилактических прививок по эпидемическим показаниям»
-                медицинскими иммунобиологическими препаратами, отечественного и
-                импортного производства, зарегистрированными в соответствии с
+              </li>
+              <li>
+                <span className="fw-bold">Вакцинация</span>&nbsp;проводится
+                согласно Приказу Министерства здравоохранения и социального
+                развития РФ от 31.01.2011 «Об утверждении национального
+                календаря профилактических прививок и календаря профилактических
+                прививок по эпидемическим показаниям» медицинскими
+                иммунобиологическими препаратами, отечественного и импортного
+                производства, зарегистрированными в соответствии с
                 законодательством Российской Федерации, согласно инструкциям по
-                применению.{" "}
-                <span className="text-decoration-underline">
-                  <a
-                    href="https://www.aibolit.tom.ru/blog/календарь-вакцинаций"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Национальный календарь профилактических прививок
-                  </a>
-                </span>
-              </p>
-            </li>
-            <li>
-              <p>Персональный подход к малышу и семье</p>
-            </li>
-          </ul>
-
-          <p>Дополнительные услуги, включенные в программу для детей:</p>
-
-          <ul>
-            <li>
-              <p>
+                применению.
+                <a
+                  href="https://aibolit.tom.ru/post/klendar-vakcinacija/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Национальный календарь профилактических прививок
+                </a>
+              </li>
+              <li></li>
+            </ul>
+          </div>
+          <div>
+            Дополнительные услуги, включенные в программу для детей:
+            <ul>
+              <li>
                 Рекомендации по уходу и вскармливанию. Рекомендации по
                 рациональному питанию, закаливанию, оздоровлению и физическим
                 нагрузкам.
-              </p>
-            </li>
-            <li>
-              <p>
+              </li>
+              <li>
                 Выписка необходимой медицинской документации, оформление
                 медицинских справок.
-              </p>
-            </li>
-            <li>
-              <p>Предоставление медицинской литературы.</p>
-            </li>
-          </ul>
+              </li>
+              <li>Предоставление медицинской литературы.</li>
+            </ul>
+          </div>
         </div>
-      </Container>
-      <div className="container-fluid line">
-        <h2>ПРОГРАММЫ</h2>
-      </div>
-      <Container>
-        <NavLink to="/zdorovyj-rebenok-houm-standart-ot-2" className="nav-link">
+
+        <div className="container-fluid line">
+          <h2>ПРОГРАММЫ</h2>
+        </div>
+        <NavLink
+          to="/malysh-houm-standart-ot-0-do-2-h-le/"
+          className="nav-link"
+        >
           <div className="d-flex justify-content-between align-items-center card-prog">
             <div className="block d-flex align-items-center m-5">
               <svg
@@ -196,21 +176,32 @@ const Programs = () => {
             </div>
             <div className="font-text ">
               <h4>Малыш Хоум. Стандарт</h4>
-              <p className="fw-bold">от 0 до 2-х лет</p>
-              <p>Педиатры</p>
-              <p>Узкие специалисты</p>
-              <p>Анализы</p>
-              <p>УЗИ</p>
-              <p>Вакцинация</p>
-              <p>Мед. документация</p>
-              <p>Мобильная связь</p>
+              <p className="fw-bold">
+                от 0 до 2-х лет <br />
+                Педиатры
+                <br />
+                Узкие специалисты
+                <br />
+                Анализы
+                <br />
+                УЗИ
+                <br />
+                Вакцинация
+                <br />
+                Мед. документация
+                <br />
+                Мобильная связь
+              </p>
             </div>
             <div>
-              <img src={Pimg2} alt="img" />
+              <img src={Pimg2} alt="img" title="Малыш Хоум. Стандарт" />
             </div>
           </div>
         </NavLink>
-        <NavLink to="/malysh-houm-midi-ot-0-do-2-h-let" className="nav-link">
+        <NavLink
+          to="/zdorovyj-rebenok-houm-standart-ot-2/"
+          className="nav-link"
+        >
           <div className="d-flex justify-content-between align-items-center card-prog color-back">
             <div className="block d-flex align-items-center m-5">
               <svg
@@ -233,21 +224,33 @@ const Programs = () => {
             </div>
             <div className="font-text">
               <h4>Здоровый ребенок. Стандарт</h4>
-              <p className="fw-bold">от 2-х лет</p>
-              <p>Педиатры</p>
-              <p>Узкие специалисты</p>
-              <p>Анализы</p>
-              <p>УЗИ</p>
-              <p>Вакцинация</p>
-              <p>Мед. документация</p>
-              <p>Мобильная связь</p>
+              <p className="fw-bold">
+                от 2-х лет
+                <br />
+                Педиатры
+                <br />
+                Узкие специалисты
+                <br />
+                Анализы
+                <br />
+                УЗИ
+                <br />
+                Вакцинация
+                <br />
+                Мед. документация
+                <br />
+                Мобильная связь
+              </p>
             </div>
             <div>
-              <img src={Pimg3} alt="img" />
+              <img src={Pimg3} alt="img" title="Здоровый ребенок. Стандарт" />
             </div>
           </div>
         </NavLink>
-        <NavLink to="/zdorovyj-rebenok-houm-midi-ot-2-h-l" className="nav-link">
+        <NavLink
+          to="/zdorovyj-rebenok-houm-midi-ot-2-h-l/"
+          className="nav-link"
+        >
           <div className="d-flex justify-content-between align-items-center card-prog">
             <div className="block d-flex align-items-center m-5">
               <svg
@@ -270,13 +273,22 @@ const Programs = () => {
             </div>
             <div className="text-font">
               <h4>Здоровый ребенок Педиатр рядом</h4>
-              <p className="fw-bold">от 2-х лет</p>
-              <p>Педиатры</p>
-              <p>Мед. документация</p>
-              <p>Мобильная связь</p>
+              <p className="fw-bold">
+                от 2-х лет
+                <br />
+                Педиатры
+                <br />
+                Мед. документация
+                <br />
+                Мобильная связь
+              </p>
             </div>
             <div>
-              <img src={Pimg4} alt="img" />
+              <img
+                src={Pimg4}
+                alt="img"
+                title="Здоровый ребенок Педиатр рядом"
+              />
             </div>
           </div>
         </NavLink>

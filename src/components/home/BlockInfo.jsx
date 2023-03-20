@@ -4,9 +4,9 @@ import BInimg1 from "../../assets/img/foto.jpeg";
 const BlockInfo = () => {
   return (
     <div id="blockinfo">
-      <h1 className="h1-font">Айболит | детская медицинская помощь на дому</h1>
+      <h1 className="h1-font">Айболит-детская медицинская служба В Томске</h1>
       <div className="d-flex justify-content-around">
-        <img src={BInimg1} alt="foto" className="img-foto" />
+        <img src={BInimg1} alt="foto" className="img-foto" title="foto" />
         <div className="w-50 text-md-start fst-italic fs-5">
           <div className="width-svg">
             <svg
@@ -34,7 +34,7 @@ const BlockInfo = () => {
             нам здоровье ребенка, Вы можете быть уверены, что он будет окружен
             заботой и вниманием опытных врачей».
           </p>
-          <NavLink to="/about" className="nav-link">
+          <NavLink to="/o-nas/" className="nav-link">
             <div className="btn-detailed">
               Подробнее <span className="material-icons">trending_flat</span>
             </div>

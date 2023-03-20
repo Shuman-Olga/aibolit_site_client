@@ -5,25 +5,39 @@ import BlockContacts from "../components/home/BlockContacts";
 import BlockImg from "../components/home/BlockImg";
 import BlockInfo from "../components/home/BlockInfo";
 import { Helmet } from "react-helmet";
+import WorkOnHolidays from "../components/WorkOnHolidays";
 
 const Home = () => {
   return (
     <Container fluid id="home">
       <Helmet>
-        <title>Айболит | Вызов педиатра на дом | Томск</title>
+        <title>
+          Вызов педиатра, врача на дом в Томске. Айболит-детская медицинская
+          служба
+        </title>
         <meta
           name="description"
-          content="Айболит. Вызов педиатра на дом, детского врача (ЛОР, невролог, окулист, хирург). Анализы на дому. Программы наблюдения детей на дому. Патронаж новорожденных."
+          content="Айболит. Вызов педиатра на дом в Томске, вызывать детского врача (ЛОР, невролог, окулист, хирург) на дом. Анализы на дому. Программы наблюдения детей на дому. Патронаж новорожденных."
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
         <meta
           name="keywords"
-          content="вызов педиатра на дом Томск, педиатр на дом, детский врач на дом Томск, анализы на дому, программы наблюдения за ребенком, вакцинация, лор, невролог на дом, консультация хирурга, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
+          content="Айболит, детская медицинская служба, клиника, вызвать детский врач, программы наблюдения, анализы, ребенок, новорожденного, на дом, цена, Томск"
         />
-        <base href="https://aibolit.tom.ru" />
-        <link rel="canonical" href="https://aibolit.tom.ru" />
+        <link rel="canonical" href="https://aibolit.tom.ru/" />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          property="og:title"
+          content="Вызов педиатра, врача на дом в Томске. Айболит-детская медицинская
+          служба"
+        />
+        <meta
+          property="og:description"
+          content="Айболит. Вызов педиатра на дом, детского врача (ЛОР, невролог, окулист, хирург). Анализы на дому. Программы наблюдения детей на дому. Патронаж новорожденных."
+        />
+        <meta property="og:url" content="https://aibolit.tom.ru/" />
       </Helmet>
+      {/* <WorkOnHolidays /> */}
       <BlockImg />
       <BlockInfo />
       <BlockAdvantages />

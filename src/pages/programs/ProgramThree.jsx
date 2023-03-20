@@ -7,22 +7,37 @@ const ProgramThree = () => {
   return (
     <Container fluid id="programthree">
       <Helmet>
-        <title>Программа Мылыш.Хоум | Айболит детская медицинская служба</title>
+        <title>
+          Здоровый ребенок Педиатр рядом ( c 2-х лет) | Айболит детская
+          медицинская служба
+        </title>
         <meta
           name="description"
-          content="Программа наблюдения 'Малыш Хоум. Стандарт' от 0 до 2-х лет
-          Первый год жизни ребёнка особенно важен: именно в возрасте от 0 до года закладываются основы нашего здоровья. "
+          content="Программа наблюдения 'Здоровый ребенок Педиатр рядом ( c 2-х лет)' от 2-х лет Данная программа предназначена для наблюдения здорового ребенка возрастом от 2-ух лет. В программу входит только наблюдение педиатра и вакцинация.
+
+          "
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
         <meta
           name="keywords"
           content="вызов педиатра на дом Томск, программа здоровье ребенка, педиатр на дом, детский врач на дом Томск, анализы на дому, программы наблюдения за ребенком, вызов платного педиатра на дом, патронаж на дому новорожденных, патронаж новорожденного ребенка, невролог на дом, патронаж детей на дому, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
         />
-        <base href="https://aibolit.tom.ru/zdorovyj-rebenok-houm-midi-ot-2-h-l" />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/zdorovyj-rebenok-houm-midi-ot-2-h-l"
+          href="https://aibolit.tom.ru/zdorovyj-rebenok-houm-midi-ot-2-h-l/"
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          property="og:title"
+          content="Здоровый ребенок Педиатр рядом ( c 2-х лет) | Айболит детская медицинская служба"
+        />
+        <meta
+          property="og:description"
+          content="Программа наблюдения 'Здоровый ребенок Педиатр рядом ( c 2-х лет)' от 2-х лет Данная программа предназначена для наблюдения здорового ребенка возрастом от 2-ух лет. В программу входит только наблюдение педиатра и вакцинация."
+        />
+        <meta
+          property="og:url"
+          content="https://aibolit.tom.ru/zdorovyj-rebenok-houm-midi-ot-2-h-l/"
         />
       </Helmet>
       <div className="page-h1">
@@ -34,14 +49,15 @@ const ProgramThree = () => {
             src={PThimg1}
             alt="img-program-three"
             className="progthree-img"
+            title="Здоровый ребенок Педиатр рядом ( c 2-х лет)"
           />
           <div className="lh-lg py-4">
             <p>
               Данная программа предназначена для наблюдения ребенка возрастом от
-              2-ух лет. <br />В программу входит только наблюдение педиатра один
-              раз в месяц и связь с педиатром.
-              <br />В программу не входит: наблюдение узкими специалистами, УЗИ
-              и анализы. <br />
+              2-ух лет. <br />В нее входит только наблюдение педиатра один раз в
+              месяц и связь с педиатром.
+              <br />В пакет не входит: наблюдение узкими специалистами, УЗИ и
+              анализы. <br />
               Программа назначается только после консультации с педиатром.
             </p>
           </div>
@@ -57,7 +73,7 @@ const ProgramThree = () => {
                 </td>
                 <td>
                   <p>.</p>
-                  <p className="fw-bold">ежемесячно(1 раз в месяц)</p>
+                  <p className="fw-bold">ежемесячно(1 раз в мес)</p>
                 </td>
               </tr>
               <tr>
@@ -85,11 +101,11 @@ const ProgramThree = () => {
               <tr className="fs-5 table-group-divider table-info">
                 <td className="px-3">
                   <p className="fw-bold">Стоимость в месяц</p>
-                  <p className="fw-bold">Стоимость в месяц за двух детей</p>
+                  <p className="fw-bold">- за двух детей</p>
                 </td>
                 <td>
-                  <p className="fw-bold">4 000 руб.**</p>
                   <p className="fw-bold">5 000 руб.**</p>
+                  <p className="fw-bold">6 000 руб.**</p>
                 </td>
               </tr>
               <tr className="table-group-divider font-text ">

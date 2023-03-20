@@ -6,22 +6,30 @@ const Documents = () => {
   return (
     <Container fluid id="documents" className="mb-3">
       <Helmet>
-        <meta charSet="utf-8" />
         <title>Правовая информация | Айболит</title>
         <meta
           name="description"
           content="Информация для пациентов. Правовая информация | Айболит"
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
+
         <meta
           name="keywords"
           content="педиатр на дом, узкие специалисты на дом, айболит детская медицинская служба, герцина 68 стр 2, педиатр на дом томск, детский врач на дом, анализы на дому, вакцинация, патронаж новорожденных, программы наблюдения за ребенком"
         />
-        <base href="https://aibolit.tom.ru/pravovaya-informaciya" />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/pravovaya-informaciya"
+          href="https://aibolit.tom.ru/pravovaya-informaciya/"
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta property="og:title" content="Правовая информация | Айболит" />
+        <meta
+          property="og:description"
+          content="Информация для пациентов. Правовая информация | Айболит"
+        />
+        <meta
+          property="og:url"
+          content="https://aibolit.tom.ru/pravovaya-informaciya/"
         />
       </Helmet>
       <div className="page-h1">
@@ -49,7 +57,7 @@ const Documents = () => {
               </svg>
             </div>
             <a
-              href="https://www.aibolit.tom.ru/_files/ugd/8dcff3_d54018d61ef24bf5817197fdb3b5a25d.pdf"
+              href="https://40ef1635-4e4e-44b6-a4b0-e5cdc95496bb.filesusr.com/ugd/8dcff3_d54018d61ef24bf5817197fdb3b5a25d.pdf"
               target="_blank"
               rel="noreferrer"
             >
@@ -76,7 +84,7 @@ const Documents = () => {
               </svg>
             </div>
             <a
-              href="https://www.aibolit.tom.ru/_files/ugd/8dcff3_7a341a77d805401fac170d3fb3456936.pdf"
+              href="https://40ef1635-4e4e-44b6-a4b0-e5cdc95496bb.filesusr.com/ugd/8dcff3_7a341a77d805401fac170d3fb3456936.pdff"
               target="_blank"
               rel="noreferrer"
             >
@@ -103,7 +111,7 @@ const Documents = () => {
               </svg>
             </div>
             <a
-              href="https://www.aibolit.tom.ru/_files/ugd/8dcff3_9a6b81e26e164f159182f60607d79214.pdf"
+              href="https://40ef1635-4e4e-44b6-a4b0-e5cdc95496bb.filesusr.com/ugd/8dcff3_9a6b81e26e164f159182f60607d79214.pdf"
               target="_blank"
               rel="noreferrer"
             >
@@ -131,7 +139,7 @@ const Documents = () => {
               </svg>
             </div>
             <a
-              href="https://www.aibolit.tom.ru/_files/ugd/8dcff3_fb745060ee414da4ab283ea09f79a2bf.pdf"
+              href="https://40ef1635-4e4e-44b6-a4b0-e5cdc95496bb.filesusr.com/ugd/8dcff3_fb745060ee414da4ab283ea09f79a2bf.pdf"
               target="_blank"
               rel="noreferrer"
             >
@@ -158,7 +166,7 @@ const Documents = () => {
               </svg>
             </div>
             <a
-              href="https://www.aibolit.tom.ru/_files/ugd/8dcff3_0897275ecec94c9aa124ebc60b04023f.pdf"
+              href="https://40ef1635-4e4e-44b6-a4b0-e5cdc95496bb.filesusr.com/ugd/8dcff3_607831f6b06c4a6d933980131110b359.pdf"
               target="_blank"
               rel="noreferrer"
             >

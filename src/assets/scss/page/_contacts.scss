@@ -1,9 +1,15 @@
 #contacts {
   .block-map {
-    width: 596px;
-    height: 451px;
+    width: max-content;
     margin: 0 auto;
+    border: 4px solid #496f6e;
   }
+  .door-img, .clock-png , .auto-png{
+    width: 40px;
+    margin-right: 15px;
+  
+  }
+
 }
 @media (max-width: 680px) {
   #contacts {

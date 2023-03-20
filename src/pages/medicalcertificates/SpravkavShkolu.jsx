@@ -14,14 +14,22 @@ const SpravkavShkolu = () => {
           name="description"
           content="Оформление справки в школу для ребенка| Айболит"
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
         <meta
           name="keywords"
           content="вызов педиатра на дом Томск, педиатр на дом, справка в бассейн ребенку, детский врач на дом Томск, анализы на дому, справка ребенку в школу, вызов платного педиатра на дом, лор, невролог на дом, справка ребенку в сад, санаторно-куротная карта ребенку, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
         />
-        <base href="https://aibolit.tom.ru/spravka-v-shkolu" />
-        <link rel="canonical" href="https://aibolit.tom.ru/spravka-v-shkolu" />
+        <link rel="canonical" href="https://aibolit.tom.ru/spravka-v-shkolu/" />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta property="og:title" content="Справка в школу | Айболит" />
+        <meta
+          property="og:description"
+          content="Оформление справки в школу для ребенка| Айболит"
+        />
+        <meta
+          property="og:url"
+          content="https://aibolit.tom.ru/spravka-v-shkolu/"
+        />
       </Helmet>
       <div className="page-h1">
         <h1>Справка в школу</h1>
@@ -136,7 +144,12 @@ const SpravkavShkolu = () => {
           <h5>Медсправка для школы по болезни </h5>
           <div className="d-flex my-4 block-foto">
             <div className="me-4">
-              <img className="size-img" src={SVSimg1} alt={SVSimg1} />
+              <img
+                className="size-img"
+                src={SVSimg1}
+                alt="spravka-v-shkolu"
+                title="Медсправка для школы по болезни"
+              />
             </div>
             <div>
               <p>

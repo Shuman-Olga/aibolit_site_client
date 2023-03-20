@@ -8,24 +8,37 @@ const ProgramTwo = () => {
     <Container fluid id="programtwo">
       <Helmet>
         <title>
-          Программа Здоровый ребенок.Стандарт | Айболит детская медицинская
-          служба
+          Здоровый ребенок Хоум Стандарт ( c 2-х лет) | Айболит детская
+          медицинская служба
         </title>
         <meta
           name="description"
           content="Программа наблюдения 'Здоровый ребенок Хоум. Стандарт' от 2-х лет
           Вашему ребёнку 2 года. Это – особенная эпоха в его жизни, когда малыш начинает осознавать свои желания, учится управлять ими, думать и говорить. А это значит, что здоровье малыша нуждается в профессиональной медицинской защите."
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
         <meta
           name="keywords"
           content="вызов педиатра на дом Томск, программа здоровье ребенка, педиатр на дом, детский врач на дом Томск, анализы на дому, программы наблюдения за ребенком, вызов платного педиатра на дом, патронаж на дому новорожденных, патронаж новорожденного ребенка, невролог на дом, патронаж детей на дому, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
         />
-        <base href="https://aibolit.tom.ru/zdorovyj-rebenok-houm-standart-ot-2" />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/zdorovyj-rebenok-houm-standart-ot-2"
+          href="https://aibolit.tom.ru/zdorovyj-rebenok-houm-standart-ot-2/"
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          property="og:title"
+          content="Программа наблюдения 'Здоровый ребенок Хоум. Стандарт' от 2-х лет
+          Вашему ребёнку 2 года. Это – особенная эпоха в его жизни, когда малыш начинает осознавать свои желания, учится управлять ими, думать и говорить. А это значит, что здоровье малыша нуждается в профессиональной медицинской защите."
+        />
+        <meta
+          property="og:description"
+          content="Программа Здоровый ребенок.Стандарт | Айболит детская медицинская
+          служба"
+        />
+        <meta
+          property="og:url"
+          content="https://aibolit.tom.ru/zdorovyj-rebenok-houm-standart-ot-2/"
         />
       </Helmet>
       <div className="page-h1">
@@ -33,7 +46,12 @@ const ProgramTwo = () => {
       </div>
       <Container className="my-4 text-center">
         <div>
-          <img src={PTimg1} alt="img-program-two" className="progtwo-img" />
+          <img
+            src={PTimg1}
+            alt="img-program-two"
+            className="progtwo-img"
+            title="Здоровый ребенок Хоум Стандарт ( c 2-х лет)"
+          />
           <div className="lh-lg py-4">
             <p>
               Вашему ребёнку 1,5 года.
@@ -77,11 +95,11 @@ const ProgramTwo = () => {
                   <p className="ms-5">Оториноларинголог </p>
                 </td>
                 <td>
-                  <p>.</p>
-                  <p className="fw-bold">1 раз в год</p>
-                  <p className="fw-bold">1 раз в год</p>
-                  <p className="fw-bold">1 раз в год</p>
-                  <p className="fw-bold">1 раз в год</p>
+                  <p>в год</p>
+                  <p className="fw-bold">1 </p>
+                  <p className="fw-bold">1 </p>
+                  <p className="fw-bold">1</p>
+                  <p className="fw-bold">1 </p>
                 </td>
               </tr>
               <tr>
@@ -94,10 +112,10 @@ const ProgramTwo = () => {
                   <p className="ms-5">Кал на яйца глист</p>
                 </td>
                 <td>
-                  <p>.</p>
-                  <p className="fw-bold">1 раз в год</p>
-                  <p className="fw-bold">1 раз в год</p>
-                  <p className="fw-bold">1 раз в год</p>
+                  <p>в год</p>
+                  <p className="fw-bold">1</p>
+                  <p className="fw-bold">1 </p>
+                  <p className="fw-bold">1 </p>
                 </td>
               </tr>
               <tr>
@@ -106,8 +124,8 @@ const ProgramTwo = () => {
                   <p className="ms-5">УЗИ (внутренних органов)</p>
                 </td>
                 <td>
-                  <p>.</p>
-                  <p className="fw-bold">1 раз в год</p>
+                  <p>в год</p>
+                  <p className="fw-bold">1</p>
                 </td>
               </tr>
               <tr>
@@ -152,16 +170,13 @@ const ProgramTwo = () => {
                   <p className="fw-bold">Стоимость в месяц за двух детей</p>
                 </td>
                 <td>
-                  <p className="fw-bold">6 000 руб.**</p>
-                  <p className="fw-bold">8 500 руб.**</p>
+                  <p className="fw-bold">6 500 руб.**</p>
+                  <p className="fw-bold">9 500 руб.**</p>
                 </td>
               </tr>
               <tr className="table-group-divider font-text">
                 <td colSpan="2" className="px-3">
-                  <p>
-                    * стоимость вакцины не входит в программу и оплачивается
-                    отдельно
-                  </p>
+                  <p>* стоимость вакцины входит в программу</p>
                   <p>
                     ** для отдельных районов города и Томского района
                     предусмотрено повышение стоимости услуг в зависимости от

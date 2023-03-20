@@ -37,6 +37,10 @@
   #programs {
     .block-foto {
       flex-direction: column;
+      align-items: center;
+    }
+    .foto{
+      width: 100%;
     }
     .card-prog img {
       display: none;

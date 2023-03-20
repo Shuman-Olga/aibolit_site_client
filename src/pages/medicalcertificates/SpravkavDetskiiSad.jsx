@@ -13,16 +13,24 @@ const SpravkavDetskiiSad = () => {
           name="description"
           content="Оформление справки в детский сад | Айболит"
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
         <meta
           name="keywords"
           content="вызов педиатра на дом Томск, педиатр на дом, справка в бассейн ребенку, детский врач на дом Томск, анализы на дому, справка ребенку в школу, вызов платного педиатра на дом, лор, невролог на дом, справка ребенку в сад, санаторно-куротная карта ребенку, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
         />
-        <base href="https://aibolit.tom.ru/spravka-v-detskii-sad" />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/spravka-v-detskii-sad"
+          href="https://aibolit.tom.ru/spravka-v-detskii-sad/"
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta property="og:title" content="Справка в детский сад | Айболит" />
+        <meta
+          property="og:description"
+          content="Оформление справки в детский сад | Айболит"
+        />
+        <meta
+          property="og:url"
+          content="https://aibolit.tom.ru/spravka-v-detskii-sad/"
         />
       </Helmet>
       <div className="page-h1">
@@ -32,7 +40,12 @@ const SpravkavDetskiiSad = () => {
         <BlockReklama3 />
         <div className="d-flex mt-4 block-foto">
           <div className="me-4">
-            <img className="size-img" src={SVDSimg1} alt="deti-sad" />
+            <img
+              className="size-img"
+              src={SVDSimg1}
+              alt="deti-sad"
+              title="Справка в детский сад"
+            />
           </div>
           <div>
             <p>

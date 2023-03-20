@@ -96,7 +96,7 @@ const ModalCallback = () => {
   return (
     <div id="modalcallback">
       <Button className="btn-showmodal " onClick={handleShow}>
-        <img src={img} alt="home" className="img home" />
+        <img src={img} alt="home" className="img home" title="home" />
         Обратный звонок
       </Button>
 

@@ -11,23 +11,33 @@ const DoctorShevchenko = () => {
   return (
     <Container fluid id="doctor3">
       <Helmet>
-        <meta charSet="utf-8" />
         <title>Шевченко Анастасия Николаевна | педиатр, неонатолог</title>
         <meta
           name="description"
           content="Шевченко Анастасия Николаевна - педиатр, неонатолог. Врач на дом, наблюдение на дому. Анализы - педиатр, неонатолог. Врач на дом, наблюдение на дому. Анализы"
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
         <meta
           name="keywords"
           content="педиатр на дом, узкие специалисты на дом, Шевченко Анастасия Николаевна, вызов педиатра на дом томск, детский врач на дом, неонатолг, анализы на дому, вызов платного педиатра, патронаж новорожденных, программы наблюдения за ребенком"
         />
 
-        <base href="https://aibolit.tom.ru/shevchenko-anastasiya-nikolaevna" />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/shevchenko-anastasiya-nikolaevna"
+          href="https://aibolit.tom.ru/shevchenko-anastasiya-nikolaevna/"
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          property="og:title"
+          content="Шевченко Анастасия Николаевна | педиатр, неонатолог"
+        />
+        <meta
+          property="og:description"
+          content="Шевченко Анастасия Николаевна - педиатр, неонатолог. Врач на дом, наблюдение на дому. Анализы - педиатр, неонатолог. Врач на дом, наблюдение на дому. Анализы"
+        />
+        <meta
+          property="og:url"
+          content="https://aibolit.tom.ru/shevchenko-anastasiya-nikolaevna/"
         />
       </Helmet>
       <div className="page-h1">
@@ -36,19 +46,55 @@ const DoctorShevchenko = () => {
       <Container>
         <Container className="d-flex align-items-start my-4">
           <div className="p-2 border-block">
-            <img src={DShimg1} alt="img-shevshenko " />
+            <img
+              src={DShimg1}
+              alt="img-shevshenko "
+              title="Шевченко Анастасия Николаевна"
+            />
           </div>
           <div className="px-4 ">
             <h4 className="mb-4">
               Врач - педиатр <br />
               Врач - неонатолог
             </h4>
-            <p className="fw-bold">Высшее медицинское образование:</p>
+            <h5>Профессиональные навыки</h5>
+            <ul>
+              <li>Осмотр и ведение пациентов с 0 до 18 лет</li>
+              <li>Диагностика и лечение острых заболеваний</li>
+              <li>Наблюдение детей с хроническими заболеваниями</li>
+              <li>Наблюдение детей первого года жизни</li>
+              <li>
+                Организация рационального вскармливания детей раннего возраста
+              </li>
+              <li>
+                Иммунопрофилактика-определение тактики вакцинации, составление
+                индивидуальных графиков прививок
+              </li>
+            </ul>
+            <h5>Диагностика и лечение заболеваний</h5>
+            <ul>
+              <li>Неонатология</li>
+              <li>Прикормы и докормы</li>
+              <li>Подбор питания</li>
+              <li>Аллергия пищевая</li>
+              <li>Вся педиатрия</li>
+              <li>Вакцинация с 0 лет.</li>
+              <li>ОРЗ</li>
+              <li>Инфекционные заболевания</li>
+              <li>ЦМВ-инфекция</li>
+              <li>Хроническая ЛОР-патология</li>
+              <li>Заболевания у детей ЖКТ и мочевыводящей системы</li>
+            </ul>
+            <p className="fw-bold">
+              Врач осуществляет обслуживание детей на дому.
+            </p>
+            <hr />
+            <h6>Высшее медицинское образование:</h6>
             <p>
               Сибирский государственный медицинский университет ( 1992 )
               "Педиатрия"
             </p>
-            <p className="fw-bold">Сертификаты:</p>
+            <h6>Сертификаты:</h6>
             <p>«Педиатрия» ( 2007 )</p>
             <p>«Педиатрия» (2018)</p>
             <p>«Педиатрия» (2020)</p>
@@ -56,40 +102,60 @@ const DoctorShevchenko = () => {
               «Меры предупреждения распространения коронавирусной инфекции
               (2019-nCoV)» (2020)
             </p>
-            <p className="fw-bold">Стаж работы в области медицины:</p>
+            <h6>Стаж работы в области медицины:</h6>
             <p>с 1992 г.</p>
-            <p className="fw-bold">
-              Врач осуществляет обслуживание детей на дому.
-            </p>
-            <p className="fw-bold">Дополнительная информация: </p>
-            <p>Проводит консультации по иммунопрофилактике (вакцинации)</p>​
           </div>
         </Container>
         <div class="row row-cols-1 row-cols-md-3 g-4 w-75 margin ">
           <div class="col">
             <div class="card">
-              <img src={DShimg2} class="card-img-top" alt="foto" />
+              <img
+                src={DShimg2}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src={DShimg3} class="card-img-top" alt="foto" />
+              <img
+                src={DShimg3}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src={DShimg4} class="card-img-top" alt="foto" />
+              <img
+                src={DShimg4}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src={DShimg5} class="card-img-top" alt="foto" />
+              <img
+                src={DShimg5}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
 
           <div class="col">
             <div class="card">
-              <img src={DShimg6} class="card-img-top" alt="foto" />
+              <img
+                src={DShimg6}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
         </div>

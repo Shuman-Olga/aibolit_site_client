@@ -13,22 +13,32 @@ const DoctorPetuhova = () => {
   return (
     <Container fluid id="doctor2">
       <Helmet>
-        <meta charSet="utf-8" />
         <title>Петухова Ольга Викторовна | педиатр, гастроэнтеролог</title>
         <meta
           name="description"
           content="Петухова Ольга Викторовна - педиатр, гастроэнтеролог. Врач на дом, Программы наблюдение на дому. Анализы."
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
         <meta
           name="keywords"
           content="педиатр на дом, гастроэнтеролог на дом томск, Петухова Ольга Викторовна, педиатр на дом томск, детский врач на дом, анализы на дому, гастроэнеролог на дом, патронаж новорожденных, программы наблюдения за ребенком"
         />
-        <base href="https://aibolit.tom.ru/petuhova-olga-viktorovna" />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/petuhova-olga-viktorovna"
+          href="https://aibolit.tom.ru/petuhova-olga-viktorovna/"
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          property="og:title"
+          content="Петухова Ольга Викторовна | педиатр, гастроэнтеролог"
+        />
+        <meta
+          property="og:description"
+          content="Петухова Ольга Викторовна - педиатр, гастроэнтеролог. Врач на дом, Программы наблюдение на дому. Анализы."
+        />
+        <meta
+          property="og:url"
+          content="https://aibolit.tom.ru//petuhova-olga-viktorovna/"
         />
       </Helmet>
       <div className="page-h1">
@@ -37,7 +47,11 @@ const DoctorPetuhova = () => {
       <Container>
         <Container className="d-flex align-items-start my-4">
           <div className="p-2 border-block">
-            <img src={DPimg1} alt="img-petuhova " />
+            <img
+              src={DPimg1}
+              alt="img-petuhova "
+              title="Петухова Ольга Викторовна"
+            />
           </div>
           <div className="px-4">
             <h4 className="mb-4">
@@ -45,7 +59,44 @@ const DoctorPetuhova = () => {
               <br /> Врач-педиатр <br />
               Гастроэнтеролог
             </h4>
-            <p className="fw-bold">Высшее медицинское образование:</p>
+            <h5>Педиатрия:</h5>
+            <ul>
+              <li>
+                Диагностика и лечение острых заболевай: ринит, конъюнктивит,
+                фарингит, тонзиллит, ларингит, трахеит, бронхит, пневмония,
+                цистит, пиелонефрит, кишечные инфекции)
+              </li>
+              <li>
+                Оценка состояния здоровья перед вакцинацией, составление
+                индивидуального графика прививок
+              </li>
+              <li>Осмотр и ведение пациентов с 0 лет</li>
+              <li>
+                Консультация по грудному вскармливанию, искусственному
+                вскармливанию
+              </li>
+              <li>Выявление патологий, назначение обследований и лечения</li>
+            </ul>
+            <h5>Диагностика и лечение заболеваний</h5>
+            <ul>
+              <li>Любые заболевания кишечника у детей.</li>
+              <li>хронических гастрит, ассоциированный с НР-инфекцией</li>
+              <li>язвенная болезнь желудка, двенадцатиперстной кишки</li>
+              <li>гастроэзофагеальная рефлюксная болезнь</li>
+              <li>
+                заболевания желчевыводящих путей, желчного пузыря, поджелудочной
+                железы
+              </li>
+              <li>гепатиты различной этиологии</li>
+              <li>хронические запоры</li>
+              <li>синдром бактериального роста в кишечнике</li>
+              <li>паразитарные заболевания кишечника</li>
+            </ul>
+            <p className="fw-bold">
+              Врач осуществляет обслуживание детей на дому.
+            </p>
+            <hr />
+            <h6>Высшее медицинское образование:</h6>
             <p>
               Сибирский государственный медицинский университет ( 1997 )
               "Педиатрия"
@@ -59,53 +110,83 @@ const DoctorPetuhova = () => {
               Сибирский государственный медицинский университет ( 2014 )
               Повышение квалификации "Педиатрия "
             </p>
-            <p className="fw-bold">Сертификаты:</p>
+            <h6>Сертификаты:</h6>
             <p>«Педиатрия» ( 1998 )</p>
             <p>«Педиатрия» (2013)</p>
             <p>«Педиатрия» (2019)</p>
-            <p className="fw-bold">Стаж работы в области медицины:</p>
+            <h6>Стаж работы в области медицины:</h6>
             <p>с 1997 г.</p>
-            <p className="fw-bold">
-              Врач осуществляет обслуживание детей на дому.
-            </p>
-            <p className="fw-bold">Дополнительная информация: </p>
-            <p>Проводит консультации по иммунопрофилактике (вакцинации)</p>​
           </div>
         </Container>
         <div class="row row-cols-1 row-cols-md-3 g-4 w-75 margin ">
           <div class="col">
             <div class="card">
-              <img src={DPimg2} class="card-img-top" alt="foto" />
+              <img
+                src={DPimg2}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src={DPimg3} class="card-img-top" alt="foto" />
+              <img
+                src={DPimg3}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src={DPimg4} class="card-img-top" alt="foto" />
+              <img
+                src={DPimg4}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src={DPimg5} class="card-img-top" alt="foto" />
+              <img
+                src={DPimg5}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src={DPimg6} class="card-img-top" alt="foto" />
+              <img
+                src={DPimg6}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src={DPimg7} class="card-img-top" alt="foto" />
+              <img
+                src={DPimg7}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src={DPimg8} class="card-img-top" alt="foto" />
+              <img
+                src={DPimg8}
+                class="card-img-top"
+                alt="foto"
+                title="Сертификат-диплом"
+              />
             </div>
           </div>
         </div>

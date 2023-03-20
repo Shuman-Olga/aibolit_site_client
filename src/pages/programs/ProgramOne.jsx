@@ -13,16 +13,28 @@ const ProgramOne = () => {
           content="Программа наблюдения 'Малыш Хоум. Стандарт' от 0 до 2-х лет
           Первый год жизни ребёнка особенно важен: именно в возрасте от 0 до года закладываются основы нашего здоровья. "
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
         <meta
           name="keywords"
           content="вызов педиатра на дом Томск, программа здоровье ребенка, педиатр на дом, детский врач на дом Томск, анализы на дому, программы наблюдения за ребенком, вызов платного педиатра на дом, патронаж на дому новорожденных, патронаж новорожденного ребенка, невролог на дом, патронаж детей на дому, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
         />
-        <base href="https://aibolit.tom.ru/malysh-houm-standart-ot-0-do-2-h-le" />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/malysh-houm-standart-ot-0-do-2-h-le"
+          href="https://aibolit.tom.ru/malysh-houm-standart-ot-0-do-2-h-le/"
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          property="og:title"
+          content="Программа Мылыш.Хоум | Айболит детская медицинская служба"
+        />
+        <meta
+          property="og:description"
+          content="Программа наблюдения 'Малыш Хоум. Стандарт' от 0 до 2-х лет
+          Первый год жизни ребёнка особенно важен: именно в возрасте от 0 до года закладываются основы нашего здоровья. "
+        />
+        <meta
+          property="og:url"
+          content="https://aibolit.tom.ru/malysh-houm-standart-ot-0-do-2-h-le/"
         />
       </Helmet>
       <div className="page-h1">
@@ -30,7 +42,12 @@ const ProgramOne = () => {
       </div>
       <Container className="my-4 text-center">
         <div>
-          <img src={POimg1} alt="img-program-one" className="progone-img" />
+          <img
+            src={POimg1}
+            alt="img-program-one"
+            className="progone-img"
+            title="Программа Мылыш.Хоум | Айболит детская медицинская служба"
+          />
           <div className="lh-lg py-4">
             <p>
               Первый год жизни ребёнка особенно важен: именно в возрасте от 0 до
@@ -73,11 +90,11 @@ const ProgramOne = () => {
                   <p className="ms-5">Оториноларинголог </p>
                 </td>
                 <td>
-                  <p>.</p>
-                  <p className="fw-bold">6 раз</p>
-                  <p className="fw-bold">4 раза</p>
-                  <p className="fw-bold">4 раза</p>
-                  <p className="fw-bold">1 раз</p>
+                  <p>Кол-во</p>
+                  <p className="fw-bold">6</p>
+                  <p className="fw-bold">4</p>
+                  <p className="fw-bold">4</p>
+                  <p className="fw-bold">1</p>
                 </td>
               </tr>
               <tr>
@@ -92,12 +109,12 @@ const ProgramOne = () => {
                   <p className="ms-5">Глюкоза крови </p>
                 </td>
                 <td>
-                  <p>.</p>
-                  <p className="fw-bold">3 раза</p>
-                  <p className="fw-bold">3 раза</p>
-                  <p className="fw-bold">1 раз</p>
+                  <p>Кол-во</p>
+                  <p className="fw-bold">3</p>
+                  <p className="fw-bold">3</p>
+                  <p className="fw-bold">1</p>
                   <p className="fw-bold">по назначению</p>
-                  <p className="fw-bold">1 раз</p>
+                  <p className="fw-bold">1</p>
                 </td>
               </tr>
               <tr>
@@ -110,10 +127,10 @@ const ProgramOne = () => {
                   <p className="ms-5">УЗИ головного мозга (нейросонография) </p>
                 </td>
                 <td>
-                  <p>.</p>
-                  <p className="fw-bold">1 раз в год</p>
-                  <p className="fw-bold">1 раз в год</p>
-                  <p className="fw-bold">1 раз в год</p>
+                  <p>Кол-во(в год)</p>
+                  <p className="fw-bold">1</p>
+                  <p className="fw-bold">1</p>
+                  <p className="fw-bold">1</p>
                 </td>
               </tr>
               <tr>
@@ -165,19 +182,23 @@ const ProgramOne = () => {
               <tr className="fs-5 table-group-divider table-info">
                 <td className="px-3">
                   <p className="fw-bold">Стоимость в месяц</p>
-                  <p className="fw-bold">Стоимость в месяц за двух детей</p>
+                  <p className="fw-bold">- за двух детей</p>
                 </td>
                 <td>
-                  <p className="fw-bold">8 000 руб.**</p>
-                  <p className="fw-bold">12 000 руб.**</p>
+                  <p className="fw-bold">8 500 руб.**</p>
+                  <p className="fw-bold">13 000 руб.**</p>
                 </td>
               </tr>
               <tr className="table-group-divider font-text">
                 <td colSpan="2" className="px-3">
-                  <p>
-                    * стоимость вакцины не входит в программу и оплачивается
-                    отдельно
-                  </p>
+                  <a
+                    href="https://40ef1635-4e4e-44b6-a4b0-e5cdc95496bb.filesusr.com/ugd/8dcff3_f7f82ada31344d81934dab2546270919.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    ПРИЛОЖЕНИЕ к договору
+                  </a>
+                  <p>* стоимость вакцины входит в программу</p>
                   <p>
                     ** для отдельных районов города и Томского района
                     предусмотрено повышение стоимости услуг в зависимости от

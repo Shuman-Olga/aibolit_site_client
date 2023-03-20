@@ -1,5 +1,8 @@
 import { Container } from "react-bootstrap";
 import { Helmet } from "react-helmet";
+import Cimg1 from "../assets/img/door.png";
+import Cimg2 from "../assets/img/auto.png";
+import Cimg3 from "../assets/img/time.png";
 
 const Contacts = () => {
   return (
@@ -11,14 +14,23 @@ const Contacts = () => {
           content="АЙболит детская медицинская служба, Наш адрес: ул. Герце на 68, стр.2, г. Томск.
           Наш телефон +7 (3822) 60-92-43"
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
         <meta
           name="keywords"
           content="ул. Герцена 68, айболит детская медицинская служба, педиатр на дом, вызов педиатра на дом, вызов платного педиатра, обслуживание на дому, патронаж новорожденного"
         />
-        <base href="https://aibolit.tom.ru/kontakty" />
-        <link rel="canonical" href="https://aibolit.tom.ru/kontakty" />
+        <link rel="canonical" href="https://aibolit.tom.ru/kontakty/" />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          property="og:title"
+          content="Контакты | Айболит-детская медицинская служба"
+        />
+        <meta
+          property="og:description"
+          content="АЙболит детская медицинская служба, Наш адрес: ул. Герце на 68, стр.2, г. Томск.
+          Наш телефон +7 (3822) 60-92-43"
+        />
+        <meta property="og:url" content="https://aibolit.tom.ru/kontakty/" />
       </Helmet>
       <div className="page-h1">
         <h1>ООО "Айболит" Детская медицинская служба контакты</h1>
@@ -26,6 +38,9 @@ const Contacts = () => {
       <Container className="my-4">
         <div className="d-flex justify-content-between fs-6 position">
           <div>
+            <p>
+              <span className="fw-bold">Наши контакты:</span>
+            </p>
             <p>
               <span className="fw-bold">Телефон:</span> +7 (3822) 60-92-43
             </p>
@@ -45,7 +60,7 @@ const Contacts = () => {
           </div>
           <div>
             <p>
-              <span className="fw-bold">Реквизиты:</span>
+              <span className="fw-bold">Наши реквизиты:</span>
             </p>
             <p>ООО "Айболит" </p>
             <p>ИНН 7017262021</p>
@@ -59,7 +74,15 @@ const Contacts = () => {
           </div>
         </div>
         <div className="text-center mt-5 fs-6">
-          <h3 className="fs-4">РЕЖИМ РАБОТЫ</h3>
+          <h3 className="fs-4">
+            <img
+              src={Cimg3}
+              alt="clock"
+              className="clock-png"
+              title="Режим работы Айболит"
+            />
+            Режим работы детской медицинской слжбы "Айболит"
+          </h3>
           <div className="d-flex justify-content-center">
             <hr className="w-50" />
           </div>
@@ -72,17 +95,27 @@ const Contacts = () => {
         </div>
         <div className="block-map my-3">
           <iframe
-            className="_3Xz9Z"
             title="Embedded Content"
-            name="htmlComp-iframe"
-            width="100%"
-            height="100%"
-            data-src=""
-            src="https://www-aibolit-tom-ru.filesusr.com/html/8dcff3_b0327e9bf52a52736c5dfdbd52e35f6e.html"
+            src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=1788754562"
+            width="560"
+            height="400"
+            frameborder="0"
           ></iframe>
         </div>
+        <hr />
         <div className="mb-2 fs-6">
-          <p>Ближайшие остановки общественного транспорта:</p>
+          <p>
+            <span className="fw-bold">Как проехать:</span>
+          </p>
+          <p>
+            <img
+              src={Cimg2}
+              alt="auto-png"
+              className="auto-png"
+              title="Ближайшие остановки общественного транспорта"
+            />
+            Ближайшие остановки общественного транспорта:
+          </p>
           <ul>
             <li>
               <p>Енисейская (трамвай №1, 2а, 4)</p>
@@ -99,6 +132,12 @@ const Contacts = () => {
               </p>
             </li>
           </ul>
+          <p>
+            <br />
+            <img src={Cimg1} alt="door-png" className="door-img" title="вход" />
+            Торговый центр Extra, вход с торца через "ТомОко", 3 этаж. <br />
+            Возле Extra есть парковка.
+          </p>
         </div>
       </Container>
     </Container>

@@ -24,6 +24,11 @@ import SanatornoKurortnayaKarta from "../pages/medicalcertificates/SanatornoKuro
 import SpravkavShkolu from "../pages/medicalcertificates/SpravkavShkolu";
 import SpravkavDetskiiSad from "../pages/medicalcertificates/SpravkavDetskiiSad";
 import SpravkavBassein from "../pages/medicalcertificates/SpravkavBassein";
+import Blog from "../pages/Blog";
+import Post1 from "../pages/posts/Post1";
+import Post2 from "../pages/posts/Post2";
+import Post3 from "../pages/posts/Post3";
+import Post4 from "../pages/posts/Post4";
 
 const publicRoutes = [
   // главная страница
@@ -62,6 +67,14 @@ const publicRoutes = [
   { path: "/prices/", Component: Prices },
   // страница контакты
   { path: "/kontakty/", Component: Contacts },
+  // страница блога
+  { path: "/blog/", Component: Blog },
+  // посты
+  { path: "/post/detskij-nevrolog-na-dom/", Component: Post1 },
+  { path: "/post/klendar-vakcinacija/", Component: Post2 },
+  { path: "/post/detskij-hirurg-na-dom/", Component: Post3 },
+  { path: "/post/patronaj_novorojdennogo/", Component: Post4 },
+
   // страница ошибки
   { path: "*", Component: NotFound },
 ];

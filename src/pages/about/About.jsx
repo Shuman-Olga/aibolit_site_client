@@ -8,27 +8,40 @@ const About = () => {
   return (
     <Container fluid id="about">
       <Helmet>
-        <meta charSet="utf-8" />
-        <title> Айболит-детская медицинская служба|О нас</title>
+        <title>Айболит-детская медицинская служба|О нас</title>
         <meta
           name="description"
           content="Детская медицинская служба 'Айболит' предлагает программы наблюдения за детьми на дому. Вакцинация. Анализвы на ДОМУ. Патронаж новорожденных."
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
+
         <meta
           name="keywords"
           content="педиатр на дом, узкие специалисты на дом, айболит детская медицинская служба, герцина 68 стр 2, педиатр на дом томск, детский врач на дом, анализы на дому, вакцинация, патронаж новорожденных, программы наблюдения за ребенком"
         />
-        <base href="https://aibolit.tom.ru/o-nas" />
-        <link rel="canonical" href="https://aibolit.tom.ru/o-nas" />
+        <link rel="canonical" href="https://aibolit.tom.ru/o-nas/" />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          property="og:title"
+          content="Айболит-детская медицинская служба|О нас"
+        />
+        <meta
+          property="og:description"
+          content="Детская медицинская служба 'Айболит' предлагает программы наблюдения за детьми на дому. Вакцинация. Анализвы на ДОМУ. Патронаж новорожденных."
+        />
+        <meta property="og:url" content="https://aibolit.tom.ru/o-nas/" />
       </Helmet>
       <div className="page-h1">
         <h1>О нас</h1>
       </div>
       <Container>
         <div className="info-about d-flex justify-content-between mt-5">
-          <img src={fotoinfo} alt="foto-aibolot" className=" foto" />
+          <img
+            src={fotoinfo}
+            alt="foto-aibolot"
+            className=" foto"
+            title="foto"
+          />
           <NavMini />
         </div>
         <div className="text mt-4">

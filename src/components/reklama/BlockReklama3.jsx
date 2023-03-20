@@ -10,31 +10,31 @@ const BlockReklama3 = () => {
     >
       <div className="block-reklama d-flex">
         <div className="block-img">
-          <img src={BRimg3} alt="img-reklama " className="" />
+          <img src={BRimg3} alt="img-reklama " title="reklama" />
         </div>
 
         <div className="blockback text-center px-5 py-3">
           <NavLink
-            to="/programmy-nablyudeniya-za-zdorovem"
+            to="/programmy-nablyudeniya-za-zdorovem/"
             className="nav-link fs-5 mb-3"
           >
             Комплексные программы для детей
           </NavLink>
           <Nav>
             <NavLink
-              to="/malysh-houm-standart-ot-0-do-2-h-le"
+              to="/malysh-houm-standart-ot-0-do-2-h-le/"
               className="nav-link"
             >
               "Малыш Хоум. Стандарт" от 0 до 2-х лет
             </NavLink>
             <NavLink
-              to="/zdorovyj-rebenok-houm-standart-ot-2"
+              to="/zdorovyj-rebenok-houm-standart-ot-2/"
               className="nav-link"
             >
               "Здоровый ребенок Хоум. Стандарт" от 2-х лет
             </NavLink>
             <NavLink
-              to="/zdorovyj-rebenok-houm-midi-ot-2-h-l"
+              to="/zdorovyj-rebenok-houm-midi-ot-2-h-l/"
               className="nav-link"
             >
               "Здоровый ребенок Хоум. Педиатр рядом" от 2-х лет

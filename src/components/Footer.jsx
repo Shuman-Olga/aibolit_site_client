@@ -13,34 +13,34 @@ const Footer = () => {
           <NavLink to="/" className="nav-link">
             Главная
           </NavLink>
-          <NavLink to="/o-nas" className="nav-link">
+          <NavLink to="/o-nas/" className="nav-link">
             О нас
           </NavLink>
-          <NavLink to="/prices" className="nav-link">
+          <NavLink to="/prices/" className="nav-link">
             Цены
           </NavLink>
           <NavLink
-            to="/programmy-nablyudeniya-za-zdorovem"
+            to="/programmy-nablyudeniya-za-zdorovem/"
             className="nav-link"
           >
             Программы
           </NavLink>
-          <NavLink to="/uslugi-i-ceny" className="nav-link">
+          <NavLink to="/uslugi-i-ceny/" className="nav-link">
             Услуги
           </NavLink>
-          <NavLink to="/kontakty" className="nav-link">
+          <NavLink to="/kontakty/" className="nav-link">
             Контакты
           </NavLink>
         </Nav>
       </div>
       <div className="text-center">
-        <img src={logo} alt="logo" className="w-25 img mb-4" />
+        <img src={logo} alt="logo" className="w-25 img mb-4" title="logo" />
         <a href="mailto:aibolittom70@gmail.com" target="_self" className="fs-4">
           <p className="email">aibolittom70@gmail.com</p>
         </a>
         <p className="adress">г. Томск, ул. Герцена 68, строение 2</p>
         <a href="https://vk.com/aibolittomsk">
-          <img src={vkimg} alt="logo-vk" className="img-vk mt-4" />
+          <img src={vkimg} alt="logo-vk" className="img-vk mt-4" title="vk" />
         </a>
       </div>
       <div className="block-3">

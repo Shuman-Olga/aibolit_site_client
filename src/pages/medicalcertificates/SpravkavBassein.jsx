@@ -13,14 +13,28 @@ const SpravkavBassein = () => {
           name="description"
           content="Оформление справки в бассейн для ребенка на дому | Айболит"
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
         <meta
           name="keywords"
           content="вызов педиатра на дом Томск, педиатр на дом, справка в бассейн ребенку, детский врач на дом Томск, анализы на дому, справка ребенку в школу, вызов платного педиатра на дом, лор, невролог на дом, справка ребенку в сад, санаторно-куротная карта ребенку, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
         />
-        <base href="https://aibolit.tom.ru/spravka-v-basseint" />
-        <link rel="canonical" href="https://aibolit.tom.ru/spravka-v-bassein" />
+        <link
+          rel="canonical"
+          href="https://aibolit.tom.ru/spravka-v-bassein/"
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          property="og:title"
+          content="Справка в бассейн для ребенка | Айболит"
+        />
+        <meta
+          property="og:description"
+          content="Оформление справки в бассейн для ребенка на дому | Айболит"
+        />
+        <meta
+          property="og:url"
+          content="https://aibolit.tom.ru/spravka-v-bassein/"
+        />
       </Helmet>
       <div className="page-h1">
         <h1>Справка в бассейн для ребенка</h1>
@@ -29,7 +43,12 @@ const SpravkavBassein = () => {
         <BlockReklama3 />
         <div className="d-flex mt-4 block-foto">
           <div className="me-4">
-            <img className="size-img" src={SBimg1} alt="rebenok-bassein" />
+            <img
+              className="size-img"
+              src={SBimg1}
+              alt="rebenok-bassein"
+              title="rebenok-bassein"
+            />
           </div>
           <div>
             <p>
@@ -54,8 +73,8 @@ const SpravkavBassein = () => {
             <li>педиатр.</li>
           </ul>
           <p>
-            В процессе оформления справки оценивается состояние здоровья в
-            целом, наличие или отсутствие противопоказаний.
+            В процессе оформления оценивается состояние здоровья в целом,
+            наличие или отсутствие противопоказаний.
           </p>
           <p>
             Срок действия мед. справки для детей в бассейн составляет 3-6

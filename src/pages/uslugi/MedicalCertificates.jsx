@@ -19,23 +19,34 @@ const MedicalCertificates = () => {
           name="description"
           content="Справка ребенку в Томске, Анализы на дому, Врач на дом, Анализы"
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Айболит" />
         <meta
           name="keywords"
           content="вызов педиатра на дом Томск, педиатр на дом, детский врач на дом Томск, анализы на дому, справка ребенку в школу, вызов платного педиатра на дом, лор, невролог на дом, справка ребенку в сад, санаторно-куротная карта ребенку, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
         />
-        <base href="https://aibolit.tom.ru/medicinskie-spravki-rebenku" />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/medicinskie-spravki-rebenku"
+          href="https://aibolit.tom.ru/medicinskie-spravki-rebenku/"
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Айболит" />
+        <meta
+          property="og:title"
+          content="Медицинские справки ребенку Томск | Айболит"
+        />
+        <meta
+          property="og:description"
+          content="Справка ребенку в Томске, Анализы на дому, Врач на дом, Анализы"
+        />
+        <meta
+          property="og:url"
+          content="https://aibolit.tom.ru/medicinskie-spravki-rebenku/"
         />
       </Helmet>
       <div className="page-h1">
         <h1>Медицинские справки ребенку</h1>
       </div>
+      <BlockReklama2 />
       <Container>
-        <BlockReklama2 />
         <p>
           Детская медицинская служба "Айболит" оказывает услуги по оформлению
           справок для детских садов, школ, санаторного лечения, бассейнов и др.
@@ -46,7 +57,10 @@ const MedicalCertificates = () => {
           справок, выгодные цены и внимательное отношение к здоровью ваших
           детей.
         </p>
-        <NavLink to="/sanatorno-kurortnaya-karta-dlya-det" className="nav-link">
+        <NavLink
+          to="/sanatorno-kurortnaya-karta-dlya-det/"
+          className="nav-link"
+        >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
               <h3>Санаторно-курортная карта для детей</h3>
@@ -54,7 +68,11 @@ const MedicalCertificates = () => {
 
             <div className="d-flex block-foto">
               <div>
-                <img src={MCimg1} alt="foto" />
+                <img
+                  src={MCimg1}
+                  alt="foto"
+                  title="Санаторно-курортная карта для детей"
+                />
               </div>
               <div className="p-3">
                 <p>
@@ -69,7 +87,7 @@ const MedicalCertificates = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/spravka-v-shkolu" className="nav-link">
+        <NavLink to="/spravka-v-shkolu/" className="nav-link">
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
               <h3>Справка в школу</h3>
@@ -77,7 +95,7 @@ const MedicalCertificates = () => {
 
             <div className="d-flex block-foto">
               <div>
-                <img src={MCimg2} alt="foto" />
+                <img src={MCimg2} alt="foto" title="Справка в школу" />
               </div>
               <div className="p-3">
                 <p>
@@ -92,7 +110,7 @@ const MedicalCertificates = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/spravka-v-detskii-sad" className="nav-link">
+        <NavLink to="/spravka-v-detskii-sad/" className="nav-link">
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
               <h3>Справка в детский сад</h3>
@@ -100,7 +118,7 @@ const MedicalCertificates = () => {
 
             <div className="d-flex block-foto">
               <div>
-                <img src={MCimg3} alt="foto" />
+                <img src={MCimg3} alt="foto" title="Справка в детский сад" />
               </div>
               <div className="p-3">
                 <p>
@@ -113,7 +131,7 @@ const MedicalCertificates = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/spravka-v-bassein" className="nav-link">
+        <NavLink to="/spravka-v-bassein/" className="nav-link">
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
               <h3>Справка в бассейн для ребенка</h3>
@@ -121,7 +139,11 @@ const MedicalCertificates = () => {
 
             <div className="d-flex block-foto">
               <div>
-                <img src={MCimg4} alt="foto" />
+                <img
+                  src={MCimg4}
+                  alt="foto"
+                  title="Справка в бассейн для ребенка"
+                />
               </div>
               <div className="p-3">
                 <p>
@@ -134,7 +156,7 @@ const MedicalCertificates = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/medicinskie-spravki-rebenku" className="nav-link">
+        <NavLink to="/medicinskie-spravki-rebenku/" className="nav-link">
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
               <h3>Справка о состоянии здоровья ребенка</h3>
@@ -142,7 +164,11 @@ const MedicalCertificates = () => {
 
             <div className="d-flex block-foto">
               <div>
-                <img src={MCimg5} alt="foto" />
+                <img
+                  src={MCimg5}
+                  alt="foto"
+                  title="Справка о состоянии здоровья ребенка"
+                />
               </div>
               <div className="p-3">
                 <p>
@@ -158,7 +184,7 @@ const MedicalCertificates = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/medicinskie-spravki-rebenku" className="nav-link">
+        <NavLink to="/medicinskie-spravki-rebenku/" className="nav-link">
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
               <h3>Справка по форме №026/у</h3>
@@ -166,7 +192,7 @@ const MedicalCertificates = () => {
 
             <div className="d-flex block-foto">
               <div>
-                <img src={MCimg6} alt="foto" />
+                <img src={MCimg6} alt="foto" title="Справка по форме №026/у" />
               </div>
               <div className="p-3">
                 <p>
@@ -180,7 +206,7 @@ const MedicalCertificates = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/medicinskie-spravki-rebenku" className="nav-link">
+        <NavLink to="/medicinskie-spravki-rebenku/" className="nav-link">
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
               <h3>Справка в детский лагерь</h3>
@@ -188,7 +214,11 @@ const MedicalCertificates = () => {
 
             <div className="d-flex block-foto">
               <div>
-                <img src={MCimg7} alt="foto" />
+                <img
+                  src={MCimg7}
+                  alt="foto"
+                  title="Справка в детский лагерь<"
+                />
               </div>
               <div className="p-3">
                 <p>
