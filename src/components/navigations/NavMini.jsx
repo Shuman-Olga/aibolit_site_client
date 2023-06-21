@@ -41,16 +41,19 @@ const NavMini = () => {
       </div>
       <div className="position-absolute nav-position">
         <Nav className="flex-column ">
-          <NavLink to="/kontroliruyushie-organizacii/" className="nav-link">
+          <NavLink
+            to="/o-nas/kontroliruyushie-organizacii/"
+            className="nav-link"
+          >
             Контролирующие органы
           </NavLink>
-          <NavLink to="/licenzii/" className="nav-link">
+          <NavLink to="/o-nas/licenzii/" className="nav-link">
             Лицензии
           </NavLink>
-          <NavLink to="/pravovaya-informaciya/" className="nav-link">
+          <NavLink to="/o-nas/pravovaya-informaciya/" className="nav-link">
             Документы
           </NavLink>
-          <NavLink to="/nashi-partnery/" className="nav-link">
+          <NavLink to="/o-nas/nashi-partnery/" className="nav-link">
             Наши партнеры
           </NavLink>
         </Nav>

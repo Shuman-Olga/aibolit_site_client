@@ -11,33 +11,35 @@ const DoctorShevchenko = () => {
   return (
     <Container fluid id="doctor3">
       <Helmet>
-        <title>Шевченко Анастасия Николаевна | педиатр, неонатолог</title>
+        <title>
+          Шевченко Анастасия Николаевна - педиатр, врач - неонатолог
+        </title>
         <meta
           name="description"
-          content="Шевченко Анастасия Николаевна - педиатр, неонатолог. Врач на дом, наблюдение на дому. Анализы - педиатр, неонатолог. Врач на дом, наблюдение на дому. Анализы"
+          content="Шевченко Анастасия Николаевна - педиатр, неонатолог. Врач на дом, наблюдение на дому. Анализы. Педиатр, неонатолог"
         />
         <meta
           name="keywords"
-          content="педиатр на дом, узкие специалисты на дом, Шевченко Анастасия Николаевна, вызов педиатра на дом томск, детский врач на дом, неонатолг, анализы на дому, вызов платного педиатра, патронаж новорожденных, программы наблюдения за ребенком"
+          content="шевченко анастасия николаевна, вызов педиатра на дом томск, детский врач на дом, неонатолг томск, платный педиатр томск, патронаж новорожденного"
         />
 
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/shevchenko-anastasiya-nikolaevna/"
+          href="https://aibolit.tom.ru/doctor/shevchenko-anastasiya-nikolaevna/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
         <meta
           property="og:title"
-          content="Шевченко Анастасия Николаевна | педиатр, неонатолог"
+          content="Шевченко Анастасия Николаевна - педиатр, врач - неонатолог"
         />
         <meta
           property="og:description"
-          content="Шевченко Анастасия Николаевна - педиатр, неонатолог. Врач на дом, наблюдение на дому. Анализы - педиатр, неонатолог. Врач на дом, наблюдение на дому. Анализы"
+          content="Шевченко Анастасия Николаевна - педиатр, неонатолог. Врач на дом, наблюдение на дому. Анализы. Педиатр, неонатолог"
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/shevchenko-anastasiya-nikolaevna/"
+          content="https://aibolit.tom.ru/doctor/shevchenko-anastasiya-nikolaevna/"
         />
       </Helmet>
       <div className="page-h1">

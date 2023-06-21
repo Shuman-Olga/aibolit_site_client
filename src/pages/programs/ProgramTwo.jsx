@@ -22,7 +22,7 @@ const ProgramTwo = () => {
         />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/zdorovyj-rebenok-houm-standart-ot-2/"
+          href="https://aibolit.tom.ru/programmy-nablyudeniya-za-zdorovem/zdorovyj-rebenok-houm-standart-ot-2/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
@@ -38,7 +38,7 @@ const ProgramTwo = () => {
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/zdorovyj-rebenok-houm-standart-ot-2/"
+          content="https://aibolit.tom.ru/programmy-nablyudeniya-za-zdorovem/zdorovyj-rebenok-houm-standart-ot-2/"
         />
       </Helmet>
       <div className="page-h1">
@@ -52,7 +52,7 @@ const ProgramTwo = () => {
             className="progtwo-img"
             title="Здоровый ребенок Хоум Стандарт ( c 2-х лет)"
           />
-          <div className="lh-lg py-4">
+          <div className="lh-lg py-4" align="justify">
             <p>
               Вашему ребёнку 1,5 года.
               <br /> Это – особенная эпоха в его жизни, когда малыш начинает

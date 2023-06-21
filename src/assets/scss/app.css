@@ -228,6 +228,20 @@ body {
   margin: 1rem 0;
 }
 
+@media (max-width: 1024px) {
+  #doctor1 .d-flex,
+  #doctor2 .d-flex,
+  #doctor3 .d-flex,
+  #doctor4 .d-flex {
+    flex-direction: column;
+  }
+  #doctor1 .px-4,
+  #doctor2 .px-4,
+  #doctor3 .px-4,
+  #doctor4 .px-4 {
+    margin-top: 1rem;
+  }
+}
 #services .w-75, #medical-certificates .w-75 {
   margin: 0 auto;
 }
@@ -245,8 +259,8 @@ body {
     width: 100% !important;
   }
 }
-#santornokurortnyakarta .size-img {
-  width: 35vw;
+#santornokurortnyakarta .size-img, #spravkazdorove .size-img {
+  width: 25vw;
 }
 
 @media (max-width: 1200px) {
@@ -287,6 +301,11 @@ body {
   width: 450px;
   float: left;
   margin: 10px 20px 2px 0px;
+}
+#post .size-img-l {
+  width: 450px;
+  float: right;
+  margin: 10px 0px 2px 20px;
 }
 #post .size-cont {
   width: 900px;
@@ -538,7 +557,7 @@ body {
   box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
 #workonholidays .block-message img {
-  width: 50px;
+  width: 70px;
 }
 #workonholidays p {
   margin: 0;
@@ -623,6 +642,9 @@ body {
   -webkit-text-decoration: underline solid #e6a400;
           text-decoration: underline solid #e6a400;
   cursor: pointer;
+}
+#blockcontacts iframe {
+  border: 0;
 }
 
 @media (max-width: 1100px) {

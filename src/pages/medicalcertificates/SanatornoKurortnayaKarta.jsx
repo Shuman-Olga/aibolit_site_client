@@ -15,11 +15,11 @@ const SanatornoKurortnayaKarta = () => {
         />
         <meta
           name="keywords"
-          content="вызов педиатра на дом Томск, педиатр на дом, детский врач на дом Томск, анализы на дому, справка ребенку в школу, вызов платного педиатра на дом, лор, невролог на дом, справка ребенку в сад, санаторно-куротная карта ребенку, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
+          content="санаторно курортная карта, оформление санаторно курортной карты детям томск, анализы на дому"
         />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/sanatorno-kurortnaya-karta-dlya-det/"
+          href="https://aibolit.tom.ru/uslugi-i-ceny/medicinskie-spravki-rebenku/sanatorno-kurortnaya-karta-dlya-det/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
@@ -33,7 +33,7 @@ const SanatornoKurortnayaKarta = () => {
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/sanatorno-kurortnaya-karta-dlya-det/"
+          content="https://aibolit.tom.ru/uslugi-i-ceny/medicinskie-spravki-rebenku/sanatorno-kurortnaya-karta-dlya-det/"
         />
       </Helmet>
       <div className="page-h1">

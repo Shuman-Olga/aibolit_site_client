@@ -29,39 +29,82 @@ import Post1 from "../pages/posts/Post1";
 import Post2 from "../pages/posts/Post2";
 import Post3 from "../pages/posts/Post3";
 import Post4 from "../pages/posts/Post4";
+import SpravkavZdorove from "../pages/medicalcertificates/SpravkaZdorove";
+import SpravkaForma026u from "../pages/medicalcertificates/SpravkaForma026u";
+import MedicinskayaSpravka079u from "../pages/medicalcertificates/MedicinskayaSpravka079u";
+import Post5 from "../pages/posts/Post5";
 
 const publicRoutes = [
   // главная страница
   { path: "/", Component: Home },
   // страница о нас и ее подстраницы
   { path: "/o-nas/", Component: About },
-  { path: "/kontroliruyushie-organizacii/", Component: ControllingOrgan },
-  { path: "/licenzii/", Component: Licenses },
-  { path: "/pravovaya-informaciya/", Component: Documents },
-  { path: "/nashi-partnery/", Component: OurPartners },
+  { path: "/o-nas/kontroliruyushie-organizacii/", Component: ControllingOrgan },
+  { path: "/o-nas/licenzii/", Component: Licenses },
+  { path: "/o-nas/pravovaya-informaciya/", Component: Documents },
+  { path: "/o-nas/nashi-partnery/", Component: OurPartners },
   // страница прграммы и ее подстраницы
   { path: "/programmy-nablyudeniya-za-zdorovem/", Component: Programs },
-  { path: "/malysh-houm-standart-ot-0-do-2-h-le/", Component: ProgramOne },
-  { path: "/zdorovyj-rebenok-houm-standart-ot-2/", Component: ProgramTwo },
-  { path: "/zdorovyj-rebenok-houm-midi-ot-2-h-l/", Component: ProgramThree },
+  {
+    path: "/programmy-nablyudeniya-za-zdorovem/malysh-houm-standart-ot-0-do-2-h-le/",
+    Component: ProgramOne,
+  },
+  {
+    path: "/programmy-nablyudeniya-za-zdorovem/zdorovyj-rebenok-houm-standart-ot-2/",
+    Component: ProgramTwo,
+  },
+  {
+    path: "/programmy-nablyudeniya-za-zdorovem/zdorovyj-rebenok-houm-midi-ot-2-h-l/",
+    Component: ProgramThree,
+  },
   // страницы врачей
-  { path: "/sadovnikova-elena-gennadevna/", Component: DoctorSadovnikova },
-  { path: "/petuhova-olga-viktorovna/", Component: DoctorPetuhova },
-  { path: "/shevchenko-anastasiya-nikolaevna/", Component: DoctorShevchenko },
-  { path: "/ostrouhova-natalya-petrovna/", Component: DoctorOstrouhova },
+  {
+    path: "/doctor/sadovnikova-elena-gennadevna/",
+    Component: DoctorSadovnikova,
+  },
+  { path: "/doctor/petuhova-olga-viktorovna/", Component: DoctorPetuhova },
+  {
+    path: "/doctor/shevchenko-anastasiya-nikolaevna/",
+    Component: DoctorShevchenko,
+  },
+  { path: "/doctor/ostrouhova-natalya-petrovna/", Component: DoctorOstrouhova },
   // страница услуги и подстраницы
   { path: "/uslugi-i-ceny/", Component: Services },
-  { path: "/vyzov-pediatra-na-dom/", Component: DoctorNaDom },
-  { path: "/pediatr/", Component: Pediatr },
-  { path: "/medicinskie-spravki-rebenku/", Component: MedicalCertificates },
+  { path: "/uslugi-i-ceny/vyzov-pediatra-na-dom/", Component: DoctorNaDom },
+  { path: "/uslugi-i-ceny/pediatr/", Component: Pediatr },
+  {
+    path: "/uslugi-i-ceny/medicinskie-spravki-rebenku/",
+    Component: MedicalCertificates,
+  },
   // страницы мед. справки
   {
-    path: "/sanatorno-kurortnaya-karta-dlya-det/",
+    path: "/uslugi-i-ceny/medicinskie-spravki-rebenku/sanatorno-kurortnaya-karta-dlya-det/",
     Component: SanatornoKurortnayaKarta,
   },
-  { path: "/spravka-v-shkolu/", Component: SpravkavShkolu },
-  { path: "/spravka-v-detskii-sad/", Component: SpravkavDetskiiSad },
-  { path: "/spravka-v-bassein/", Component: SpravkavBassein },
+  {
+    path: "/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-v-shkolu/",
+    Component: SpravkavShkolu,
+  },
+  {
+    path: "/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-v-detskii-sad/",
+    Component: SpravkavDetskiiSad,
+  },
+  {
+    path: "/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-v-bassein/",
+    Component: SpravkavBassein,
+  },
+  {
+    path: "/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-o-sostoyanii-zdorovya-reben/",
+    Component: SpravkavZdorove,
+  },
+  {
+    path: "/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-poforme-026-u/",
+    Component: SpravkaForma026u,
+  },
+  {
+    path: "/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-po-forme-079-u/",
+    Component: MedicinskayaSpravka079u,
+  },
 
   // страница цены
   { path: "/prices/", Component: Prices },
@@ -74,6 +117,7 @@ const publicRoutes = [
   { path: "/post/klendar-vakcinacija/", Component: Post2 },
   { path: "/post/detskij-hirurg-na-dom/", Component: Post3 },
   { path: "/post/patronaj_novorojdennogo/", Component: Post4 },
+  { path: "/post/adaptaciya_k_detskomu_sadu/", Component: Post5 },
 
   // страница ошибки
   { path: "*", Component: NotFound },

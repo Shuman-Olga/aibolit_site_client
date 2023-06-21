@@ -23,7 +23,10 @@ const BlockImg = () => {
         </div>
       </div>
       <div className=" wrapper-block-btn">
-        <NavLink to="/vyzov-pediatra-na-dom/" className="nav-link">
+        <NavLink
+          to="/uslugi-i-ceny/vyzov-pediatra-na-dom/"
+          className="nav-link"
+        >
           <div className="block-btn color1">
             <div className="block-btn-border">
               <img

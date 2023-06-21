@@ -12,3 +12,18 @@
     margin: 1rem 0;
   }
 }
+
+@media (max-width: 1024px) {
+#doctor1,
+#doctor2,
+#doctor3,
+#doctor4 {
+  .d-flex{
+    flex-direction: column;
+  
+  }
+  .px-4{
+    margin-top: 1rem;
+  }
+}
+}

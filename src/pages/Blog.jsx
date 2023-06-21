@@ -5,6 +5,7 @@ import Bimg1 from "../assets/img/nevrolog_na_dom.jpg";
 import Bimg2 from "../assets/img/kalendar_vakcinacii.jpg";
 import Bimg3 from "../assets/img/hirurg_na_dom.jpg";
 import Bimg4 from "../assets/img/patronaj.jpg";
+import Bimg5 from "../assets/img/deti_sad.jpg";
 
 const Blog = () => {
   return (
@@ -117,6 +118,28 @@ const Blog = () => {
                     появившегося на свет, окружали забота и любовь. Не менее
                     важно, чтобы за его правильным развитием следили
                     квалифицированные специалисты.
+                  </p>
+                </div>
+              </div>
+            </NavLink>
+          </div>
+          <div className="col">
+            <NavLink
+              to="/post/adaptaciya_k_detskomu_sadu/"
+              className="nav-link"
+            >
+              <div className="card">
+                <img
+                  src={Bimg5}
+                  className="card-img-top"
+                  alt="adaptaciya_k_detskomu_sadu"
+                  title="Адаптация к детскому саду"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Адаптация к детскому саду</h5>
+                  <p align="justify" className="card-text">
+                    По какой причине детям сложно привыкнуть к саду и как
+                    взрослые могут поддержать их?
                   </p>
                 </div>
               </div>

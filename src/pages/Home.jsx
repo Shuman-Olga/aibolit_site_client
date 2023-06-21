@@ -5,7 +5,7 @@ import BlockContacts from "../components/home/BlockContacts";
 import BlockImg from "../components/home/BlockImg";
 import BlockInfo from "../components/home/BlockInfo";
 import { Helmet } from "react-helmet";
-import WorkOnHolidays from "../components/WorkOnHolidays";
+// import WorkOnHolidays from "../components/WorkOnHolidays";
 
 const Home = () => {
   return (
@@ -21,10 +21,14 @@ const Home = () => {
         />
         <meta
           name="keywords"
-          content="Айболит, детская медицинская служба, клиника, вызвать детский врач, программы наблюдения, анализы, ребенок, новорожденного, на дом, цена, Томск"
+          content="Айболит, детская медицинская служба, клиника, вызвать детский врач, педиатр, программы наблюдения, анализы, ребенок, новорожденного, на дом, цена, Томск"
         />
         <link rel="canonical" href="https://aibolit.tom.ru/" />
         <meta property="og:type" content="article" />
+        <meta
+          property="og:image"
+          content="https://aibolit.tom.ru/assets/8b947efb21c1e40192ec.png"
+        ></meta>
         <meta property="og:site_name" content="Айболит" />
         <meta
           property="og:title"

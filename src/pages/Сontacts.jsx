@@ -99,7 +99,7 @@ const Contacts = () => {
             src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=1788754562"
             width="560"
             height="400"
-            frameborder="0"
+            frameBorder="0"
           ></iframe>
         </div>
         <hr />

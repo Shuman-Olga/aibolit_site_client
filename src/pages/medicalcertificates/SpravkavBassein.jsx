@@ -15,11 +15,11 @@ const SpravkavBassein = () => {
         />
         <meta
           name="keywords"
-          content="вызов педиатра на дом Томск, педиатр на дом, справка в бассейн ребенку, детский врач на дом Томск, анализы на дому, справка ребенку в школу, вызов платного педиатра на дом, лор, невролог на дом, справка ребенку в сад, санаторно-куротная карта ребенку, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
+          content="справка в бассейн ребенку, оформление спраки, бассейн, томск, ребенок, здоров"
         />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/spravka-v-bassein/"
+          href="https://aibolit.tom.ru/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-v-bassein/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
@@ -33,7 +33,7 @@ const SpravkavBassein = () => {
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/spravka-v-bassein/"
+          content="https://aibolit.tom.ru/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-v-bassein/"
         />
       </Helmet>
       <div className="page-h1">

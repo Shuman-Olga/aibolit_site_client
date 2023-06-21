@@ -14,11 +14,11 @@ const Documents = () => {
 
         <meta
           name="keywords"
-          content="педиатр на дом, узкие специалисты на дом, айболит детская медицинская служба, герцина 68 стр 2, педиатр на дом томск, детский врач на дом, анализы на дому, вакцинация, патронаж новорожденных, программы наблюдения за ребенком"
+          content="айболит детская медицинская служба, информация для пациентов"
         />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/pravovaya-informaciya/"
+          href="https://aibolit.tom.ru/o-nas/pravovaya-informaciya/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
@@ -29,7 +29,7 @@ const Documents = () => {
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/pravovaya-informaciya/"
+          content="https://aibolit.tom.ru/o-nas/pravovaya-informaciya/"
         />
       </Helmet>
       <div className="page-h1">

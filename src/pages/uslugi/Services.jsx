@@ -42,7 +42,10 @@ const Services = () => {
       </div>
       <Container>
         <BlockReklama3 />
-        <NavLink to="/vyzov-pediatra-na-dom/" className="nav-link">
+        <NavLink
+          to="/uslugi-i-ceny/vyzov-pediatra-na-dom/"
+          className="nav-link"
+        >
           <div className="w-75 mb-3 p-3">
             <div className="text-center mb-2">
               <h2>Детский врач на дом</h2>
@@ -66,7 +69,7 @@ const Services = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/pediatr/" className="nav-link">
+        <NavLink to="/uslugi-i-ceny/pediatr/" className="nav-link">
           <div className="w-75 mb-3 p-3">
             <div className="text-center mb-2">
               <h2>Консультация педиатра</h2>
@@ -89,24 +92,11 @@ const Services = () => {
             </div>
           </div>
         </NavLink>
-        <div className="w-75 mb-3 p-3">
-          <div className="text-center mb-2">
-            <h2>Анализы</h2>
-          </div>
 
-          <div className="d-flex  block-foto">
-            <div>
-              <img src={Simg3} alt="foto" title="Анализы" />
-            </div>
-            <div className="p-3">
-              <p>
-                У нас можно сдать все виды анализов и получить результаты в
-                самый короткий срок.
-              </p>
-            </div>
-          </div>
-        </div>
-        <NavLink to="/medicinskie-spravki-rebenku/" className="nav-link">
+        <NavLink
+          to="/uslugi-i-ceny/medicinskie-spravki-rebenku/"
+          className="nav-link"
+        >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
               <h2>Медицинские справки ребенку </h2>
@@ -151,6 +141,23 @@ const Services = () => {
           </div>
         </div>
         {/* </NavLink> */}
+        <div className="w-75 mb-3 p-3">
+          <div className="text-center mb-2">
+            <h2>Анализы</h2>
+          </div>
+
+          <div className="d-flex  block-foto">
+            <div>
+              <img src={Simg3} alt="foto" title="Анализы" />
+            </div>
+            <div className="p-3">
+              <p>
+                У нас можно сдать все виды анализов и получить результаты в
+                самый короткий срок.
+              </p>
+            </div>
+          </div>
+        </div>
       </Container>
     </Container>
   );

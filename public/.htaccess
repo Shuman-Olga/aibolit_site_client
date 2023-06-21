@@ -28,7 +28,7 @@ ServerSignature Off
     RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # from www
-    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
     RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
 # index.html
@@ -39,9 +39,35 @@ ServerSignature Off
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-l
     RewriteCond %{REQUEST_FILENAME} !-d
+# редирект страниц
+#doctor
+    Redirect 301 /sadovnikova-elena-gennadevna/ https://aibolit.tom.ru/doctor/sadovnikova-elena-gennadevna/
+    Redirect 301 /petuhova-olga-viktorovna/ https://aibolit.tom.ru/doctor/petuhova-olga-viktorovna/
+    Redirect 301 /shevchenko-anastasiya-nikolaevna/ https://aibolit.tom.ru/doctor/shevchenko-anastasiya-nikolaevna/
+    Redirect 301 /ostrouhova-natalya-petrovna/ https://aibolit.tom.ru/doctor/ostrouhova-natalya-petrovna/
+#o nas
+    Redirect 301 /kontroliruyushie-organizacii/ https://aibolit.tom.ru/o-nas/kontroliruyushie-organizacii/
+    Redirect 301 /licenzii/ https://aibolit.tom.ru/o-nas/licenzii/
+    Redirect 301 /pravovaya-informaciya/ https://aibolit.tom.ru/o-nas/pravovaya-informaciya/
+    Redirect 301 /nashi-partnery/ https://aibolit.tom.ru/o-nas/nashi-partnery/
+#programms
+    Redirect 301 /malysh-houm-standart-ot-0-do-2-h-le/ https://aibolit.tom.ru/programmy-nablyudeniya-za-zdorovem/malysh-houm-standart-ot-0-do-2-h-le/
+    Redirect 301 /zdorovyj-rebenok-houm-standart-ot-2/ https://aibolit.tom.ru/programmy-nablyudeniya-za-zdorovem/zdorovyj-rebenok-houm-standart-ot-2/
+    Redirect 301 /zdorovyj-rebenok-houm-midi-ot-2-h-l/ https://aibolit.tom.ru/programmy-nablyudeniya-za-zdorovem/zdorovyj-rebenok-houm-midi-ot-2-h-l/
+#uslugi
+    Redirect 301 /vyzov-pediatra-na-dom/ https://aibolit.tom.ru/uslugi-i-ceny/vyzov-pediatra-na-dom/
+    Redirect 301 /pediatr/ https://aibolit.tom.ru/uslugi-i-ceny/pediatr/
+    Redirect 301 /medicinskie-spravki-rebenku/ https://aibolit.tom.ru/uslugi-i-ceny/medicinskie-spravki-rebenku/
+#spravki
+    Redirect 301 /sanatorno-kurortnaya-karta-dlya-det/ https://aibolit.tom.ru/uslugi-i-ceny/medicinskie-spravki-rebenku/sanatorno-kurortnaya-karta-dlya-det/
+    Redirect 301 /spravka-v-shkolu/ https://aibolit.tom.ru/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-v-shkolu/
+    Redirect 301 /spravka-v-detskii-sad/ https://aibolit.tom.ru/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-v-detskii-sad/
+    Redirect 301 /spravka-v-bassein/ https://aibolit.tom.ru/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-v-bassein/
+    Redirect 301 /spravka-o-sostoyanii-zdorovya-reben/ https://aibolit.tom.ru/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-o-sostoyanii-zdorovya-reben/
+    Redirect 301 /spravka-poforme-026-u/ https://aibolit.tom.ru/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-poforme-026-u/
+    Redirect 301 /spravka-po-forme-079-u/ https://aibolit.tom.ru/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-po-forme-079-u/
 
-    
-    
+
 </IfModule>
 
 

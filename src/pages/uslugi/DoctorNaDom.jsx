@@ -20,7 +20,7 @@ const DoctorNaDom = () => (
       />
       <link
         rel="canonical"
-        href="https://aibolit.tom.ru/vyzov-pediatra-na-dom/"
+        href="https://aibolit.tom.ru/uslugi-i-ceny/vyzov-pediatra-na-dom/"
       />
       <meta property="og:type" content="article" />
       <meta property="og:site_name" content="Айболит" />
@@ -31,7 +31,7 @@ const DoctorNaDom = () => (
       />
       <meta
         property="og:url"
-        content="https://aibolit.tom.ru/vyzov-pediatra-na-dom/"
+        content="https://aibolit.tom.ru/uslugi-i-ceny/vyzov-pediatra-na-dom/"
       />
     </Helmet>
     <div className="page-h1">

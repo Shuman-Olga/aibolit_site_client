@@ -10,7 +10,10 @@ const BlockDoctors = () => {
       <h2 className="h2-blockdoctors">Наши педиатры</h2>
       <hr className="w-25 "></hr>
       <div className="row row-cols-1 row-cols-md-4 g-4 mt-4 mb-5 container">
-        <NavLink to="/sadovnikova-elena-gennadevna/" className="nav-link">
+        <NavLink
+          to="/doctor/sadovnikova-elena-gennadevna/"
+          className="nav-link"
+        >
           <div className="col">
             <div className="card  h-100">
               <img
@@ -25,7 +28,7 @@ const BlockDoctors = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/petuhova-olga-viktorovna/" className="nav-link">
+        <NavLink to="/doctor/petuhova-olga-viktorovna/" className="nav-link">
           <div className="col">
             <div className="card  h-100">
               <img
@@ -44,7 +47,10 @@ const BlockDoctors = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/shevchenko-anastasiya-nikolaevna/" className="nav-link">
+        <NavLink
+          to="/doctor/shevchenko-anastasiya-nikolaevna/"
+          className="nav-link"
+        >
           <div className="col">
             <div className="card  h-100">
               <img
@@ -59,7 +65,7 @@ const BlockDoctors = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/ostrouhova-natalya-petrovna/" className="nav-link">
+        <NavLink to="/doctor/ostrouhova-natalya-petrovna/" className="nav-link">
           <div className="col">
             <div className="card  h-100">
               <img

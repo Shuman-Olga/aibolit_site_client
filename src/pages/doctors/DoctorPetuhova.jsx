@@ -13,32 +13,34 @@ const DoctorPetuhova = () => {
   return (
     <Container fluid id="doctor2">
       <Helmet>
-        <title>Петухова Ольга Викторовна | педиатр, гастроэнтеролог</title>
+        <title>
+          Петухова Ольга Викторовна - педиатр, врач - гастроэнтеролог
+        </title>
         <meta
           name="description"
-          content="Петухова Ольга Викторовна - педиатр, гастроэнтеролог. Врач на дом, Программы наблюдение на дому. Анализы."
+          content="Петухова Ольга Викторовна - врач педиатр, гастроэнтеролог. Врач на дом. Программы наблюдение на дому. Анализы."
         />
         <meta
           name="keywords"
-          content="педиатр на дом, гастроэнтеролог на дом томск, Петухова Ольга Викторовна, педиатр на дом томск, детский врач на дом, анализы на дому, гастроэнеролог на дом, патронаж новорожденных, программы наблюдения за ребенком"
+          content="педиатр на дом, гастроэнтеролог на дом томск, петухова ольга викторовна педиатр гастроэнтеролог, детский врач на дом, анализы на дому, патронаж новорожденных"
         />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/petuhova-olga-viktorovna/"
+          href="https://aibolit.tom.ru/doctor/petuhova-olga-viktorovna/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
         <meta
           property="og:title"
-          content="Петухова Ольга Викторовна | педиатр, гастроэнтеролог"
+          content="Петухова Ольга Викторовна - педиатр, врач - гастроэнтеролог"
         />
         <meta
           property="og:description"
-          content="Петухова Ольга Викторовна - педиатр, гастроэнтеролог. Врач на дом, Программы наблюдение на дому. Анализы."
+          content="Петухова Ольга Викторовна - врач педиатр, гастроэнтеролог. Врач на дом. Программы наблюдение на дому. Анализы."
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru//petuhova-olga-viktorovna/"
+          content="https://aibolit.tom.ru/doctor/petuhova-olga-viktorovna/"
         />
       </Helmet>
       <div className="page-h1">
@@ -118,72 +120,72 @@ const DoctorPetuhova = () => {
             <p>с 1997 г.</p>
           </div>
         </Container>
-        <div class="row row-cols-1 row-cols-md-3 g-4 w-75 margin ">
-          <div class="col">
-            <div class="card">
+        <div className="row row-cols-1 row-cols-md-3 g-4 w-75 margin ">
+          <div className="col">
+            <div className="card">
               <img
                 src={DPimg2}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DPimg3}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DPimg4}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DPimg5}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DPimg6}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DPimg7}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DPimg8}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />

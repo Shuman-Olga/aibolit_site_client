@@ -23,7 +23,7 @@ const ProgramThree = () => {
         />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/zdorovyj-rebenok-houm-midi-ot-2-h-l/"
+          href="https://aibolit.tom.ru/programmy-nablyudeniya-za-zdorovem/zdorovyj-rebenok-houm-midi-ot-2-h-l/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
@@ -37,7 +37,7 @@ const ProgramThree = () => {
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/zdorovyj-rebenok-houm-midi-ot-2-h-l/"
+          content="https://aibolit.tom.ru/programmy-nablyudeniya-za-zdorovem/zdorovyj-rebenok-houm-midi-ot-2-h-l/"
         />
       </Helmet>
       <div className="page-h1">

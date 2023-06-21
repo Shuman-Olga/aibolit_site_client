@@ -15,11 +15,11 @@ const ProgramOne = () => {
         />
         <meta
           name="keywords"
-          content="вызов педиатра на дом Томск, программа здоровье ребенка, педиатр на дом, детский врач на дом Томск, анализы на дому, программы наблюдения за ребенком, вызов платного педиатра на дом, патронаж на дому новорожденных, патронаж новорожденного ребенка, невролог на дом, патронаж детей на дому, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
+          content="вызов педиатра на дом Томск, программа здоровье ребенка, педиатр на дом, анализы на дому, программы наблюдения за ребенком, вызов платного педиатра на дом, патронаж на дому новорожденных, патронаж новорожденного ребенка, невролог на дом, патронаж детей на дому, хирург на дом, окулист, аллерголог, томск, патронаж новорожденного"
         />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/malysh-houm-standart-ot-0-do-2-h-le/"
+          href="https://aibolit.tom.ru/programmy-nablyudeniya-za-zdorovem/malysh-houm-standart-ot-0-do-2-h-le/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
@@ -34,7 +34,7 @@ const ProgramOne = () => {
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/malysh-houm-standart-ot-0-do-2-h-le/"
+          content="https://aibolit.tom.ru/programmy-nablyudeniya-za-zdorovem/malysh-houm-standart-ot-0-do-2-h-le/"
         />
       </Helmet>
       <div className="page-h1">
@@ -48,7 +48,7 @@ const ProgramOne = () => {
             className="progone-img"
             title="Программа Мылыш.Хоум | Айболит детская медицинская служба"
           />
-          <div className="lh-lg py-4">
+          <div className="lh-lg py-4" align="justify">
             <p>
               Первый год жизни ребёнка особенно важен: именно в возрасте от 0 до
               года закладываются основы нашего здоровья. От того, как будет

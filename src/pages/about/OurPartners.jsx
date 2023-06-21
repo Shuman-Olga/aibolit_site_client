@@ -14,9 +14,12 @@ const OurPartners = () => {
         />
         <meta
           name="keywords"
-          content="педиатр на дом, узкие специалисты на дом, айболит детская медицинская служба, герцина 68 стр 2, педиатр на дом томск, детский врач на дом, анализы на дому, вакцинация, патронаж новорожденных, программы наблюдения за ребенком"
+          content="герцина 68 стр 2 томск, врачи клиника айболит томск"
         />
-        <link rel="canonical" href="https://aibolit.tom.ru/nashi-partnery/" />
+        <link
+          rel="canonical"
+          href="https://aibolit.tom.ru/o-nas/nashi-partnery/"
+        />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
         <meta property="og:title" content="Наши партнеры | Айболит" />
@@ -26,7 +29,7 @@ const OurPartners = () => {
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/nashi-partnery/"
+          content="https://aibolit.tom.ru/o-nas/nashi-partnery/"
         />
       </Helmet>
       <div className="page-h1">

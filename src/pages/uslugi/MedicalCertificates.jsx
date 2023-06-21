@@ -25,7 +25,7 @@ const MedicalCertificates = () => {
         />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/medicinskie-spravki-rebenku/"
+          href="https://aibolit.tom.ru/uslugi-i-ceny/medicinskie-spravki-rebenku/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
@@ -39,7 +39,7 @@ const MedicalCertificates = () => {
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/medicinskie-spravki-rebenku/"
+          content="https://aibolit.tom.ru/uslugi-i-ceny/medicinskie-spravki-rebenku/"
         />
       </Helmet>
       <div className="page-h1">
@@ -58,7 +58,7 @@ const MedicalCertificates = () => {
           детей.
         </p>
         <NavLink
-          to="/sanatorno-kurortnaya-karta-dlya-det/"
+          to="/uslugi-i-ceny/medicinskie-spravki-rebenku/sanatorno-kurortnaya-karta-dlya-det/"
           className="nav-link"
         >
           <div className="w-75 mb-5 p-3">
@@ -87,7 +87,10 @@ const MedicalCertificates = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/spravka-v-shkolu/" className="nav-link">
+        <NavLink
+          to="/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-v-shkolu/"
+          className="nav-link"
+        >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
               <h3>Справка в школу</h3>
@@ -110,7 +113,10 @@ const MedicalCertificates = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/spravka-v-detskii-sad/" className="nav-link">
+        <NavLink
+          to="/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-v-detskii-sad/"
+          className="nav-link"
+        >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
               <h3>Справка в детский сад</h3>
@@ -131,7 +137,10 @@ const MedicalCertificates = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/spravka-v-bassein/" className="nav-link">
+        <NavLink
+          to="/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-v-bassein/"
+          className="nav-link"
+        >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
               <h3>Справка в бассейн для ребенка</h3>
@@ -156,7 +165,10 @@ const MedicalCertificates = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/medicinskie-spravki-rebenku/" className="nav-link">
+        <NavLink
+          to="/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-o-sostoyanii-zdorovya-reben/"
+          className="nav-link"
+        >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
               <h3>Справка о состоянии здоровья ребенка</h3>
@@ -184,7 +196,10 @@ const MedicalCertificates = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/medicinskie-spravki-rebenku/" className="nav-link">
+        <NavLink
+          to="/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-poforme-026-u/"
+          className="nav-link"
+        >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
               <h3>Справка по форме №026/у</h3>
@@ -206,7 +221,10 @@ const MedicalCertificates = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/medicinskie-spravki-rebenku/" className="nav-link">
+        <NavLink
+          to="/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-po-forme-079-u/"
+          className="nav-link"
+        >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
               <h3>Справка в детский лагерь</h3>

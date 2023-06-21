@@ -15,7 +15,10 @@ const Pediatr = () => (
         name="keywords"
         content="вызов педиатра, осмотр, консультация, врач педиатр, анализы, программы наблюдения, ребенок, новорожденный, платно, цена, на дом, Томск"
       />
-      <link rel="canonical" href="https://aibolit.tom.ru/pediatr/" />
+      <link
+        rel="canonical"
+        href="https://aibolit.tom.ru/uslugi-i-ceny/pediatr/"
+      />
       <meta property="og:type" content="article" />
       <meta property="og:site_name" content="Айболит" />
       <meta property="og:title" content="Педиатр на дом в Томске | Айболит" />
@@ -23,7 +26,10 @@ const Pediatr = () => (
         property="og:description"
         content="ВЫЗОВ ПЕДИАТРА. К вам приедет один из наших квалифицированных врачей педиатров.  ЗАБОР АНАЛИЗОВ НА ДОМУ."
       />
-      <meta property="og:url" content="https://aibolit.tom.ru/pediatr/" />
+      <meta
+        property="og:url"
+        content="https://aibolit.tom.ru/uslugi-i-ceny/pediatr/"
+      />
     </Helmet>
     <div className="page-h1">
       <h1>Педиатр в Томске</h1>

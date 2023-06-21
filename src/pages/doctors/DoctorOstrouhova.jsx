@@ -13,33 +13,33 @@ const DoctorOstrouhova = () => {
   return (
     <Container fluid id="doctor4">
       <Helmet>
-        <title>Остроухова Наталья Петровна | педиатр</title>
+        <title>Остроухова Наталья Петровна - педиатр на дом</title>
         <meta
           name="description"
-          content="Остроухова Наталья Петровна - педиатр. Педиатр на дом. Наблюдение за ребенком на дому. Патронаж новорожденного"
+          content="Остроухова Наталья Петровна - педиатр. Выезд педиатра на дом. Справка в школу. Патронаж новорожденного"
         />
         <meta
           name="keywords"
-          content="педиатр на дом, узкие специалисты на дом, педиатр на дом томск, детский врач на дом, анализы на дому, вызов платного педиатра, патронаж новорожденных, программы наблюдения за ребенком"
+          content="педиатр на дом, томск педиатр, детский врач на дом, анализы на дому, остроухова наталья петровна педиатр, вызов платного педиатра, патронаж новорожденных"
         />
 
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/ostrouhova-natalya-petrovna/"
+          href="https://aibolit.tom.ru/doctor/ostrouhova-natalya-petrovna/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
         <meta
           property="og:title"
-          content="Остроухова Наталья Петровна | педиатр"
+          content="Остроухова Наталья Петровна - педиатр"
         />
         <meta
           property="og:description"
-          content="Остроухова Наталья Петровна - педиатр. Педиатр на дом. Наблюдение за ребенком на дому. Патронаж новорожденного"
+          content="Остроухова Наталья Петровна - педиатр. Выезд педиатра на дом. Справка в школу. Патронаж новорожденного"
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/ostrouhova-natalya-petrovna/"
+          content="https://aibolit.tom.ru/doctor/ostrouhova-natalya-petrovna/"
         />
       </Helmet>
       <div className="page-h1">

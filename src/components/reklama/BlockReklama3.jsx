@@ -22,19 +22,19 @@ const BlockReklama3 = () => {
           </NavLink>
           <Nav>
             <NavLink
-              to="/malysh-houm-standart-ot-0-do-2-h-le/"
+              to="/programmy-nablyudeniya-za-zdorovem/malysh-houm-standart-ot-0-do-2-h-le/"
               className="nav-link"
             >
               "Малыш Хоум. Стандарт" от 0 до 2-х лет
             </NavLink>
             <NavLink
-              to="/zdorovyj-rebenok-houm-standart-ot-2/"
+              to="/programmy-nablyudeniya-za-zdorovem/zdorovyj-rebenok-houm-standart-ot-2/"
               className="nav-link"
             >
               "Здоровый ребенок Хоум. Стандарт" от 2-х лет
             </NavLink>
             <NavLink
-              to="/zdorovyj-rebenok-houm-midi-ot-2-h-l/"
+              to="/programmy-nablyudeniya-za-zdorovem/zdorovyj-rebenok-houm-midi-ot-2-h-l/"
               className="nav-link"
             >
               "Здоровый ребенок Хоум. Педиатр рядом" от 2-х лет

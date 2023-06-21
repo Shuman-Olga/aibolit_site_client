@@ -7,17 +7,14 @@ const ControllingOrgan = () => {
     <Container fluid id="controlling">
       <Helmet>
         <title>Контролирующие организации | Айболит</title>
-        <meta
-          name="description"
-          content="Вызов детского врача на дом в Томске. Прграммы ведения ребенка с рождения на дому. Педиатр на дом. Анализы на дому."
-        />
+        <meta name="description" content="Айболит, Герцена 68 строение 2" />
         <meta
           name="keywords"
-          content="педиатр на дом, узкие специалисты на дом, айболит детская медицинская служба, герцина 68 стр 2, педиатр на дом томск, детский врач на дом, анализы на дому, вакцинация, патронаж новорожденных, программы наблюдения за ребенком"
+          content="айболит в томске, герцена 68 строение 2, детские врачи на дом томск"
         />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/kontroliruyushie-organizacii/"
+          href="https://aibolit.tom.ru/o-nas/kontroliruyushie-organizacii/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
@@ -31,7 +28,7 @@ const ControllingOrgan = () => {
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/kontroliruyushie-organizacii/"
+          content="https://aibolit.tom.ru/o-nas/kontroliruyushie-organizacii/"
         />
       </Helmet>
       <div className="page-h1">

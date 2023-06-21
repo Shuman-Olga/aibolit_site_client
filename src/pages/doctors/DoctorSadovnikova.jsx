@@ -12,33 +12,35 @@ const DoctorSadovnikova = () => {
   return (
     <Container fluid id="doctor1">
       <Helmet>
-        <title>Садовникова Елена Геннадьевна | педиатр, аллерголог</title>
+        <title>
+          Садовникова Елена Геннадьевна - педиатр, врач - аллерголог
+        </title>
         <meta
           name="description"
-          content="Садовникова Елена Геннадьевна - педиатр, аллерголог. Наблюдение детей на дому, врач на дом"
+          content="Садовникова Елена Геннадьевна - педиатр, врач - аллерголог. Наблюдение детей на дому, врач на дом"
         />
         <meta
           name="keywords"
-          content="педиатр на дом, Садовникова Елена Геннадьевна, узкие специалисты на дом, педиатр на дом томск, детский врач на дом, аллерголог на дом, вызов платного педиатра, патронаж новорожденных, программы наблюдения за ребенком"
+          content="садовникова елена геннадьевна педиатр аллерголог, педиатр на дом томск, детский врач на дом, аллерголог на дом, вызов платного педиатра, программы наблюдения за ребенком"
         />
 
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/sadovnikova-elena-gennadevna/"
+          href="https://aibolit.tom.ru/doctor/sadovnikova-elena-gennadevna/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
         <meta
           property="og:title"
-          content="Садовникова Елена Геннадьевна | педиатр, аллерголог"
+          content="Садовникова Елена Геннадьевна - педиатр, врач - аллерголог"
         />
         <meta
           property="og:description"
-          content="Садовникова Елена Геннадьевна - педиатр, аллерголог. Наблюдение детей на дому, врач на дом"
+          content="Садовникова Елена Геннадьевна - педиатр, врач - аллерголог. Наблюдение детей на дому, врач на дом"
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/sadovnikova-elena-gennadevna/"
+          content="https://aibolit.tom.ru/doctor/sadovnikova-elena-gennadevna/"
         />
       </Helmet>
       <div className="page-h1">
