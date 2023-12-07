@@ -72,7 +72,6 @@ const Pediatr = () => (
           <hr />
         </div>
         <h4 className=" mt-3">Плановые осмотры проводятся:</h4>
-
         <ul className="my-4">
           <li>
             <p>

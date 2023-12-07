@@ -1,15 +1,17 @@
 //pages
-@import './page/home';
+@import './page/_home';
 @import './page/_about';
 @import './page/_controlling';
-@import './page/licenses';
+@import './page/_licenses';
 @import './page/_contacts';
-@import './page/programs';
-@import './page/program1-2-3';
-@import './page/doctor';
-@import './page/services';
-@import './page/medicalcertificates';
-@import './page/post';
+@import './page/_programs';
+@import './page/_program1-2-3';
+@import './page/_doctor';
+@import './page/_services';
+@import './page/_medicalcertificates';
+@import './page/_post';
+@import './page/_doctors';
+
 //components
 @import './components/header';
 @import './components/modal';
@@ -18,6 +20,7 @@
 @import './components/navmini';
 @import './components/blockreklama';
 @import './components/workonholidays';
+@import './components/blockdoctors';
 
 //components - homepages
 @import './components/home/blockadvantages';

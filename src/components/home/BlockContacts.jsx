@@ -31,9 +31,9 @@ const BlockContacts = () => {
             />
             <p>
               Мы работаем: <br />
-              Пн-пт: 8:00-20:00
+              Пн-пт: 8:00-19:00
               <br />
-              Сб: 10:00-15:00
+              Сб: 10:00-14:00
             </p>
           </div>
           <div className="d-flex align-items-center py-2">
@@ -47,7 +47,7 @@ const BlockContacts = () => {
               <p className="phone">+7 (3822) 60-92-43</p>
             </a>
           </div>
-          <div className="d-flex justify-content-end mt-4 ">
+          <div className="d-flex justify-content-center mt-4 ">
             <ModalCalling />
           </div>
         </div>

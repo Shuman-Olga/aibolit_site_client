@@ -59,7 +59,7 @@ const Documents = () => {
             <a
               href="https://40ef1635-4e4e-44b6-a4b0-e5cdc95496bb.filesusr.com/ugd/8dcff3_d54018d61ef24bf5817197fdb3b5a25d.pdf"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Согласие на обработку персональных данных
             </a>
@@ -86,7 +86,7 @@ const Documents = () => {
             <a
               href="https://40ef1635-4e4e-44b6-a4b0-e5cdc95496bb.filesusr.com/ugd/8dcff3_7a341a77d805401fac170d3fb3456936.pdff"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Договор об оказании медицинских услуг
             </a>
@@ -113,7 +113,7 @@ const Documents = () => {
             <a
               href="https://40ef1635-4e4e-44b6-a4b0-e5cdc95496bb.filesusr.com/ugd/8dcff3_9a6b81e26e164f159182f60607d79214.pdf"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Программа государственных гарантий бесплатного оказания гражданам
               медицинской помощи на 2018 и на плановый период 2019 и 2020 годов
@@ -141,7 +141,7 @@ const Documents = () => {
             <a
               href="https://40ef1635-4e4e-44b6-a4b0-e5cdc95496bb.filesusr.com/ugd/8dcff3_fb745060ee414da4ab283ea09f79a2bf.pdf"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Постановление об оказании ПМУ
             </a>
@@ -168,7 +168,7 @@ const Documents = () => {
             <a
               href="https://40ef1635-4e4e-44b6-a4b0-e5cdc95496bb.filesusr.com/ugd/8dcff3_607831f6b06c4a6d933980131110b359.pdf"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Сведения о медицинских работниках
             </a>

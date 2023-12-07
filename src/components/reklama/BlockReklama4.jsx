@@ -12,7 +12,11 @@ const BlockReklama4 = () => {
         <img src={BRimg4} alt="img-reklama" title="reklama" />
         <div className="blockback text-center px-5 py-3">
           <p>Вызов врача на ДОМ</p>
-          <NavLink to="/uslugi-i-ceny/vyzov-pediatra-na-dom/">
+          <NavLink
+            to="/uslugi-i-ceny/vyzov-pediatra-na-dom/"
+            target="_top"
+            rel="noopener noreferrer"
+          >
             <button type="button" className="btn btn-outline-secondary">
               Подробнее
             </button>

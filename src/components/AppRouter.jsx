@@ -33,6 +33,7 @@ import SpravkavZdorove from "../pages/medicalcertificates/SpravkaZdorove";
 import SpravkaForma026u from "../pages/medicalcertificates/SpravkaForma026u";
 import MedicinskayaSpravka079u from "../pages/medicalcertificates/MedicinskayaSpravka079u";
 import Post5 from "../pages/posts/Post5";
+import Doctors from "../pages/doctors/Doctors";
 
 const publicRoutes = [
   // главная страница
@@ -59,15 +60,22 @@ const publicRoutes = [
   },
   // страницы врачей
   {
-    path: "/doctor/sadovnikova-elena-gennadevna/",
+    path: "/doctors/",
+    Component: Doctors,
+  },
+  {
+    path: "/doctors/sadovnikova-elena-gennadevna/",
     Component: DoctorSadovnikova,
   },
-  { path: "/doctor/petuhova-olga-viktorovna/", Component: DoctorPetuhova },
+  { path: "/doctors/petuhova-olga-viktorovna/", Component: DoctorPetuhova },
   {
-    path: "/doctor/shevchenko-anastasiya-nikolaevna/",
+    path: "/doctors/shevchenko-anastasiya-nikolaevna/",
     Component: DoctorShevchenko,
   },
-  { path: "/doctor/ostrouhova-natalya-petrovna/", Component: DoctorOstrouhova },
+  {
+    path: "/doctors/ostrouhova-natalya-petrovna/",
+    Component: DoctorOstrouhova,
+  },
   // страница услуги и подстраницы
   { path: "/uslugi-i-ceny/", Component: Services },
   { path: "/uslugi-i-ceny/vyzov-pediatra-na-dom/", Component: DoctorNaDom },
@@ -114,7 +122,7 @@ const publicRoutes = [
   { path: "/blog/", Component: Blog },
   // посты
   { path: "/post/detskij-nevrolog-na-dom/", Component: Post1 },
-  { path: "/post/klendar-vakcinacija/", Component: Post2 },
+  { path: "/post/kalendar-vakcinacija/", Component: Post2 },
   { path: "/post/detskij-hirurg-na-dom/", Component: Post3 },
   { path: "/post/patronaj_novorojdennogo/", Component: Post4 },
   { path: "/post/adaptaciya_k_detskomu_sadu/", Component: Post5 },

@@ -37,7 +37,11 @@ const OurPartners = () => {
       </div>
       <Container className="d-flex justify-content-between my-4 position-block">
         <div>
-          <a href="https://tomoko.ru/" target="_blank" rel="noreferrer">
+          <a
+            href="https://tomoko.ru/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={opimg1}
               alt="logo-tomoko"
@@ -72,7 +76,7 @@ const OurPartners = () => {
             <a
               href="https://tomoko.ru/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className=" fs-4 fw-bold"
             >
               https://tomoko.ru

@@ -11,8 +11,10 @@ const BlockDoctors = () => {
       <hr className="w-25 "></hr>
       <div className="row row-cols-1 row-cols-md-4 g-4 mt-4 mb-5 container">
         <NavLink
-          to="/doctor/sadovnikova-elena-gennadevna/"
+          to="/doctors/sadovnikova-elena-gennadevna/"
           className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
         >
           <div className="col">
             <div className="card  h-100">
@@ -23,12 +25,19 @@ const BlockDoctors = () => {
                 title="Садовникова Елена Геннадьевна"
               />
               <div className="card-body">
-                <p className="card-text">Садовникова Елена Геннадьевна​</p>
+                <p className="card-text">Садовникова</p>
+                <p className="card-text">Елена</p>
+                <p className="card-text">Геннадьевна</p>
               </div>
             </div>
           </div>
         </NavLink>
-        <NavLink to="/doctor/petuhova-olga-viktorovna/" className="nav-link">
+        <NavLink
+          to="/doctors/petuhova-olga-viktorovna/"
+          className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
+        >
           <div className="col">
             <div className="card  h-100">
               <img
@@ -38,18 +47,18 @@ const BlockDoctors = () => {
                 title="Петухова Ольга Викторовна"
               />
               <div className="card-body">
-                <p className="card-text">
-                  Петухова <br />
-                  Ольга
-                  <br /> Викторовна
-                </p>
+                <p className="card-text">Петухова</p>
+                <p className="card-text">Ольга</p>
+                <p className="card-text">Викторовна</p>
               </div>
             </div>
           </div>
         </NavLink>
         <NavLink
-          to="/doctor/shevchenko-anastasiya-nikolaevna/"
+          to="/doctors/shevchenko-anastasiya-nikolaevna/"
           className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
         >
           <div className="col">
             <div className="card  h-100">
@@ -60,12 +69,19 @@ const BlockDoctors = () => {
                 title="Шевченко Анастасия Николаевна"
               />
               <div className="card-body">
-                <p className="card-text">Шевченко Анастасия Николаевна</p>
+                <p className="card-text">Шевченко</p>
+                <p className="card-text">Анастасия</p>
+                <p className="card-text">Николаевна</p>
               </div>
             </div>
           </div>
         </NavLink>
-        <NavLink to="/doctor/ostrouhova-natalya-petrovna/" className="nav-link">
+        <NavLink
+          to="/doctors/ostrouhova-natalya-petrovna/"
+          className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
+        >
           <div className="col">
             <div className="card  h-100">
               <img
@@ -75,10 +91,9 @@ const BlockDoctors = () => {
                 title="Остроухова Наталья Петровна"
               />
               <div className="card-body">
-                <p className="card-text">
-                  Остроухова Наталья
-                  <br /> Петровна
-                </p>
+                <p className="card-text">Остроухова</p>
+                <p className="card-text">Наталья</p>
+                <p className="card-text">Петровна</p>
               </div>
             </div>
           </div>

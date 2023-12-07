@@ -13,7 +13,11 @@ const BlockReklama2 = () => {
         <div className="blockback text-center px-5 py-3">
           <p>Программы наблюдения </p>
           <p>на дому за детьми</p>
-          <NavLink to="/programmy-nablyudeniya-za-zdorovem/">
+          <NavLink
+            to="/programmy-nablyudeniya-za-zdorovem/"
+            target="_top"
+            rel="noopener noreferrer"
+          >
             <button type="button" className="btn btn-outline-secondary">
               Подробнее
             </button>

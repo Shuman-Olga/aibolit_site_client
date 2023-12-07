@@ -60,6 +60,8 @@ const MedicalCertificates = () => {
         <NavLink
           to="/uslugi-i-ceny/medicinskie-spravki-rebenku/sanatorno-kurortnaya-karta-dlya-det/"
           className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
         >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
@@ -90,6 +92,8 @@ const MedicalCertificates = () => {
         <NavLink
           to="/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-v-shkolu/"
           className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
         >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
@@ -116,6 +120,8 @@ const MedicalCertificates = () => {
         <NavLink
           to="/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-v-detskii-sad/"
           className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
         >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
@@ -140,6 +146,8 @@ const MedicalCertificates = () => {
         <NavLink
           to="/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-v-bassein/"
           className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
         >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
@@ -168,6 +176,8 @@ const MedicalCertificates = () => {
         <NavLink
           to="/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-o-sostoyanii-zdorovya-reben/"
           className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
         >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
@@ -199,6 +209,8 @@ const MedicalCertificates = () => {
         <NavLink
           to="/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-poforme-026-u/"
           className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
         >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
@@ -224,6 +236,8 @@ const MedicalCertificates = () => {
         <NavLink
           to="/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-po-forme-079-u/"
           className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
         >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">

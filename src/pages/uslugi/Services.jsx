@@ -45,6 +45,8 @@ const Services = () => {
         <NavLink
           to="/uslugi-i-ceny/vyzov-pediatra-na-dom/"
           className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
         >
           <div className="w-75 mb-3 p-3">
             <div className="text-center mb-2">
@@ -69,7 +71,12 @@ const Services = () => {
             </div>
           </div>
         </NavLink>
-        <NavLink to="/uslugi-i-ceny/pediatr/" className="nav-link">
+        <NavLink
+          to="/uslugi-i-ceny/pediatr/"
+          className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
+        >
           <div className="w-75 mb-3 p-3">
             <div className="text-center mb-2">
               <h2>Консультация педиатра</h2>
@@ -96,6 +103,8 @@ const Services = () => {
         <NavLink
           to="/uslugi-i-ceny/medicinskie-spravki-rebenku/"
           className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
         >
           <div className="w-75 mb-5 p-3">
             <div className="text-center mb-2">
@@ -121,7 +130,8 @@ const Services = () => {
             </div>
           </div>
         </NavLink>
-        {/* <NavLink to="/" className="nav-link"> */}
+        {/* <NavLink to="/" className="nav-link" target="_top"
+          rel="noopener noreferrer"> */}
         <div className="w-75 mb-3 p-3">
           <div className="text-center mb-2">
             <h2>Консультация педиатра по телефону</h2>

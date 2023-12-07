@@ -6,7 +6,7 @@ import DOimg4 from "../../assets/img/Без имени-1.jpg";
 import DOimg5 from "../../assets/img/Сертификат1.jpg";
 import DOimg6 from "../../assets/img/Удостоверение Остроухова Н.П. 2017.jpg";
 import DOimg7 from "../../assets/img/Сертификат_2020.png";
-
+import DOimg8 from "../../assets/img/Ostrouhova_Сертификат_остеопат_2023.png";
 import { Helmet } from "react-helmet";
 
 const DoctorOstrouhova = () => {
@@ -20,12 +20,12 @@ const DoctorOstrouhova = () => {
         />
         <meta
           name="keywords"
-          content="педиатр на дом, томск педиатр, детский врач на дом, анализы на дому, остроухова наталья петровна педиатр, вызов платного педиатра, патронаж новорожденных"
+          content="педиатр на дом, томск, детский врач на дом, анализы на дому, остроухова наталья петровна, вызов платного педиатра, патронаж новорожденных"
         />
 
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/doctor/ostrouhova-natalya-petrovna/"
+          href="https://aibolit.tom.ru/doctors/ostrouhova-natalya-petrovna/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
@@ -39,13 +39,13 @@ const DoctorOstrouhova = () => {
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/doctor/ostrouhova-natalya-petrovna/"
+          content="https://aibolit.tom.ru/doctors/ostrouhova-natalya-petrovna/"
         />
       </Helmet>
       <div className="page-h1">
         <h1>Остроухова Наталья Петровна</h1>
       </div>
-      <Container>
+      <Container className="mb-5">
         <Container className="d-flex align-items-start my-4">
           <div className="p-2 border-block">
             <img
@@ -55,7 +55,8 @@ const DoctorOstrouhova = () => {
             />
           </div>
           <div className="px-4 ">
-            <h4 className="mb-4">Врач - педиатр</h4>
+            <h4 className="mb-3">Врач - педиатр</h4>
+            <h4 className="mb-4">Остеопатические техники</h4>
             <h5>Педиатрия:</h5>
             <ul>
               <li>
@@ -100,65 +101,75 @@ const DoctorOstrouhova = () => {
             <p>с 1993 г.</p>
           </div>
         </Container>
-        <div class="row row-cols-1 row-cols-md-3 g-4 w-75 margin ">
-          <div class="col">
-            <div class="card">
+        <div className="row row-cols-1 row-cols-md-3 g-4 w-75 margin ">
+          <div className="col">
+            <div className="card">
               <img
                 src={DOimg2}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DOimg3}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DOimg4}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DOimg5}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
 
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DOimg6}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DOimg7}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
+              />
+            </div>
+          </div>
+          <div className="col">
+            <div className="card">
+              <img
+                src={DOimg8}
+                className="card-img-top"
+                alt="foto"
+                title="Сертификат-остеопат"
               />
             </div>
           </div>

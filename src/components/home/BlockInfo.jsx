@@ -34,7 +34,12 @@ const BlockInfo = () => {
             нам здоровье ребенка, Вы можете быть уверены, что он будет окружен
             заботой и вниманием опытных врачей».
           </p>
-          <NavLink to="/o-nas/" className="nav-link">
+          <NavLink
+            to="/o-nas/"
+            className="nav-link"
+            target="_top"
+            rel="noopener noreferrer"
+          >
             <div className="btn-detailed">
               Подробнее <span className="material-icons">trending_flat</span>
             </div>

@@ -44,16 +44,33 @@ const NavMini = () => {
           <NavLink
             to="/o-nas/kontroliruyushie-organizacii/"
             className="nav-link"
+            target="_top"
+            rel="noopener noreferrer"
           >
             Контролирующие органы
           </NavLink>
-          <NavLink to="/o-nas/licenzii/" className="nav-link">
+          <NavLink
+            to="/o-nas/licenzii/"
+            className="nav-link"
+            target="_top"
+            rel="noopener noreferrer"
+          >
             Лицензии
           </NavLink>
-          <NavLink to="/o-nas/pravovaya-informaciya/" className="nav-link">
+          <NavLink
+            to="/o-nas/pravovaya-informaciya/"
+            className="nav-link"
+            target="_top"
+            rel="noopener noreferrer"
+          >
             Документы
           </NavLink>
-          <NavLink to="/o-nas/nashi-partnery/" className="nav-link">
+          <NavLink
+            to="/o-nas/nashi-partnery/"
+            className="nav-link"
+            target="_top"
+            rel="noopener noreferrer"
+          >
             Наши партнеры
           </NavLink>
         </Nav>

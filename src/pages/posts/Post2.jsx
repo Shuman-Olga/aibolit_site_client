@@ -19,7 +19,7 @@ const Post2 = () => {
         />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/post/klendar-vakcinacija/"
+          href="https://aibolit.tom.ru/post/kalendar-vakcinacija/"
         />
         <meta property="og:title" content="Календарь вакцинаций" />
         <meta
@@ -28,7 +28,7 @@ const Post2 = () => {
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/post/klendar-vakcinacija/"
+          content="https://aibolit.tom.ru/post/kalendar-vakcinacija/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />

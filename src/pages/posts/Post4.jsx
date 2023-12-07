@@ -2,7 +2,6 @@ import { Container } from "react-bootstrap";
 import P4img1 from "../../assets/img/patronaj.jpg";
 import P4img2 from "../../assets/img//patronaj-2.jpg";
 import P4img3 from "../../assets/img/patronaj-3.jpg";
-import ModalCalling from "../../components/modalWindows/ModalCalling";
 import { Helmet } from "react-helmet";
 import BlockReklama3 from "../../components/reklama/BlockReklama3";
 

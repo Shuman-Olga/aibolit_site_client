@@ -83,7 +83,7 @@ const ControllingOrgan = () => {
                 <a
                   href="https://depzdrav.tomsk.gov.ru/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   zdrav.tomsk.ru
                 </a>
@@ -132,7 +132,7 @@ const ControllingOrgan = () => {
                 <a
                   href="https://dlk.tomsk.gov.ru/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   dlk.tomsk.gov.ru
                 </a>
@@ -183,7 +183,7 @@ const ControllingOrgan = () => {
                 <a
                   href="http://70reg.roszdravnadzor.ru/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   70reg.roszdravnadzor.ru
                 </a>
@@ -234,7 +234,7 @@ const ControllingOrgan = () => {
                 <a
                   href="http://www.70.rospotrebnadzor.ru/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   www.70.rospotrebnadzor.ru
                 </a>

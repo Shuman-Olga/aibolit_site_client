@@ -1,7 +1,7 @@
 import BAimg1 from "../../assets//img/Aibolit_mobilnaya_svyaz_s_vrachom.png";
 import BAimg2 from "../../assets//img/Aibolit_obslujivanie_na_domu.png";
 import BAimg3 from "../../assets//img/Aibolit_kompleksnoe_obslujivanie.png";
-import BAimg4 from "../../assets//img/Aibolit_vozvrat_13_nalog.png";
+import BAimg4 from "../../assets//img/Aibolit_rabota_2001.png";
 import BAimg5 from "../../assets//img/Aibolit_individualnii_podhod.png";
 
 const BlockAdvantages = () => {
@@ -22,6 +22,19 @@ const BlockAdvantages = () => {
               <p className="card-text">
                 Мобильная связь с доверенным педиатром​
               </p>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card  h-100">
+            <img
+              src={BAimg4}
+              className="card-img-top"
+              alt="aibolit"
+              title="Работаем с 2001 года"
+            />
+            <div className="card-body">
+              <p className="card-text">Работаем с 2001 года.</p>
             </div>
           </div>
         </div>
@@ -55,19 +68,7 @@ const BlockAdvantages = () => {
             </div>
           </div>
         </div>
-        <div className="col">
-          <div className="card  h-100">
-            <img
-              src={BAimg4}
-              className="card-img-top"
-              alt="aibolit"
-              title="Возврат 13% стоимости программы"
-            />
-            <div className="card-body">
-              <p className="card-text">Возврат 13% стоимости программы</p>
-            </div>
-          </div>
-        </div>
+
         <div className="col">
           <div className="card  h-100">
             <img

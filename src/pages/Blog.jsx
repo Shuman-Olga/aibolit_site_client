@@ -39,7 +39,12 @@ const Blog = () => {
       <Container className="my-4">
         <div className="row row-cols-1 row-cols-md-3 g-4 mt-4">
           <div className="col">
-            <NavLink to="/post/detskij-nevrolog-na-dom/" className="nav-link">
+            <NavLink
+              to="/post/detskij-nevrolog-na-dom/"
+              className="nav-link"
+              target="_top"
+              rel="noopener noreferrer"
+            >
               <div className="card">
                 <img
                   src={Bimg1}
@@ -61,7 +66,12 @@ const Blog = () => {
             </NavLink>
           </div>
           <div className="col">
-            <NavLink to="/post/klendar-vakcinacija/" className="nav-link">
+            <NavLink
+              to="/post/kalendar-vakcinacija/"
+              className="nav-link"
+              target="_top"
+              rel="noopener noreferrer"
+            >
               <div className="card">
                 <img
                   src={Bimg2}
@@ -81,7 +91,12 @@ const Blog = () => {
             </NavLink>
           </div>
           <div className="col">
-            <NavLink to="/post/detskij-hirurg-na-dom/" className="nav-link">
+            <NavLink
+              to="/post/detskij-hirurg-na-dom/"
+              className="nav-link"
+              target="_top"
+              rel="noopener noreferrer"
+            >
               <div className="card ">
                 <img
                   src={Bimg3}
@@ -101,7 +116,12 @@ const Blog = () => {
             </NavLink>
           </div>
           <div className="col">
-            <NavLink to="/post/patronaj_novorojdennogo/" className="nav-link">
+            <NavLink
+              to="/post/patronaj_novorojdennogo/"
+              className="nav-link"
+              target="_top"
+              rel="noopener noreferrer"
+            >
               <div className="card">
                 <img
                   src={Bimg4}
@@ -127,6 +147,8 @@ const Blog = () => {
             <NavLink
               to="/post/adaptaciya_k_detskomu_sadu/"
               className="nav-link"
+              target="_top"
+              rel="noopener noreferrer"
             >
               <div className="card">
                 <img

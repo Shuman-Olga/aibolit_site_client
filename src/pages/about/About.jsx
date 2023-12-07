@@ -86,9 +86,9 @@ const About = () => {
               <li>
                 <p>
                   Мы работаем с<span className="text-bold"> 08.00</span> до
-                  <span className="text-bold">20.00</span> в будни и с
+                  <span className="text-bold">19.00</span> в будни и с
                   <span className="text-bold"> 09.00</span> до{" "}
-                  <span className="text-bold">15.00</span> в субботу.
+                  <span className="text-bold">14.00</span> в субботу.
                 </p>
               </li>
               <li>

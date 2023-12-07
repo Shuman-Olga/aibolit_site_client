@@ -39,6 +39,33 @@ body {
   margin-top: 2rem;
 }
 
+#blockimg {
+  margin-top: 1rem;
+}
+#blockimg h4 {
+  color: #496f6e;
+}
+#blockimg ul li {
+  padding: 0.3rem;
+  color: #496f6e;
+}
+#blockimg ul li a {
+  text-decoration: none;
+  color: #ff9308;
+  font-weight: bold;
+}
+#blockimg ul li:hover a {
+  text-decoration: underline;
+}
+
+#blockinfo h1 {
+  color: #496f6e;
+}
+#blockinfo .img-foto {
+  border: 2 solid #ff9308;
+  border-radius: 1rem;
+}
+
 @media (max-width: 660px) {
   #home {
     margin-top: 0;
@@ -324,6 +351,23 @@ body {
     width: 100% !important;
   }
 }
+#doctors .text-name {
+  color: #496f6e;
+}
+
+@media (max-width: 800px) {
+  #doctors .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  #doctors .my-5 {
+    margin-top: 0 !important;
+  }
+  #doctors .col-4 {
+    margin: 2rem 0;
+    width: 70%;
+  }
+}
 #header {
   font-size: 18px;
 }
@@ -334,14 +378,16 @@ body {
   padding-top: 0.5rem;
 }
 #header .phone {
-  color: #e6a400;
+  font-size: 2rem;
+  color: #496f6e;
   font-weight: bold;
 }
 #header .img-logo {
-  width: 20vw;
+  width: 15vw;
 }
 #header .date {
   margin: 0;
+  color: #ffcb08;
 }
 
 @media (max-width: 998px) {
@@ -366,29 +412,166 @@ body {
   }
 }
 #modalcalling .btn-showmodal {
-  background: rgb(241, 55, 55);
+  background: rgb(73, 111, 110);
   display: flex;
   align-items: center;
   font-size: 18px;
   font-weight: 500;
+  border-radius: 2rem;
 }
 #modalcalling .btn-showmodal:hover {
-  background: green;
-  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.53);
+  background: rgb(255, 255, 255);
+  border-color: rgb(73, 111, 110);
+  color: rgb(73, 111, 110);
+}
+#modalcalling .btn-showmodal:hover .img {
+  filter: invert(50%) sepia(20%) saturate(3207%) hue-rotate(120deg) brightness(95%) contrast(80%);
 }
 
+#modalcallback {
+  /* animations icon */
+}
+#modalcallback .callback-bt {
+  background: #38a3fd;
+  border-radius: 50%;
+  box-shadow: 0 8px 10px rgba(56, 163, 253, 0.3);
+  cursor: pointer;
+  border: 2px solid transparent;
+  display: block;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+  position: fixed;
+  right: 5%;
+  bottom: 14%;
+  z-index: 999;
+  transition: 0.3s ease-in-out;
+  animation: hoverWave linear 1s infinite;
+}
+#modalcallback .callback-bt:hover {
+  background: #fff;
+  border: 2px solid #38a3fd;
+}
+#modalcallback .callback-bt i {
+  display: block;
+  color: #fff;
+  font-size: 38px;
+  line-height: 70px;
+  height: 75px;
+  width: 75px;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+  animation: 1200ms ease 0s normal none 1 running shake;
+  animation-iteration-count: infinite;
+}
+#modalcallback .callback-bt i:hover {
+  color: #38a3fd;
+}
+@keyframes hoverWave {
+  0% {
+    box-shadow: 0 8px 10px rgba(56, 163, 253, 0.3), 0 0 0 0 rgba(56, 163, 253, 0.2), 0 0 0 0 rgba(56, 163, 253, 0.2);
+  }
+  40% {
+    box-shadow: 0 8px 10px rgba(56, 163, 253, 0.3), 0 0 0 15px rgba(56, 163, 253, 0.2), 0 0 0 0 rgba(56, 163, 253, 0.2);
+  }
+  80% {
+    box-shadow: 0 8px 10px rgba(56, 163, 253, 0.3), 0 0 0 30px rgba(56, 163, 253, 0), 0 0 0 26.7px rgba(56, 163, 253, 0.067);
+  }
+  100% {
+    box-shadow: 0 8px 10px rgba(56, 163, 253, 0.3), 0 0 0 30px rgba(56, 163, 253, 0), 0 0 0 40px rgba(56, 163, 253, 0);
+  }
+}
+@keyframes shake {
+  0% {
+    transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+  }
+  10% {
+    transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    -webkit-transform: rotateZ(-30deg);
+  }
+  20% {
+    transform: rotateZ(15deg);
+    -ms-transform: rotateZ(15deg);
+    -webkit-transform: rotateZ(15deg);
+  }
+  30% {
+    transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    -webkit-transform: rotateZ(-10deg);
+  }
+  40% {
+    transform: rotateZ(7.5deg);
+    -ms-transform: rotateZ(7.5deg);
+    -webkit-transform: rotateZ(7.5deg);
+  }
+  50% {
+    transform: rotateZ(-6deg);
+    -ms-transform: rotateZ(-6deg);
+    -webkit-transform: rotateZ(-6deg);
+  }
+  60% {
+    transform: rotateZ(5deg);
+    -ms-transform: rotateZ(5deg);
+    -webkit-transform: rotateZ(5deg);
+  }
+  70% {
+    transform: rotateZ(-4.28571deg);
+    -ms-transform: rotateZ(-4.28571deg);
+    -webkit-transform: rotateZ(-4.28571deg);
+  }
+  80% {
+    transform: rotateZ(3.75deg);
+    -ms-transform: rotateZ(3.75deg);
+    -webkit-transform: rotateZ(3.75deg);
+  }
+  90% {
+    transform: rotateZ(-3.33333deg);
+    -ms-transform: rotateZ(-3.33333deg);
+    -webkit-transform: rotateZ(-3.33333deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+  }
+}
 #modalcallback .btn-showmodal {
-  background: rgb(13, 146, 84);
-  color: white;
-  display: flex;
-  align-items: center;
-  font-size: 18px;
-  font-weight: 500;
+  background: #38a3fd;
+  border-radius: 50%;
+  box-shadow: 0 8px 10px rgba(56, 163, 253, 0.3);
+  cursor: pointer;
+  border: 2px solid transparent;
+  display: block;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+  position: fixed;
+  right: 8%;
+  bottom: 18%;
+  z-index: 999;
+  transition: 0.3s ease-in-out;
+  animation: hoverWave linear 1s infinite;
 }
 #modalcallback .btn-showmodal:hover {
-  background: rgb(255, 240, 107);
-  color: red;
-  border-color: red;
+  background: #fff;
+  border: 2px solid #38a3fd;
+}
+#modalcallback .btn-showmodal:after {
+  font-family: FontAwesome;
+  content: "\f095";
+  display: block;
+  color: #fff;
+  font-size: 38px;
+  line-height: 75px;
+  height: 75px;
+  width: 75px;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+  animation: 1200ms ease 0s normal none 1 running shake;
+  animation-iteration-count: infinite;
 }
 
 .img {
@@ -402,13 +585,17 @@ body {
 #navbar .nav-link {
   padding-left: 15px;
   padding-right: 15px;
+  font-weight: bolder;
+  color: black;
+  border-radius: 2rem;
 }
 #navbar .nav-link:hover {
-  background-color: rgb(219, 219, 219);
-  color: black;
+  background-color: rgb(244, 242, 242);
+  color: #496f6e;
 }
 #navbar .active {
-  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.4);
+  color: #496f6e;
+  background-color: rgb(244, 242, 242);
 }
 
 @media (max-width: 998px) {
@@ -421,7 +608,7 @@ body {
   }
 }
 #footer {
-  background: rgba(211, 196, 196, 0.6);
+  border-top: 2px solid #d4d6d6;
   padding: 45px 10px;
 }
 #footer h3 {
@@ -560,6 +747,10 @@ body {
   width: 70px;
 }
 #workonholidays p {
+  margin: 0;
+}
+
+#blockdoctors .card-text {
   margin: 0;
 }
 

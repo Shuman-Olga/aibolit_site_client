@@ -172,6 +172,8 @@ const Programs = () => {
         <NavLink
           to="/programmy-nablyudeniya-za-zdorovem/malysh-houm-standart-ot-0-do-2-h-le/"
           className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
         >
           <div className="d-flex justify-content-between align-items-center card-prog">
             <div className="block d-flex align-items-center m-5">
@@ -220,6 +222,8 @@ const Programs = () => {
         <NavLink
           to="/programmy-nablyudeniya-za-zdorovem/zdorovyj-rebenok-houm-standart-ot-2/"
           className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
         >
           <div className="d-flex justify-content-between align-items-center card-prog color-back">
             <div className="block d-flex align-items-center m-5">
@@ -269,6 +273,8 @@ const Programs = () => {
         <NavLink
           to="/programmy-nablyudeniya-za-zdorovem/zdorovyj-rebenok-houm-midi-ot-2-h-l/"
           className="nav-link"
+          target="_top"
+          rel="noopener noreferrer"
         >
           <div className="d-flex justify-content-between align-items-center card-prog">
             <div className="block d-flex align-items-center m-5">

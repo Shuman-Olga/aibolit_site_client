@@ -11,7 +11,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://aibolit.tom.ru/doctor/petuhova-olga-viktorovna/</loc>
+    <loc>https://aibolit.tom.ru/doctors/petuhova-olga-viktorovna/</loc>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
@@ -41,12 +41,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://aibolit.tom.ru/assets/10507da3e4940afaf9f3.jpg</loc>
-    <lastmod>2023-06-05T12:13:59+03:00</lastmod>
-    <priority>0.6</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://aibolit.tom.ru/</loc>
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
@@ -57,7 +51,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://aibolit.tom.ru/doctor/ostrouhova-natalya-petrovna/</loc>
+    <loc>https://aibolit.tom.ru/doctors/</loc>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://aibolit.tom.ru/doctors/ostrouhova-natalya-petrovna/</loc>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
@@ -87,12 +86,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://aibolit.tom.ru/doctor/sadovnikova-elena-gennadevna/</loc>
+    <loc>https://aibolit.tom.ru/doctors/sadovnikova-elena-gennadevna/</loc>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://aibolit.tom.ru/doctor/shevchenko-anastasiya-nikolaevna/</loc>
+    <loc>https://aibolit.tom.ru/doctors/shevchenko-anastasiya-nikolaevna/</loc>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
@@ -159,18 +158,6 @@
   <url>
     <loc>https://aibolit.tom.ru/uslugi-i-ceny/medicinskie-spravki-rebenku/spravka-po-forme-079-u/</loc>
     <priority>0.4</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://aibolit.tom.ru/assets/d045dd0db2d13b5a7ed2.jpg</loc>
-    <lastmod>2023-06-05T12:16:52+03:00</lastmod>
-    <priority>0.6</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://aibolit.tom.ru/assets/2d0d924c3f6263ce90b0.jpg</loc>
-    <lastmod>2023-06-05T12:14:12+03:00</lastmod>
-    <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>

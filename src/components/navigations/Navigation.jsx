@@ -13,28 +13,68 @@ const Navigation = () => {
           className="justify-content-center"
         >
           <Nav className="mr-auto ">
-            <NavLink to="/" className="nav-link">
+            <NavLink
+              to="/"
+              className="nav-link"
+              target="_top"
+              rel="noopener noreferrer"
+            >
               Главная
             </NavLink>
-            <NavLink to="/o-nas/" className="nav-link">
+            <NavLink
+              to="/o-nas/"
+              className="nav-link"
+              target="_top"
+              rel="noopener noreferrer"
+            >
               О нас
             </NavLink>
-            <NavLink to="/prices/" className="nav-link">
+            <NavLink
+              to="/doctors/"
+              className="nav-link"
+              target="_top"
+              rel="noopener noreferrer"
+            >
+              Педиатры
+            </NavLink>
+            <NavLink
+              to="/prices/"
+              className="nav-link"
+              target="_top"
+              rel="noopener noreferrer"
+            >
               Цены
             </NavLink>
             <NavLink
               to="/programmy-nablyudeniya-za-zdorovem/"
               className="nav-link"
+              target="_top"
+              rel="noopener noreferrer"
             >
               Программы
             </NavLink>
-            <NavLink to="/uslugi-i-ceny/" className="nav-link">
+            <NavLink
+              to="/uslugi-i-ceny/"
+              className="nav-link"
+              target="_top"
+              rel="noopener noreferrer"
+            >
               Услуги
             </NavLink>
-            <NavLink to="/blog/" className="nav-link">
+            <NavLink
+              to="/blog/"
+              className="nav-link"
+              target="_top"
+              rel="noopener noreferrer"
+            >
               Блог
             </NavLink>
-            <NavLink to="/kontakty/" className="nav-link">
+            <NavLink
+              to="/kontakty/"
+              className="nav-link"
+              target="_top"
+              rel="noopener noreferrer"
+            >
               Контакты
             </NavLink>
           </Nav>

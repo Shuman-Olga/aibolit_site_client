@@ -16,6 +16,8 @@ const BlockReklama1 = () => {
           <NavLink
             to="/uslugi-i-ceny/medicinskie-spravki-rebenku/"
             className="nav-link"
+            target="_top"
+            rel="noopener noreferrer"
           >
             <button type="button" className="btn btn-outline-secondary">
               Подробнее

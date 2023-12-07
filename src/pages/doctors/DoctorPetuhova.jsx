@@ -26,7 +26,7 @@ const DoctorPetuhova = () => {
         />
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/doctor/petuhova-olga-viktorovna/"
+          href="https://aibolit.tom.ru/doctors/petuhova-olga-viktorovna/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
@@ -40,13 +40,13 @@ const DoctorPetuhova = () => {
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/doctor/petuhova-olga-viktorovna/"
+          content="https://aibolit.tom.ru/doctors/petuhova-olga-viktorovna/"
         />
       </Helmet>
       <div className="page-h1">
         <h1>Петухова Ольга Викторовна</h1>
       </div>
-      <Container>
+      <Container className="mb-5">
         <Container className="d-flex align-items-start my-4">
           <div className="p-2 border-block">
             <img
@@ -56,11 +56,8 @@ const DoctorPetuhova = () => {
             />
           </div>
           <div className="px-4">
-            <h4 className="mb-4">
-              Главный врач
-              <br /> Врач-педиатр <br />
-              Гастроэнтеролог
-            </h4>
+            <h4 className="mb-3">Главный врач</h4>
+            <h4 className="mb-3">Врач - педиатр</h4>
             <h5>Педиатрия:</h5>
             <ul>
               <li>

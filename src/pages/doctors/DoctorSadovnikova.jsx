@@ -26,7 +26,7 @@ const DoctorSadovnikova = () => {
 
         <link
           rel="canonical"
-          href="https://aibolit.tom.ru/doctor/sadovnikova-elena-gennadevna/"
+          href="https://aibolit.tom.ru/doctors/sadovnikova-elena-gennadevna/"
         />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Айболит" />
@@ -40,13 +40,13 @@ const DoctorSadovnikova = () => {
         />
         <meta
           property="og:url"
-          content="https://aibolit.tom.ru/doctor/sadovnikova-elena-gennadevna/"
+          content="https://aibolit.tom.ru/doctors/sadovnikova-elena-gennadevna/"
         />
       </Helmet>
       <div className="page-h1">
         <h1>Садовникова Елена Геннадьевна</h1>
       </div>
-      <Container>
+      <Container className="mb-5">
         <Container className="d-flex align-items-start my-4">
           <div className="p-2 border-block">
             <img
@@ -56,11 +56,9 @@ const DoctorSadovnikova = () => {
             />
           </div>
           <div className="px-4">
-            <h4 className="mb-4">
-              Генеральный директор <br />
-              Врач-педиатр <br />
-              Аллерголог
-            </h4>
+            <h4 className="mb-3">Генеральный директор</h4>
+            <h4 className="mb-3">Врач - педиатр</h4>
+            <h4 className="mb-4">Врач - аллерголог</h4>
             <h5>Педиатрия:</h5>
             <ul>
               <li>
@@ -146,62 +144,62 @@ const DoctorSadovnikova = () => {
             <p>с 1992 г.</p>
           </div>
         </Container>
-        <div class="row row-cols-1 row-cols-md-3 g-4 w-75 margin ">
-          <div class="col">
-            <div class="card">
+        <div className="row row-cols-1 row-cols-md-3 g-4 w-75 margin ">
+          <div className="col">
+            <div className="card">
               <img
                 src={DSimg2}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DSimg3}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DSimg4}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DSimg5}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DSimg6}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card">
+          <div className="col">
+            <div className="card">
               <img
                 src={DSimg7}
-                class="card-img-top"
+                className="card-img-top"
                 alt="foto"
                 title="Сертификат-диплом"
               />

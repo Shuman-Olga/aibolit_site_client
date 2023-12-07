@@ -6,10 +6,15 @@ import ModalCalling from "./modalWindows/ModalCalling";
 
 const Header = () => {
   return (
-    <Container fluid id="header">
+    <Container fluid id="header" className="sticky-top">
       <div className="container my-3 d-flex align-items-center justify-content-around">
         <div className="block-logo">
-          <NavLink to="/" className="navbar-brand">
+          <NavLink
+            to="/"
+            className="navbar-brand"
+            target="_top"
+            rel="noopener noreferrer"
+          >
             <img
               src={logo}
               alt="logo-aibolit"
@@ -17,13 +22,13 @@ const Header = () => {
               title="logo-aibolit"
             />
           </NavLink>
-          <p>г. Томск, ул. Герцена 68, строение 2</p>
+          <p className="/">г. Томск, ул. Герцена 68, строение 2</p>
         </div>
         <div>
           <p className="phone"> +7 (3822) 60-92-43</p>
-          <p className="date">
-            Пн-пт: 08:00 - 20:00
-            <br /> Суб: 09:00 - 15:00
+          <p className="date text-center fw-bolder">
+            Пн-пт: 08:00 - 19:00
+            <br /> Суб: 09:00 - 14:00
           </p>
         </div>
         <div>

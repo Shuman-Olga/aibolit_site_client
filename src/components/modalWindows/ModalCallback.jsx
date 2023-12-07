@@ -95,14 +95,15 @@ const ModalCallback = () => {
   // };
   return (
     <div id="modalcallback">
-      <Button className="btn-showmodal " onClick={handleShow}>
-        <img src={img} alt="home" className="img home" title="home" />
-        Обратный звонок
-      </Button>
+      <div className="callback-bt" onClick={handleShow}>
+        <div className="text-call">
+          <i className="bi bi-telephone"></i>
+        </div>
+      </div>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Обратный звонок</Modal.Title>
+          <Modal.Title>Оставьте номер телефона, мы перезвоним:</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form
