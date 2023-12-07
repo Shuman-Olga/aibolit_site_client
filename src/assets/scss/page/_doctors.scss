@@ -1,0 +1,22 @@
+#doctors{
+  .text-name{
+    color: #496f6e;
+  }
+}
+
+@media (max-width: 800px) {
+  #doctors{
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-5{
+      margin-top: 0!important;;
+    }
+    .col-4{
+      margin: 2rem 0;
+      width: 70%;
+
+    }
+  }
+}
